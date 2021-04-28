@@ -4,10 +4,9 @@
 
 <?php 
     include('header.php');
-    require('db-connect.php');
 ?>
-
     <div class="container" style="width: 50%; margin 0 auto">
+        <h5>Sign up as a: </h5>
         <div class="row">
             <a href="./customer-signup.php">
                 <div class="col-sm">
@@ -21,10 +20,9 @@
             </a>
             <a href="./restaurant-owner-signup.php">
                 <div class="col-sm">
-                Restaurant Owner            
+                    Restaurant Owner            
                 </div>
             </a>
-        <!-- TODO: fix all signup forms and create different tables for each type of users -->
         </div>
     </div>
 
