@@ -3,7 +3,7 @@
 <html lang="en">
 <body>
   <?php 
-    include('header.php');
+    include('header.php'); 
     require('db-connect.php');
     session_start();
   ?>
@@ -67,10 +67,11 @@
     </style>
 
     <?php 
-        global $pdo;
+        global $pdo; // pdo is from db-connect.php
 
         if ($_SERVER['REQUEST_METHOD'] == 'POST')
         {   	 
+          // store post data into variables
           $firstName = $_POST['firstName'];
           $lastName = $_POST['lastName'];
           $email = $_POST['email'];
@@ -82,6 +83,9 @@
 
           $num_errors = 0;
 
+          // make sure all the data from the post is not empty
+          // TODO: account for duplicate email addresses, don't want duplicates
+          // TODO: more checking for username, maybe include numbers or special characters
           if(!$firstName)
           {
             $num_errors++;
@@ -132,13 +136,15 @@
 
 
 
-          if($num_errors == 0)
+          if($num_errors == 0) // if all the above error checking for the form data passed
           {
             try {
+              // initialize the query to insert the new customer into the Customer database
               $query = "INSERT INTO Customers (c_firstName, c_lastName, c_email, c_password, c_phone_number, c_street, c_city, c_state) 
                 VALUES (:firstName, :lastName, :email, :password, :phone, :street, :city, :state)";
             
               $statement = $pdo->prepare($query);
+              // bind the form data to the sql query
               $statement->bindValue(':firstName', $firstName);
               $statement->bindValue(':lastName', $lastName);
               $statement->bindValue(':email', $email);
@@ -150,7 +156,8 @@
               $statement->execute();
               
               $statement->closeCursor();
-              $_SESSION['user'] = $firstName;
+              $_SESSION['firstName'] = $firstName; // set the firstName in session data to say hello <firstName> on index.php
+              // redirect to index.php after successful account creation
               echo("<script>location.href = 'index.php';</script>");
               // echo "<div class='alert alert-success' role='alert'>" . "Account created! <a href='login.php'>Return to login page</a>" . "</div>";
               

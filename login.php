@@ -4,6 +4,8 @@
 	<?php 
 		include('header.php');
 		require('db-connect.php');
+		session_start();
+
 	?>
 	<h1 style="text-align:center">Login Page</h1>
 
@@ -34,21 +36,23 @@
 			<a href="./signup.php" class="mb-3">Create an account</a>
 	</div>
 	<?php 
-		include('footer.php');
+		require('footer.php');
 	?>
 </body>
 	<?php 
-		global $pdo;
+		global $pdo; // pdo is from db-connect.php
 
-		if ($_SERVER['REQUEST_METHOD'] == 'POST')
+		if ($_SERVER['REQUEST_METHOD'] == 'POST') // only on form submission perform below
 		{   	  
 			try {
+				// get post data and save them to variables
 				$email = $_POST['email'];
 				$password = $_POST['password'];
 				$accountType = $_POST['accountType'];
-				echo($accountType);
 				$query = "";
 
+				// update queries based on type of user (since different users stored in different tables)
+				// TODO: signup and login process for drivers and restaurant owners
 				if ($accountType == "Customers") {
 					$query = "SELECT * FROM `$accountType` WHERE c_email=:email";
 				} elseif ($accountType == "Drivers") {
@@ -57,21 +61,24 @@
 					$query = "SELECT * FROM `$accountType` WHERE r_email=:email";
 				}
 
+				// prepare query against sql injections
 				$statement = $pdo->prepare($query);
 				$statement->bindValue(':email', $email);
 				$statement->execute();
 				
 				$result = $statement->fetch();
-				echo("Result: " . $result);
 				$statement->closeCursor();
-
-				if($result['password'] != $password)
+		
+				// if not a matching password display error message
+				if($result['c_password'] != $password)
 				{
 					echo "<div class='alert alert-danger' role='alert'>" . "Unable to login" . "</div>";
 				}
 				else
-				{
-					$_SESSION['user'] = $username;
+				{				
+					// matching data, set session data to store first name and display on index page	
+					$_SESSION['firstName'] = $result['c_firstName'];
+					// redirect to index page
 					echo("<script>location.href = 'index.php';</script>");
 				}
 

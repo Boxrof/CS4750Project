@@ -2,15 +2,17 @@
 
 <html lang="en">
     <?php 
-        require('header.php'); 
-        session_start();
+        require('header.php'); // to include the header and footer everytime
+        session_start(); // to store session/cookie data. checks if user is logged in.
     ?>
 
-    <body> <!--Put body here-->
+    <body> 
     <div class="container">
         <?php 
-            if (isset($_SESSION['user'])) {
-                echo('<h2>Hello ' . $_SESSION["user"]. '!</h2>');
+        // if user is logged in say hello <firstName>
+        // firstName is set in login.php and customer-signup.php as of now
+            if (isset($_SESSION['firstName'])) {
+                echo('<h2>Hello ' . $_SESSION["firstName"]. '!</h2>');
             } else {
                 echo('<a href="login.php">Please login!</a>');
             }
