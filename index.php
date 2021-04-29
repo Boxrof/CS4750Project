@@ -3,7 +3,6 @@
 <html lang="en">
     <?php 
         require('header.php'); // to include the header and footer everytime
-        session_start(); // to store session/cookie data. checks if user is logged in.
     ?>
 
     <body> 

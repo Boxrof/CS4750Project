@@ -5,7 +5,6 @@
   <?php 
     include('header.php'); 
     require('db-connect.php');
-    session_start();
   ?>
 
   <div class="container">

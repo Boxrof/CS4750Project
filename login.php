@@ -4,7 +4,6 @@
 	<?php 
 		include('header.php');
 		require('db-connect.php');
-		session_start();
 
 	?>
 	<h1 style="text-align:center">Login Page</h1>
