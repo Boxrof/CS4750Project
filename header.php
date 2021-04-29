@@ -24,12 +24,25 @@
         </div>
 
         <ul class='nav'>
-                <li class='nav-item active'>
-                    <a class='nav-link' href='signup.php'>Signup</a>
-                </li>
-                <li class='nav-item'>
-                    <a class='nav-link' href='login.php'>Login</a>
-                </li>
+                <?php 
+                session_start();
+                    if (isset($_SESSION['firstName'])) {
+                        echo("
+                        <li class='nav-item'>
+                            <a class='nav-link' href='logout.php'>Logout</a>
+                        </li>");                        
+                    } else {
+                        echo("
+                        <li class='nav-item active'>
+                            <a class='nav-link' href='signup.php'>Signup</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='login.php'>Login</a>
+                        </li>
+                        ");
+                    }
+                ?>
+
 
             </ul>
     </nav>
