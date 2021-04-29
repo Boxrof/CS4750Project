@@ -3,6 +3,8 @@ import urllib.request, csv, random
 restaurants = "https://raw.githubusercontent.com/DataScienceSpecialization/courses/master/03_GettingData/03_02_summarizingData/data/restaurants.csv"
 response = urllib.request.urlopen(restaurants)
 
+
+########################### RESTAURANTS ######################
 outputList = []
 first = True
 with open('restaurants.csv', 'w+', encoding="utf-8") as f:
@@ -11,6 +13,7 @@ with open('restaurants.csv', 'w+', encoding="utf-8") as f:
 	for row in cr:
 		if first:
 			first = False
+			outputList.append(["r_address", "r_name", "r_rating", "r_price", "r_phone_number", "closing_time", "opening_time", "date_opened"])
 			continue
 		rating = "*"*random.randrange(1,6)
 		review = random.randrange(0,11)
