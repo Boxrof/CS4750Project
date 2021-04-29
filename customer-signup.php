@@ -138,33 +138,47 @@
 
           if($num_errors == 0) // if all the above error checking for the form data passed
           {
-            try {
-              // initialize the query to insert the new customer into the Customer database
-              $query = "INSERT INTO Customers (c_firstName, c_lastName, c_email, c_password, c_phone_number, c_street, c_city, c_state) 
-                VALUES (:firstName, :lastName, :email, :password, :phone, :street, :city, :state)";
-            
-              $statement = $pdo->prepare($query);
-              // bind the form data to the sql query
-              $statement->bindValue(':firstName', $firstName);
-              $statement->bindValue(':lastName', $lastName);
-              $statement->bindValue(':email', $email);
-              $statement->bindValue(':password', $password);
-              $statement->bindValue(':phone', $phone);
-              $statement->bindValue(':street', $street);
-              $statement->bindValue(':city', $city);
-              $statement->bindValue(':state', $state);
-              $statement->execute();
+
+              $res = $pdo->prepare("SELECT * FROM Customers WHERE c_email=:email");
+              $res->bindParam(":email", $email); // adding email variable to the where clause in SQL statement
+              $res->execute();
               
-              $statement->closeCursor();
-              $_SESSION['firstName'] = $firstName; // set the firstName in session data to say hello <firstName> on index.php
-              // redirect to index.php after successful account creation
-              echo("<script>location.href = 'index.php';</script>");
-              // echo "<div class='alert alert-success' role='alert'>" . "Account created! <a href='login.php'>Return to login page</a>" . "</div>";
+              if ($res->rowCount() > 0) {
+                // Already exist
+                echo "<div class='alert alert-danger' role='alert'>" . "Email already exists" . "</div>";
+              } else {
+                try {
+                  // initialize the query to insert the new customer into the Customer database
+                  // Check the database to see if the email is already existed. If yes, then we cannot allow users to register
+                  
+                  $query = "INSERT INTO Customers (c_firstName, c_lastName, c_email, c_password, c_phone_number, c_street, c_city, c_state) 
+                    VALUES (:firstName, :lastName, :email, :password, :phone, :street, :city, :state)";
+    
+                  $statement = $pdo->prepare($query);
+                  // bind the form data to the sql query
+                  $statement->bindValue(':firstName', $firstName);
+                  $statement->bindValue(':lastName', $lastName);
+                  $statement->bindValue(':email', $email);
+                  $statement->bindValue(':password', $password);
+                  $statement->bindValue(':phone', $phone);
+                  $statement->bindValue(':street', $street);
+                  $statement->bindValue(':city', $city);
+                  $statement->bindValue(':state', $state);
+                  $statement->execute();
+                  
+                  $statement->closeCursor();
+                  $_SESSION['firstName'] = $firstName; // set the firstName in session data to say hello <firstName> on index.php
+                  // redirect to index.php after successful account creation
+                  echo("<script>location.href = 'index.php';</script>");
+                  // echo "<div class='alert alert-success' role='alert'>" . "Account created! <a href='login.php'>Return to login page</a>" . "</div>";
+                  
+                } catch (PDOException $e) {
+                  echo($e->getMessage());
+                  echo "<div class='alert alert-danger' role='alert'>" . "Unable to create account" . "</div>";
+                }
+
+              }
               
-            } catch (PDOException $e) {
-              echo($e->getMessage());
-              echo "<div class='alert alert-danger' role='alert'>" . "Unable to create account" . "</div>";
-            }
           }
         }	
     ?>
