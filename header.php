@@ -30,7 +30,11 @@
                         echo("
                         <li class='nav-item'>
                             <a class='nav-link' href='logout.php'>Logout</a>
-                        </li>");                        
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='main.php'> Restaurant List </a>
+                        </li>
+                        ");                        
                     } else {
                         echo("
                         <li class='nav-item active'>
@@ -38,6 +42,9 @@
                         </li>
                         <li class='nav-item'>
                             <a class='nav-link' href='login.php'>Login</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='main.php'> Restaurant List </a>
                         </li>
                         ");
                     }

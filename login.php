@@ -78,7 +78,7 @@
 					// matching data, set session data to store first name and display on index page	
 					$_SESSION['firstName'] = $result['c_firstName'];
 					// redirect to index page
-					echo("<script>location.href = 'index.php';</script>");
+					echo("<script>location.href = 'main.php';</script>");
 				}
 
 			} catch (PDOException $e) {
