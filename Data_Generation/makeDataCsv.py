@@ -2,14 +2,13 @@ import urllib.request, csv, random
 
 restaurants = "https://raw.githubusercontent.com/DataScienceSpecialization/courses/master/03_GettingData/03_02_summarizingData/data/restaurants.csv"
 response = urllib.request.urlopen(restaurants)
-
+lines = [l.decode('utf-8') for l in response.readlines()]
 
 ########################### RESTAURANTS ######################
 outputList = []
 first = True
 currentPhoneNumbers = {}
 with open('restaurants.csv', 'w+', encoding="utf-8") as f:
-	lines = [l.decode('utf-8') for l in response.readlines()]
 	cr = csv.reader(lines)
 	for row in cr:
 		if first:
@@ -46,6 +45,16 @@ with open('restaurants.csv', 'w+', encoding="utf-8") as f:
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(outputList)
 
+paymentTypes = ["Cash", "Credit", "Debit", "Check", "Plus-Dollars"]
+acceptanceList = []
+with open('accepts.csv', 'w+', encoding='utf-8') as f:
+	for i in outputList:
+		random.shuffle(paymentTypes)
+		curTypes = sorted(paymentTypes[:random.randrange(1, len(paymentTypes))])
+		curTypes = " ".join(curTypes)
+		acceptanceList.append([i[0].strip(), curTypes])
+	csvwriter = csv.writer(f, lineterminator = '\n')
+	csvwriter.writerows(acceptanceList)
 ######################### DRIVERS ###############################
 EmplIDs = {}
 outputList = []
