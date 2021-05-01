@@ -27,8 +27,9 @@
             echo "</thead>";
 
             while ($row = $res->fetch()) {
+                $address = $row["r_address"];
                 echo "<tr>";
-                    echo "<th scope='row'><a class='btn btn-outline-secondary btn-sm'> Click here to view </a></th>";
+                    echo "<th scope='row'><a class='btn btn-outline-secondary btn-sm' href='menu.php?address=",$address,"'> Click here to view menu </a></th>";
                     echo('<td> ' .  $row["r_address"]. '</td>');
                     echo('<td> ' .  $row["r_name"]. '</td>');
                     echo('<td> ' .  $row["r_rating"]. '</td>');
