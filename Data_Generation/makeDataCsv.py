@@ -7,22 +7,27 @@ response = urllib.request.urlopen(restaurants)
 ########################### RESTAURANTS ######################
 outputList = []
 first = True
+currentPhoneNumbers = {}
 with open('restaurants.csv', 'w+', encoding="utf-8") as f:
 	lines = [l.decode('utf-8') for l in response.readlines()]
 	cr = csv.reader(lines)
 	for row in cr:
 		if first:
 			first = False
-			outputList.append(["r_address", "r_name", "r_review", "r_rating", "r_price", "r_phone_number", "opening_time", "closing_time", "date_opened"])
 			continue
 		rating = "*"*random.randrange(1,6)
 		review = random.randrange(0,11)
 		price = "$"*random.randrange(1,4)
 
+		phoneNumber = ""
 		area_code = "(410)"
-		secondTerm = str(random.randrange(1,889)).zfill(3)
-		thirdTerm = str(random.randint(1, 9998)).zfill(4)
-		phoneNumber = area_code + "-" + secondTerm + "-" + thirdTerm
+		while(True):
+			secondTerm = str(random.randrange(1,889)).zfill(3)
+			thirdTerm = str(random.randint(1, 9998)).zfill(4)
+			phoneNumber = area_code + "-" + secondTerm + "-" + thirdTerm
+			if phoneNumber not in currentPhoneNumbers:
+				currentPhoneNumbers[phoneNumber] = True
+				break
 
 		h1 = random.randrange(0, 25)
 		h2 = random.randrange(0, 25)
@@ -37,6 +42,71 @@ with open('restaurants.csv', 'w+', encoding="utf-8") as f:
 			outputList.append([row[5].replace("\n"," ").replace(",", ""), row[0], rating, review, price, phoneNumber, str(h2) + ":00", str(h1) + ":00", dateOpened])
 		else:
 			outputList.append([row[5].replace("\n"," ").replace(",", ""), row[0], rating, review, price, phoneNumber, str(h1) + ":00", str(h2) + ":00", dateOpened])
+
+	csvwriter = csv.writer(f, lineterminator = '\n')
+	csvwriter.writerows(outputList)
+
+######################### DRIVERS ###############################
+EmplIDs = {}
+outputList = []
+firstnames = "https://www.nrscotland.gov.uk/files//statistics/babies-first-names-full-list/summary-records/babies-first-names-1980-1989.csv"
+first = urllib.request.urlopen(firstnames)
+lastnames = "https://fivethirtyeight.datasettes.com/fivethirtyeight/most-common-name%2Fsurnames.csv?_size=max"
+last = urllib.request.urlopen(lastnames)
+
+firsts = [l.decode('utf-8', 'ignore').split(',')[2].upper() for l in first.readlines()]
+lasts = [l.decode('utf-8', 'ignore').split(',')[1] for l in last.readlines()]
+
+with open('drivers.csv', 'w+', encoding='utf-8') as f:
+	for i in range(200):
+		ID = ""
+
+		while(True):
+			tempID = str(random.randrange(0, 1000000000)).zfill(9)
+			if tempID not in EmplIDs:
+				EmplIDs[tempID] = True
+				ID = tempID
+				break
+
+		rating = "*"*random.randrange(1, 6)
+		name = firsts[random.randrange(1, len(firsts))] + " " + lasts[random.randrange(1, len(lasts))]
+		time_worked = random.randrange(1, 49)
+		salary = random.randrange(7, 16)
+		outputList.append([ID, rating, name, time_worked, salary])
+
+	csvwriter = csv.writer(f, lineterminator = '\n')
+	csvwriter.writerows(outputList)
+
+############################## CUSTOMERS ###################################
+Streetnames = "https://data.sfgov.org/api/views/6d9h-4u5v/rows.csv?accessType=DOWNLOAD"
+streets = urllib.request.urlopen(Streetnames)
+CustIDs = {}
+outputList = []
+with open('customers.csv', "w+", encoding='utf-8') as f:
+	streets = [l.decode('utf-8', 'ignore').split(',')[0] for l in streets.readlines()]
+
+	for i in range(2000):
+		ID = ""
+
+		while(True):
+			tempID = str(random.randrange(0, 1000000000)).zfill(9)
+			if tempID not in EmplIDs and tempID not in CustIDs:
+				EmplIDs[tempID] = True
+				ID = tempID
+				break
+
+		address = str(random.randrange(0, 10000)) + " " + streets[random.randrange(1, len(streets))] + " MD " + str(random.randrange(100000)).zfill(5)
+		name = firsts[random.randrange(1, len(firsts))] + " " + lasts[random.randrange(1, len(lasts))]
+		phoneNumber = ""
+		while(True):
+			secondTerm = str(random.randrange(1,889)).zfill(3)
+			thirdTerm = str(random.randint(1, 9998)).zfill(4)
+			phoneNumber = area_code + "-" + secondTerm + "-" + thirdTerm
+			if phoneNumber not in currentPhoneNumbers:
+				currentPhoneNumbers[phoneNumber] = True
+				break
+		email = name.replace(" ", "_") + "@gmail.com"
+		outputList.append([ID, address, name, phoneNumber, email])
 
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(outputList)
