@@ -11,6 +11,8 @@ currentPhoneNumbers = {}
 paymentTypes = ["Cash", "Credit", "Debit", "Check", "Plus-Dollars"]
 cuisineTypes = ["Italian", "Fast-Food", "Chinese", "Indian", "Mexican", "Seafood", "Barbeque", "French", "Southern", "Breakfast"]
 
+counter = 0
+
 with open('restaurants.csv', 'w+', encoding="utf-8") as f:
 	cr = csv.reader(lines)
 	f.write("r_address, r_name, r_review, r_rating, r_price, r_phone_number, opening_time, closing_time, date_opened, r_payment, r_cuisine\n")
@@ -54,12 +56,15 @@ with open('restaurants.csv', 'w+', encoding="utf-8") as f:
 		else:
 			outputList.append([row[5].replace("\n"," ").replace(",", ""), row[0], rating, review, price, phoneNumber, str(h1) + ":00", str(h2) + ":00", dateOpened, curTypes, cusTypes])
 
+		counter += 1
+		if counter == 100:
+			break
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(outputList)
 
 ######################### DRIVERS ###############################
 EmplIDs = {}
-outputList = []
+driverList = []
 firstnames = "https://www.nrscotland.gov.uk/files//statistics/babies-first-names-full-list/summary-records/babies-first-names-1980-1989.csv"
 first = urllib.request.urlopen(firstnames)
 lastnames = "https://fivethirtyeight.datasettes.com/fivethirtyeight/most-common-name%2Fsurnames.csv?_size=max"
@@ -69,7 +74,8 @@ firsts = [l.decode('utf-8', 'ignore').split(',')[2].upper() for l in first.readl
 lasts = [l.decode('utf-8', 'ignore').split(',')[1] for l in last.readlines()]
 
 with open('drivers.csv', 'w+', encoding='utf-8') as f:
-	for i in range(200):
+	f.write("d_employee_ID, d_rating, d_name, d_time_worked, d_salary\n")
+	for i in range(100):
 		ID = ""
 
 		while(True):
@@ -83,20 +89,21 @@ with open('drivers.csv', 'w+', encoding='utf-8') as f:
 		name = firsts[random.randrange(1, len(firsts))] + " " + lasts[random.randrange(1, len(lasts))]
 		time_worked = random.randrange(1, 49)
 		salary = random.randrange(7, 16)
-		outputList.append([ID, rating, name, time_worked, salary])
+		driverList.append([ID, rating, name, time_worked, salary])
 
 	csvwriter = csv.writer(f, lineterminator = '\n')
-	csvwriter.writerows(outputList)
+	csvwriter.writerows(driverList)
 
 ############################## CUSTOMERS ###################################
 Streetnames = "https://data.sfgov.org/api/views/6d9h-4u5v/rows.csv?accessType=DOWNLOAD"
 streets = urllib.request.urlopen(Streetnames)
 CustIDs = {}
-outputList = []
+customerList = []
 with open('customers.csv', "w+", encoding='utf-8') as f:
+	f.write("c_account_ID, c_address, c_name, c_phone_number, c_email\n")
 	streets = [l.decode('utf-8', 'ignore').split(',')[0] for l in streets.readlines()]
 
-	for i in range(2000):
+	for i in range(500):
 		ID = ""
 
 		while(True):
@@ -117,7 +124,10 @@ with open('customers.csv', "w+", encoding='utf-8') as f:
 				currentPhoneNumbers[phoneNumber] = True
 				break
 		email = name.replace(" ", "_") + "@gmail.com"
-		outputList.append([ID, address, name, phoneNumber, email])
+		customerList.append([ID, address, name, phoneNumber, email])
 
 	csvwriter = csv.writer(f, lineterminator = '\n')
-	csvwriter.writerows(outputList)
+	csvwriter.writerows(customerList)
+
+###################################################### ORDERS ################################
+	
