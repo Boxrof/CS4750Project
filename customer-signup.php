@@ -138,7 +138,7 @@
           if($num_errors == 0) // if all the above error checking for the form data passed
           {
 
-              $res = $pdo->prepare("SELECT * FROM Customers WHERE c_email=:email");
+              $res = $pdo->prepare("SELECT * FROM Users WHERE email=:email");
               $res->bindParam(":email", $email); // adding email variable to the where clause in SQL statement
               $res->execute();
               
@@ -150,23 +150,43 @@
                   // initialize the query to insert the new customer into the Customer database
                   // Check the database to see if the email is already existed. If yes, then we cannot allow users to register
                   
-                  $query = "INSERT INTO Customers (c_firstName, c_lastName, c_email, c_password, c_phone_number, c_street, c_city, c_state) 
-                    VALUES (:firstName, :lastName, :email, :password, :phone, :street, :city, :state)";
+                  $query1 = "INSERT INTO Users (email, password, phone_number, first_name, last_name, user_type) 
+                    VALUES (:email, :password, :phone, :first_name, :last_name, :user_type)";
+
+                  $query2 = "INSERT INTO Customers (user_ID, street, city, state) 
+                    VALUES (:user_ID, :street, :city, :state)";
     
-                  $statement = $pdo->prepare($query);
+                  $statement = $pdo->prepare($query1);
                   // bind the form data to the sql query
-                  $statement->bindValue(':firstName', $firstName);
-                  $statement->bindValue(':lastName', $lastName);
+                  $statement->bindValue(':first_name', $firstName);
+                  $statement->bindValue(':last_name', $lastName);
                   $statement->bindValue(':email', $email);
                   $statement->bindValue(':password', $password);
                   $statement->bindValue(':phone', $phone);
+                  $statement->bindValue(':user_type', 'customer');
+                  // $statement->bindValue(':street', $street);
+                  // $statement->bindValue(':city', $city);
+                  // $statement->bindValue(':state', $state);
+                  $statement->execute();
+                  $statement->closeCursor();
+
+                  $res = $pdo->prepare("SELECT * FROM Users WHERE email=:email");
+                  $res->bindParam(":email", $email); // adding email variable to the where clause in SQL statement
+                  $res->execute();
+                  $result = $res->fetch();
+                  $res->closeCursor();
+                  $user_ID = $result['user_ID'];
+                  
+                  $statement = $pdo->prepare($query2);
+                  $statement->bindValue(':user_ID', $user_ID);
                   $statement->bindValue(':street', $street);
                   $statement->bindValue(':city', $city);
                   $statement->bindValue(':state', $state);
                   $statement->execute();
-                  
                   $statement->closeCursor();
+
                   $_SESSION['firstName'] = $firstName; // set the firstName in session data to say hello <firstName> on index.php
+                  $_SESSION['user_type'] = 'customer';
                   // redirect to index.php after successful account creation
                   echo("<script>location.href = 'index.php';</script>");
                   // echo "<div class='alert alert-success' role='alert'>" . "Account created! <a href='login.php'>Return to login page</a>" . "</div>";
