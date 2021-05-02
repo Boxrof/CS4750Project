@@ -8,8 +8,12 @@ lines = [l.decode('utf-8') for l in response.readlines()]
 outputList = []
 first = True
 currentPhoneNumbers = {}
+paymentTypes = ["Cash", "Credit", "Debit", "Check", "Plus-Dollars"]
+cuisineTypes = ["Italian", "Fast-Food", "Chinese", "Indian", "Mexican", "Seafood", "Barbeque", "French", "Southern", "Breakfast"]
+
 with open('restaurants.csv', 'w+', encoding="utf-8") as f:
 	cr = csv.reader(lines)
+	f.write("r_address, r_name, r_review, r_rating, r_price, r_phone_number, opening_time, closing_time, date_opened, r_payment, r_cuisine\n")
 	for row in cr:
 		if first:
 			first = False
@@ -37,24 +41,22 @@ with open('restaurants.csv', 'w+', encoding="utf-8") as f:
 
 		dateOpened = str(month) + "/" + str(day) + "/" + str(year)
 
+		random.shuffle(paymentTypes)
+		curTypes = sorted(paymentTypes[:random.randrange(1, len(paymentTypes))])
+		curTypes = " ".join(curTypes)
+
+		random.shuffle(cuisineTypes)
+		cusTypes = sorted(cuisineTypes[:random.randrange(1, len(cuisineTypes))])
+		cusTypes = " ".join(cusTypes)
+
 		if h1 > h2: #r_address, r_name, r_rating, r_price, r_phone_number, closing_time, opening_time, date_opened
-			outputList.append([row[5].replace("\n"," ").replace(",", ""), row[0], rating, review, price, phoneNumber, str(h2) + ":00", str(h1) + ":00", dateOpened])
+			outputList.append([row[5].replace("\n"," ").replace(",", ""), row[0], rating, review, price, phoneNumber, str(h2) + ":00", str(h1) + ":00", dateOpened, curTypes, cusTypes])
 		else:
-			outputList.append([row[5].replace("\n"," ").replace(",", ""), row[0], rating, review, price, phoneNumber, str(h1) + ":00", str(h2) + ":00", dateOpened])
+			outputList.append([row[5].replace("\n"," ").replace(",", ""), row[0], rating, review, price, phoneNumber, str(h1) + ":00", str(h2) + ":00", dateOpened, curTypes, cusTypes])
 
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(outputList)
 
-paymentTypes = ["Cash", "Credit", "Debit", "Check", "Plus-Dollars"]
-acceptanceList = []
-with open('accepts.csv', 'w+', encoding='utf-8') as f:
-	for i in outputList:
-		random.shuffle(paymentTypes)
-		curTypes = sorted(paymentTypes[:random.randrange(1, len(paymentTypes))])
-		curTypes = " ".join(curTypes)
-		acceptanceList.append([i[0].strip(), curTypes])
-	csvwriter = csv.writer(f, lineterminator = '\n')
-	csvwriter.writerows(acceptanceList)
 ######################### DRIVERS ###############################
 EmplIDs = {}
 outputList = []
@@ -100,7 +102,7 @@ with open('customers.csv', "w+", encoding='utf-8') as f:
 		while(True):
 			tempID = str(random.randrange(0, 1000000000)).zfill(9)
 			if tempID not in EmplIDs and tempID not in CustIDs:
-				EmplIDs[tempID] = True
+				CustIDs[tempID] = True
 				ID = tempID
 				break
 
