@@ -74,7 +74,7 @@ firsts = [l.decode('utf-8', 'ignore').split(',')[2].upper() for l in first.readl
 lasts = [l.decode('utf-8', 'ignore').split(',')[1] for l in last.readlines()]
 
 with open('drivers.csv', 'w+', encoding='utf-8') as f:
-	f.write("d_employee_ID, d_rating, d_name, d_time_worked, d_salary\n")
+	f.write("d_employee_ID, d_rating, d_firstname, d_lastname, d_time_worked, d_salary\n")
 	for i in range(100):
 		ID = ""
 
@@ -86,10 +86,11 @@ with open('drivers.csv', 'w+', encoding='utf-8') as f:
 				break
 
 		rating = "*"*random.randrange(1, 6)
-		name = firsts[random.randrange(1, len(firsts))] + " " + lasts[random.randrange(1, len(lasts))]
+		firstname = firsts[random.randrange(1, len(firsts))] 
+		lastname = lasts[random.randrange(1, len(lasts))]
 		time_worked = random.randrange(1, 49)
 		salary = random.randrange(7, 16)
-		driverList.append([ID, rating, name, time_worked, salary])
+		driverList.append([ID, rating, firstname, lastname, time_worked, salary])
 
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(driverList)
@@ -100,7 +101,7 @@ streets = urllib.request.urlopen(Streetnames)
 CustIDs = {}
 customerList = []
 with open('customers.csv', "w+", encoding='utf-8') as f:
-	f.write("c_account_ID, c_address, c_name, c_phone_number, c_email\n")
+	f.write("c_account_ID, c_address, c_firstname, c_lastname, c_phone_number, c_email\n")
 	streets = [l.decode('utf-8', 'ignore').split(',')[0] for l in streets.readlines()]
 
 	for i in range(500):
@@ -114,7 +115,8 @@ with open('customers.csv', "w+", encoding='utf-8') as f:
 				break
 
 		address = str(random.randrange(0, 10000)) + " " + streets[random.randrange(1, len(streets))] + " MD " + str(random.randrange(100000)).zfill(5)
-		name = firsts[random.randrange(1, len(firsts))] + " " + lasts[random.randrange(1, len(lasts))]
+		firstname = firsts[random.randrange(1, len(firsts))]
+		lastname = lasts[random.randrange(1, len(lasts))]
 		phoneNumber = ""
 		while(True):
 			secondTerm = str(random.randrange(1,889)).zfill(3)
@@ -123,8 +125,8 @@ with open('customers.csv', "w+", encoding='utf-8') as f:
 			if phoneNumber not in currentPhoneNumbers:
 				currentPhoneNumbers[phoneNumber] = True
 				break
-		email = name.replace(" ", "_") + "@gmail.com"
-		customerList.append([ID, address, name, phoneNumber, email])
+		email = firstname + "_" + lastname + "@gmail.com"
+		customerList.append([ID, address, firstname, lastname, phoneNumber, email])
 
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(customerList)
