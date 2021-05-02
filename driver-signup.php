@@ -37,9 +37,25 @@
         </div>
 
         <div class="form-group">  
+          <label for="time_worked">Time Worked</label>
+          <input type="number" id="time_worked" class="form-control" name="time_worked" pattern="/^[+-]?((\d+(\.\d*)?)|(\.\d+))$/">
+        </div>
+
+        <div class="form-group">  
           <label for="salary">Salary</label>
           <input type="number" id="salary" class="form-control" name="salary" pattern="/^[+-]?((\d+(\.\d*)?)|(\.\d+))$/">
         </div>
+
+        <div class="dropdown">
+			<label for="rating">Rating</label>
+			<select id="rating" name="rating" class="form-control">
+				<option value="*">1</option>
+				<option value="**">2</option>
+				<option value="***">3</option>
+                <option value="****">4</option>
+                <option value="*****">5</option>
+			</select> 
+		</div>
 
         <button class="btn btn-lg btn-primary btn-block mt-4" type="submit">Create Account</button>
         <a href="./login.php" class="d-inline-block text-center mt-3 mb-3">Already have an account? Sign in</a>
@@ -67,6 +83,8 @@
           $password = $_POST['password'];
           $phone = $_POST['phone'];
           $salary = $_POST['salary'];
+          $rating = $_POST['rating'];
+          $time_worked = $_POST['time_worked'];
 
           $num_errors = 0;
 
@@ -114,7 +132,7 @@
           if($num_errors == 0) // if all the above error checking for the form data passed
           {
 
-              $res = $pdo->prepare("SELECT * FROM Drivers WHERE d_email=:email");
+              $res = $pdo->prepare("SELECT * FROM Users WHERE email=:email");
               $res->bindParam(":email", $email); // adding email variable to the where clause in SQL statement
               $res->execute();
               
@@ -125,23 +143,40 @@
                 try {
                   // initialize the query to insert the new driver into the Driver database
                   // Check the database to see if the email is already existed. If yes, then we cannot allow users to register
-                  
-                  $query = "INSERT INTO Drivers (d_firstName, d_lastName, d_email, d_password, d_phone_number, time_worked, salary) 
-                    VALUES (:firstName, :lastName, :email, :password, :phone, :time_worked, :salary)";
+                  $query1 = "INSERT INTO Users (email, password, phone_number, first_name, last_name, user_type) 
+                  VALUES (:email, :password, :phone, :first_name, :last_name, :user_type)";
+
+                  $query2 = "INSERT INTO Drivers (user_ID, time_worked, salary, d_rating) 
+                  VALUES (:user_ID, :time_worked, :salary, :rating)";
     
-                  $statement = $pdo->prepare($query);
+                  $statement = $pdo->prepare($query1);
                   // bind the form data to the sql query
-                  $statement->bindValue(':firstName', $firstName);
-                  $statement->bindValue(':lastName', $lastName);
+                  $statement->bindValue(':first_name', $firstName);
+                  $statement->bindValue(':last_name', $lastName);
                   $statement->bindValue(':email', $email);
                   $statement->bindValue(':password', $password);
                   $statement->bindValue(':phone', $phone);
-                  $statement->bindValue(':time_worked', 0.0);
-                  $statement->bindValue(':salary', $salary);
+                  $statement->bindValue(':user_type', 'driver');
                   $statement->execute();
-                  
                   $statement->closeCursor();
+
+                  $res = $pdo->prepare("SELECT * FROM Users WHERE email=:email");
+                  $res->bindParam(":email", $email); // adding email variable to the where clause in SQL statement
+                  $res->execute();
+                  $result = $res->fetch();
+                  $res->closeCursor();
+                  $user_ID = $result['user_ID'];
+                  
+                  $statement = $pdo->prepare($query2);
+                  $statement->bindValue(':user_ID', $user_ID);
+                  $statement->bindValue(':time_worked', $time_worked);
+                  $statement->bindValue(':salary', $salary);
+                  $statement->bindValue(':rating', $rating);
+                  $statement->execute();
+                  $statement->closeCursor();
+
                   $_SESSION['firstName'] = $firstName; // set the firstName in session data to say hello <firstName> on index.php
+                  $_SESSION['user_type'] = 'driver';
                   // redirect to index.php after successful account creation
                   echo("<script>location.href = 'index.php';</script>");
                   // echo "<div class='alert alert-success' role='alert'>" . "Account created! <a href='login.php'>Return to login page</a>" . "</div>";
