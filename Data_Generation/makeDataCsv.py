@@ -131,5 +131,31 @@ with open('customers.csv', "w+", encoding='utf-8') as f:
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(customerList)
 
-###################################################### ORDERS ################################
-	
+###################################################### MEALS ################################
+meals = []
+with open('Missouri.csv', encoding='utf-8') as f:
+	for line in f:
+		line = line.split(',')
+		if line[0] != '':
+			meals.append(line[0])
+
+mealsOut = []
+mealCounter = 0	
+with open('meals.csv', 'w+', encoding='utf-8') as f:
+	f.write("meal_ID, r_address, m_name, m_price\n")
+	for i in outputList:
+		curMeals = []
+		for j in range(random.randrange(5, 16)):
+			mealCounter += 1
+			mName = ""
+			while True:
+				mName = random.choice(meals)
+				if '"' in mName:
+					continue
+				if mName not in curMeals:
+					curMeals.append(mName)
+					break
+			price = str(random.randrange(1, 13)) + "." + str(random.randrange(0, 100)).zfill(2)
+			mealsOut.append([mealCounter, i[0].strip(), mName, "$" + price])
+	csvwriter = csv.writer(f, lineterminator = '\n')
+	csvwriter.writerows(mealsOut)
