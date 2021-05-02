@@ -34,6 +34,9 @@
                         <li class='nav-item'>
                             <a class='nav-link' href='main.php'> Restaurant List </a>
                         </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='cart.php'> Cart </a>
+                        </li>
                         ");                        
                     } else {
                         echo("
