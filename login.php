@@ -47,6 +47,7 @@
 				// get post data and save them to variables
 				$email = $_POST['email'];
 				$password = $_POST['password'];
+				$hashed_password = password_hash($password, PASSWORD_DEFAULT);
 				$accountType = $_POST['accountType'];
 				$query = "SELECT * from Users WHERE email=:email AND user_type = :user_type";
 
@@ -70,16 +71,15 @@
 				$statement->closeCursor();
 		
 				// if not a matching password display error message
-				if($result['password'] != $password)
-				{
-					echo "<div class='alert alert-danger' role='alert'>" . "Unable to login" . "</div>";
-				}
-				else
-				{				
+				if (password_verify($password, $hashed_password)) {
 					// matching data, set session data to store first name and display on index page	
 					$_SESSION['firstName'] = $result['first_name'];
 					// redirect to index page
 					echo("<script>location.href = 'main.php';</script>");
+				}
+				else
+				{
+					echo "<div class='alert alert-danger' role='alert'>" . "Unable to login" . "</div>";
 				}
 
 			} catch (PDOException $e) {

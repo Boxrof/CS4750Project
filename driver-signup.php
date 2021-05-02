@@ -86,6 +86,8 @@
           $rating = $_POST['rating'];
           $time_worked = $_POST['time_worked'];
 
+          $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+
           $num_errors = 0;
 
           // make sure all the data from the post is not empty
@@ -114,7 +116,15 @@
             $num_errors++;
             echo "<div class='alert alert-danger' role='alert'>" . "Password must be at least 8 characters" . "</div>";
           }
-
+          if (!preg_match("#[0-9]+#", $password)) 
+          {
+            $num_errors++;
+            echo "<div class='alert alert-danger' role='alert'>" . "Password must have at least 1 number" . "</div>";
+          }
+          if (!preg_match("#[a-zA-Z]+#", $password)) 
+          {
+            echo "<div class='alert alert-danger' role='alert'>" . "Password must have at least 1 letter" . "</div>";
+          } 
           if(!$phone)
           {
             $num_errors++;
@@ -144,7 +154,7 @@
                   // initialize the query to insert the new driver into the Driver database
                   // Check the database to see if the email is already existed. If yes, then we cannot allow users to register
                   $query1 = "INSERT INTO Users (email, password, phone_number, first_name, last_name, user_type) 
-                  VALUES (:email, :password, :phone, :first_name, :last_name, :user_type)";
+                  VALUES (:email, :password, :phone_number, :first_name, :last_name, :user_type)";
 
                   $query2 = "INSERT INTO Drivers (user_ID, time_worked, salary, d_rating) 
                   VALUES (:user_ID, :time_worked, :salary, :rating)";
@@ -154,8 +164,8 @@
                   $statement->bindValue(':first_name', $firstName);
                   $statement->bindValue(':last_name', $lastName);
                   $statement->bindValue(':email', $email);
-                  $statement->bindValue(':password', $password);
-                  $statement->bindValue(':phone', $phone);
+                  $statement->bindValue(':password', $hashed_password);
+                  $statement->bindValue(':phone_number', $phone);
                   $statement->bindValue(':user_type', 'driver');
                   $statement->execute();
                   $statement->closeCursor();
