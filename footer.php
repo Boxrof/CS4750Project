@@ -4,7 +4,7 @@
     <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js' integrity='sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV' crossorigin='anonymous'></script>
 
 
-    <div class='footer-copyright text-center py-3'>© 2021 Copyright: Jonathan Mo (jm9hx), Put names here<br>
+    <div class='footer-copyright text-center py-3'>© 2021 Copyright: Jonathan Mo (jm9hx), Hien Truong (hct9at), Eric Yu (xy3jh), Mohit Srivastav (mvs2dq), Jason Watkins (jmw4dx)<br>
         <a target='_blank' rel='noopener noreferrer' href='https://github.com/Boxrof/CS4750Project'>GitHub</a>
     </div>
 </footer>

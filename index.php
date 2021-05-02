@@ -13,7 +13,7 @@
             if (isset($_SESSION['firstName'])) {
                 echo('<h2>Hello ' . $_SESSION["firstName"]. '!</h2>');
             } else {
-                echo('<a href="login.php">Please login!</a>');
+                echo('<h4>Welcome to Food Ordering.  If you have an account, <a href="login.php">please login!</a>  If you don\'t yet, <a href="signup.php">sign up here!</a></h4>');
             }
         ?>
     </div>

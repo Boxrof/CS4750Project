@@ -37,12 +37,12 @@
         </div>
 
         <div class="form-group">  
-          <label for="phone">Street Address</label>
-          <input type="text" id="phone" class="form-control" name="street">
+          <label for="street">Street Address</label>
+          <input type="text" id="street" class="form-control" name="street">
         </div>
 
         <div class="form-group">  
-          <label for="city">City Address</label>
+          <label for="city">City</label>
           <input type="text" id="city" class="form-control" name="city">
         </div>
 
