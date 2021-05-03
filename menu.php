@@ -20,7 +20,6 @@
         if ($receiver) {
             // TODO: Figure it out how to pass the parameter to where statement with query function
             // TODO: render all meals based on the restaurant address
-            $receiver .= " "; // The restaurant address has an extra space at the end
             $res = $pdo->prepare("SELECT * FROM Meals WHERE r_address=:the_address");
             $res->bindParam(":the_address",$receiver);
             $res->execute();
