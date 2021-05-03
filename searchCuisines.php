@@ -4,13 +4,59 @@
         if (isset($_SESSION['firstName'])) {
             echo('<h2>Welcome ' . $_SESSION["firstName"]. '!</h2>');
         }
+
+        // function console_log($output, $with_script_tags = true) {
+        //     $js_code = 'console.log(' . json_encode($output, JSON_HEX_TAG) . ');';
+        //     if ($with_script_tags) {
+        //         $js_code = '<script>' . $js_code . '</script>';
+        //     }
+        //     echo $js_code;
+        // }
+        // console_log('sandwich');
         
         if (isset($_GET['searchCuisine'])) {
             $cuis = $_GET['searchCuisine'];
             if ($cuis != '') {
-                $res = $pdo->prepare("SELECT * FROM Restaurants NATURAL JOIN Cuisines WHERE cuisine LIKE '%{$cuis}%';");
-                $res->bindParam(":cuisine",$_GET['searchCuisine']);
-                $res->execute();
+                $cuisine_list = explode(' ', $cuis);
+                $numItems = sizeof($cuisine_list);
+                if ($numItems == 1) {
+                    $res = $pdo->prepare("SELECT * FROM Restaurants NATURAL JOIN Cuisines WHERE cuisine LIKE '{$cuis}%';");
+                    $res->bindParam(":cuisine",$_GET['searchCuisine']);
+                    $res->execute();
+                } else {
+                    $queryPrefix = 'SELECT * FROM Restaurants NATURAL JOIN ';
+                    $queryMain = '';
+                    for ($i = 0; $i < $numItems; $i++) {
+                        //$queryMain = "(" . "SELECT r_ID FROM `Cuisines` WHERE cuisine = ':c{$i}'" . $queryMain . ")";
+                        $val = $cuisine_list[$i];
+                        //$val = ':c' . $i;
+                        //echo $val . "<br>";
+                        $queryMain = "(" . "SELECT DISTINCT(r_ID) FROM `Cuisines` WHERE cuisine LIKE '" . $val . "%' " . $queryMain . ")";
+                        if (($i + 1) != $numItems) {
+                            $queryMain = ' AND r_ID IN ' . $queryMain;
+                        }
+                        //echo "The number is: $x <br>";
+                    } 
+                    $queryMain .= " AS T";
+                    //echo $queryPrefix . $queryMain;
+                    $res = $pdo->prepare($queryPrefix . $queryMain . ";");
+
+                    // $my_array = array_fill(0, $numItems, '');
+
+                    // for ($j = 0; $j < $numItems; $j++) {
+                        //echo '<br></br>';
+                        
+                        // $my_array[$j] = ':c' . $j;
+                        // $val = $cuisine_list[$j];
+                        //echo $tempStr . ' ';
+                        // $res->bindParam($my_array[$j], $cuisine_list[$j]);
+                        //echo $cuisine_list[$j];
+                    // }
+                    //$res->bindParam(":cuisine",$_GET['searchCuisine']);
+                    //echo '<br>';
+                    // $res->debugDumpParams();
+                    $res->execute();
+                }
             } else {
                 $res = $pdo->prepare("SELECT * FROM Restaurants;");
                 $res->execute();
