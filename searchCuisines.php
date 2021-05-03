@@ -4,10 +4,17 @@
         if (isset($_SESSION['firstName'])) {
             echo('<h2>Welcome ' . $_SESSION["firstName"]. '!</h2>');
         }
+        
         if (isset($_GET['searchCuisine'])) {
-            $res = $pdo->prepare("SELECT * FROM Restaurants NATURAL JOIN Cuisines WHERE cuisine LIKE %:cuisine%;");
-            $res->bindParam(":cuisine",$_GET['searchCuisine']);
-            $res->execute();
+            $cuis = $_GET['searchCuisine'];
+            if ($cuis != '') {
+                $res = $pdo->prepare("SELECT * FROM Restaurants NATURAL JOIN Cuisines WHERE cuisine LIKE '%{$cuis}%';");
+                $res->bindParam(":cuisine",$_GET['searchCuisine']);
+                $res->execute();
+            } else {
+                $res = $pdo->prepare("SELECT * FROM Restaurants;");
+                $res->execute();
+            }
         } else {
             $res = $pdo->prepare("SELECT * FROM Restaurants;");
             $res->execute();
