@@ -17,7 +17,7 @@ addyDict = {}
 
 with open('restaurants.csv', 'w+', encoding="utf-8") as f:
 	cr = csv.reader(lines)
-	f.write("r_address, r_name, r_review, r_rating, r_price, r_phone_number, opening_time, closing_time, date_opened, r_payment, r_cuisine\n")
+	f.write("r_address, r_name, r_review, r_price, r_phone_number, opening_time, closing_time, date_opened, r_payment, r_cuisine\n")
 	for row in cr:
 		if first:
 			first = False
@@ -59,9 +59,9 @@ with open('restaurants.csv', 'w+', encoding="utf-8") as f:
 		addyDict[addy] = True
 
 		if h1 > h2: #r_address, r_name, r_rating, r_price, r_phone_number, closing_time, opening_time, date_opened
-			outputList.append([addy, row[0], rating, review, price, phoneNumber, str(h2) + ":00", str(h1) + ":00", dateOpened, curTypes, cusTypes])
+			outputList.append([addy, row[0], rating, price, phoneNumber, str(h2) + ":00", str(h1) + ":00", dateOpened, curTypes, cusTypes])
 		else:
-			outputList.append([addy, row[0], rating, review, price, phoneNumber, str(h1) + ":00", str(h2) + ":00", dateOpened, curTypes, cusTypes])
+			outputList.append([addy, row[0], rating, price, phoneNumber, str(h1) + ":00", str(h2) + ":00", dateOpened, curTypes, cusTypes])
 
 		counter += 1
 		if counter == 100:

@@ -1,101 +1,101 @@
-r_address, r_name, r_review, r_rating, r_price, r_phone_number, opening_time, closing_time, date_opened, r_payment, r_cuisine
-4509 BELAIR ROAD Baltimore MD,410,**,3,$$$,(410)-865-3400,1:00,7:00,8/24/1835,Credit,Breakfast Chinese Fast-Food French Indian Italian Seafood
-1919 FLEET ST Baltimore MD,1919,*****,6,$$,(410)-178-5229,5:00,15:00,10/14/1955,Cash Credit Debit Plus-Dollars,Chinese Indian Mexican
-2844 HUDSON ST Baltimore MD,SAUTE,**,8,$$,(410)-490-4513,16:00,16:00,7/9/1855,Cash Check Plus-Dollars,Italian
-3998 ROLAND AVE Baltimore MD,#1 CHINESE KITCHEN,*,0,$$,(410)-706-1938,3:00,14:00,4/8/1849,Check,Chinese Fast-Food French Indian Italian Mexican Southern
-2481 frederick ave Baltimore MD,#1 chinese restaurant,*****,9,$$,(410)-837-9408,0:00,23:00,11/11/1801,Cash Check Debit Plus-Dollars,Breakfast Chinese Seafood Southern
-2722 HARFORD RD Baltimore MD,19TH HOLE,**,3,$,(410)-223-7876,6:00,15:00,4/4/1841,Cash Debit,Chinese French Indian Mexican Southern
-2510 MCELDERRY ST Baltimore MD,3 KINGS,***,4,$,(410)-170-6039,3:00,17:00,1/20/1836,Cash Credit Debit,Barbeque Chinese French Italian Mexican
-2701 MILES AVE Baltimore MD,"3 MILES HOUSE, INC.",*,4,$$,(410)-162-8423,14:00,23:00,9/5/1876,Cash Credit Debit Plus-Dollars,Breakfast French Italian Mexican Seafood
-2518 MONUMENT ST Baltimore MD,3 W'S TAVERN,*,0,$$,(410)-852-6669,10:00,15:00,3/23/1819,Check,Breakfast Chinese French Italian
-300 ANN ST Baltimore MD,300 SOUTH ANN STREET,*****,4,$$,(410)-764-1527,18:00,20:00,9/10/1937,Debit,Barbeque Breakfast Seafood Southern
-1600 HAZEL ST Baltimore MD,438 CLUB,*****,9,$,(410)-186-0326,8:00,21:00,10/13/1872,Cash Check Credit Plus-Dollars,Chinese Fast-Food Indian Italian Mexican
-5302 REISTERSTOWN RD Baltimore MD,5-MILE HOUSE,*,3,$$$,(410)-133-7185,1:00,18:00,4/2/1869,Cash Plus-Dollars,Southern
-743 MONTFORD ST Baltimore MD,"743 S. MONTFORD,INC.",***,8,$$$,(410)-680-5805,1:00,15:00,6/19/2009,Credit,Fast-Food Mexican Southern
-5625 O DONNELL ST Baltimore MD,A & W RESTAURANT,***,8,$,(410)-686-4792,3:00,13:00,9/6/1810,Cash Check Debit Plus-Dollars,Barbeque Breakfast Chinese French Indian Italian Seafood
-219 BALTIMORE ST Baltimore MD,A TASTE OF CHINA,****,5,$$$,(410)-805-4266,19:00,23:00,3/26/1846,Check Debit Plus-Dollars,Barbeque Breakfast Chinese French Indian Mexican Seafood
-58 BIDDLE STREET Baltimore MD,ABACROMBIE FINE FOODS,***,3,$$,(410)-714-7693,7:00,10:00,7/17/1820,Cash Credit Debit Plus-Dollars,Barbeque Breakfast Fast-Food French Indian Italian Seafood
-2003 MONUMENT ST Baltimore MD,ABC SUSHI,****,8,$,(410)-013-5147,6:00,13:00,2/12/1985,Plus-Dollars,Barbeque Breakfast Fast-Food French Indian Italian Mexican Southern
-4718 EASTERN AVE Baltimore MD,ACROPOLIS RESTAURANT,**,5,$$$,(410)-747-0593,5:00,23:00,7/2/1833,Cash Credit Debit Plus-Dollars,Fast-Food Seafood
-818 BROADWAY Baltimore MD,ADMIRAL FELL INN,*,1,$$,(410)-786-2377,4:00,14:00,6/4/1977,Cash,Fast-Food Italian Seafood
-2522 WASHINGTON BLVD Baltimore MD,AG & HARP'S,*,1,$,(410)-330-1702,3:00,4:00,8/28/1853,Debit Plus-Dollars,Chinese
-6500 RIVERVIEW AVE Baltimore MD,"AIRPORT BAR & GRILL, INC.",***,4,$$,(410)-169-2388,0:00,16:00,12/28/2016,Cash Credit Debit Plus-Dollars,Barbeque Chinese Italian
-823 CHARLES ST Baltimore MD,AKBAR RESTAURANT,****,4,$$$,(410)-396-1356,3:00,15:00,7/12/1919,Check Credit Debit Plus-Dollars,Breakfast Chinese Fast-Food Indian Mexican Seafood
-2407 FREDERICK AVE Baltimore MD,"AKDEY SUBWAY, INC.",**,5,$$$,(410)-485-2353,7:00,22:00,6/28/1976,Cash Credit Debit,Indian
-306 HIGH ST Baltimore MD,ALDO'S   RESTAURANT,***,1,$$$,(410)-713-0825,11:00,15:00,3/24/1914,Check Credit,Barbeque Chinese French Indian Italian Mexican Seafood Southern
-1939 FLEET ST Baltimore MD,ALE MARY'S,**,6,$$,(410)-351-2134,5:00,11:00,10/23/1961,Cash Check Credit,Barbeque Breakfast Indian Mexican Seafood Southern
-710 BROADWAY Baltimore MD,ALEXANDER'S TAVERN,****,1,$$,(410)-124-4712,6:00,10:00,8/8/2015,Cash Debit,Barbeque Breakfast Chinese Italian Mexican Seafood Southern
-2401 LIBERTY HEIGHTS AVE Baltimore MD,ALFEO'S,****,3,$,(410)-848-4716,9:00,16:00,5/25/1886,Cash,Barbeque Breakfast Chinese Fast-Food French Indian Italian
-2105 FREDERICK AVE Baltimore MD,AL-HO CLUB,****,9,$,(410)-552-0966,17:00,23:00,7/21/1844,Cash Check Debit Plus-Dollars,Breakfast Indian Seafood Southern
-206 REDWOOD ST Baltimore MD,BAY ATLANTIC CLUB,****,7,$$$,(410)-265-4553,11:00,17:00,1/12/1826,Cash Check Credit Plus-Dollars,Chinese Fast-Food Italian
-2809 BOSTON ST Baltimore MD,BAY CAFE,****,2,$$$,(410)-019-9842,5:00,7:00,3/10/1974,Cash Check Plus-Dollars,Barbeque Chinese Fast-Food Indian Italian Mexican Seafood Southern
-1038 LIGHT ST Baltimore MD,BEACH  BUMS CAF,*,4,$$,(410)-866-0917,6:00,19:00,8/23/1963,Cash Credit Debit,Barbeque Breakfast Chinese Indian Italian
-3820 PRATT ST Baltimore MD,BECKER'S TAVERN,***,2,$$,(410)-707-0246,10:00,22:00,1/7/2016,Credit,Italian Mexican Seafood
-401 BALTIMORE ST Baltimore MD,BEDROCK,*****,9,$$$,(410)-697-2060,2:00,4:00,12/6/1974,Cash,Barbeque Breakfast Chinese French Italian Mexican Seafood Southern
-5860 BELAIR RD Baltimore MD,BELAIR PUB,***,9,$$,(410)-503-5415,3:00,3:00,6/18/1921,Cash Debit Plus-Dollars,Breakfast Chinese French
-1747 BELT ST Baltimore MD,BELT STREET PUB,**,10,$$$,(410)-187-9886,5:00,20:00,5/25/1844,Cash Check,Breakfast Chinese Fast-Food French Indian Italian Seafood Southern
-1190 NORTHERN PKWY Baltimore MD,BELVEDERE TOWERS CAF,****,5,$$$,(410)-325-0036,0:00,1:00,9/1/1887,Debit,Breakfast Mexican
-5523 BELAIR RD Baltimore MD,"BERGER'S TAVERN, INCORPORATED",****,4,$$$,(410)-119-8300,19:00,20:00,2/25/1983,Check Credit Plus-Dollars,Barbeque Chinese Fast-Food French Indian Italian Mexican Seafood Southern
-1801 NORTH AVE Baltimore MD,BERMUDA BAR,****,7,$,(410)-863-4431,4:00,24:00,7/22/1893,Credit,Barbeque Breakfast Chinese Fast-Food French Indian Mexican Seafood Southern
-734 BROADWAY Baltimore MD,BERTHA'S RESTAURANT,***,0,$$,(410)-488-2522,12:00,22:00,2/21/2007,Check,Barbeque Breakfast Fast-Food French Indian Italian Mexican Seafood Southern
-3105 ST PAUL ST Baltimore MD,BERT'S EATS & DRINKS (3103-05),***,8,$,(410)-430-5300,10:00,21:00,12/14/1938,Plus-Dollars,Barbeque Breakfast Chinese Fast-Food French Indian Italian Seafood Southern
-300 BALTIMORE ST Baltimore MD,BIG APPLE TREE CAF,****,0,$$,(410)-325-0966,24:00,24:00,2/19/1822,Cash Credit Plus-Dollars,Barbeque French Italian Mexican
-5713 HARFORD RD Baltimore MD,BIG BAD WOLF'S HOUSE OF BARBEQUE,***,0,$$$,(410)-403-3656,0:00,2:00,10/14/1984,Check Credit Plus-Dollars,Chinese French Italian Mexican
-301 LIGHT ST Baltimore MD,BIG KAHUNA CANTINA,****,2,$$,(410)-424-3600,4:00,15:00,8/26/1861,Cash Check Credit Debit,Barbeque Breakfast Chinese Fast-Food French Indian Italian Mexican Seafood
-300 OLDHAM ST Baltimore MD,BIG TEE'S BAR & GRILL,****,7,$$$,(410)-261-0049,8:00,10:00,12/6/1823,Cash Credit,Barbeque Breakfast Chinese Fast-Food French Italian Mexican Seafood
-1000 LOMBARD ST Baltimore MD,BILL'S 60'S & 70'S CLUB,*****,0,$,(410)-831-4167,8:00,9:00,2/9/1891,Check Debit,Breakfast Chinese French Indian Italian Mexican Seafood
-6701 HOLABIRD AVE Baltimore MD,BILL'S CAFE,*,10,$,(410)-352-6995,5:00,7:00,3/15/1837,Cash Debit Plus-Dollars,Breakfast Chinese Indian Italian Mexican Seafood Southern
-1741 LIGHT ST Baltimore MD,BILL'S LIGHTHOUSE INN,*,0,$$,(410)-877-5646,5:00,22:00,2/10/1889,Cash Credit Plus-Dollars,Indian Mexican Southern
-205 MADISON ST Baltimore MD,BILTMORE SUITES HOTEL,*****,2,$$,(410)-521-9376,4:00,16:00,7/16/1958,Check Credit Debit Plus-Dollars,Barbeque Indian Mexican
-641 MONTFORD AVE Baltimore MD,BIRCHES RESTAURANT,**,3,$,(410)-109-3220,6:00,24:00,11/19/1962,Cash Credit Debit Plus-Dollars,Breakfast Chinese Fast-Food French Italian Mexican Southern
-1712 ALICEANNA ST Baltimore MD,BIRDS OF A FEATHER,****,7,$$$,(410)-600-5727,13:00,16:00,4/23/2005,Cash Debit Plus-Dollars,Fast-Food Italian Mexican Seafood Southern
-4700 MT HOPE DR Baltimore MD,"BLACKTIE SERVICE, LLP",**,1,$$,(410)-067-0519,2:00,19:00,6/23/1900,Cash Check Credit Debit,Barbeque Chinese Indian Italian Mexican
-3725 MALDEN AVE Baltimore MD,BLACKTIE SERVICES,*,6,$$,(410)-692-8396,10:00,23:00,8/17/1846,Cash Check Credit Plus-Dollars,Barbeque Chinese French Indian Italian Mexican Seafood
-3915 HANOVER ST Baltimore MD,BLARNEY STONE INN,**,7,$$,(410)-035-7060,5:00,20:00,6/6/1834,Check Credit,Barbeque Breakfast Chinese Mexican Southern
-704 BROADWAY Baltimore MD,BLARNEY STONE PUB,*****,6,$$$,(410)-174-2206,5:00,23:00,12/27/1985,Credit Debit,Chinese French Mexican Southern
-2501 FLEET ST Baltimore MD,BLEACHERS,*,8,$$,(410)-799-7694,14:00,17:00,5/17/1805,Cash Check Credit Plus-Dollars,Mexican
-5621 BELAIR RD Baltimore MD,ALLEN RESTAURANT,*,5,$$$,(410)-143-5948,2:00,7:00,11/11/1883,Check,Barbeque French Indian
-1120 FORT AVE Baltimore MD,ALOHA TOKYO,*,5,$,(410)-426-0628,20:00,22:00,10/15/1842,Cash Check Credit Plus-Dollars,Barbeque French Seafood
-415 COLD SPRING LN Baltimore MD,ALONSO'S RESTAURANT & COCKTAIL LOUNGE,****,7,$,(410)-426-8590,8:00,22:00,5/10/2008,Cash Check Debit,Breakfast Chinese French Indian Mexican Seafood Southern
-3811 CANTERBURY RD Baltimore MD,AMBASSADOR DINNING ROOM,*,8,$,(410)-033-7687,6:00,17:00,8/14/1861,Plus-Dollars,Chinese French Italian Mexican Southern
-1810 CHERRY HILL RD Baltimore MD,AMBROSIA'S,***,8,$$,(410)-286-3495,7:00,9:00,12/3/1943,Cash Check Credit Debit,Chinese Southern
-901 PRATT ST Baltimore MD,AMERICAN FOOD SERVICE,****,0,$$,(410)-725-1511,0:00,1:00,7/7/1903,Credit,Barbeque Fast-Food French Mexican
-1502 MADISON AVE Baltimore MD,AMERICAN LEGION FEDERAL POST #19,*,5,$$$,(410)-762-2145,0:00,4:00,5/4/2002,Cash Debit,Barbeque Breakfast Chinese French Italian Mexican Southern
-1527 CHERRY ST Baltimore MD,AMERICAN LEGION POST #187,****,6,$$$,(410)-348-2940,16:00,23:00,2/14/1896,Check Credit Debit Plus-Dollars,French
-506 FORT AVE Baltimore MD,AMERICAN LEIGON FORT MCHENRY POST #133,*****,5,$$$,(410)-578-2609,12:00,18:00,5/22/1834,Check Credit Plus-Dollars,Chinese Fast-Food Italian Seafood Southern
-400 EATON ST Baltimore MD,AMIGO'S BAR,*****,3,$$,(410)-350-0445,13:00,13:00,10/16/1809,Cash Credit Debit,Barbeque Breakfast Chinese Fast-Food Italian
-7135 HARFORD RD Baltimore MD,ANGELINA'S,**,1,$$$,(410)-301-6797,19:00,21:00,2/25/1801,Cash Plus-Dollars,Barbeque Chinese French Indian Italian Seafood
-3600 KESWICK RD Baltimore MD,ANGELO'S RESTAURANT & CARRYOUT,***,8,$$,(410)-412-3066,10:00,21:00,9/11/1971,Check Credit,Barbeque Breakfast Chinese Fast-Food French Indian Italian Seafood Southern
-10 MARKET PLACE Baltimore MD,ANGELS ROCK BAR,****,7,$$$,(410)-652-2176,6:00,9:00,8/21/1889,Cash Debit,French
-5805 O Donnell ST Baltimore MD,ANGLE INN,*****,3,$$,(410)-441-8363,7:00,14:00,5/19/1803,Check Credit Debit Plus-Dollars,Indian
-601 CLINTON ST Baltimore MD,ANNABEL LEE TAVERN,****,8,$$$,(410)-090-5427,1:00,21:00,10/18/1821,Cash Check Credit Plus-Dollars,Indian
-631 LEXINGTON ST Baltimore MD,ANNS AT LEXINGTON PLACE,***,9,$$$,(410)-166-2058,12:00,17:00,1/19/1977,Credit Debit,Barbeque Breakfast Chinese Fast-Food French Indian Seafood Southern
-6798 REISTERSTOWN RD Baltimore MD,APPLEBEE'S NEIGHBORHOOD GRILL & BAR,*,2,$$$,(410)-394-6540,5:00,10:00,5/19/1940,Credit,Barbeque Chinese French Indian Southern
-300 st paul pl Baltimore MD,aramark at citi bank baltimore,***,3,$,(410)-409-0246,16:00,17:00,4/9/1845,Cash Credit Debit Plus-Dollars,Fast-Food Indian Seafood Southern
-1101 RUSSELL ST Baltimore MD,ARAMARK FHC SPORTS  (MAIN KITCHEN),***,8,$$,(410)-068-2116,5:00,15:00,8/11/1846,Credit,Barbeque Breakfast Chinese Fast-Food French Indian Italian Mexican
-Hopkins Pl Baltimore MD,ARAMARK/PNC,**,4,$,(410)-600-2743,2:00,14:00,2/6/1863,Cash Check Plus-Dollars,Barbeque Breakfast Chinese Fast-Food Southern
-2 CHASE ST Baltimore MD,ARA-MONUMENTAL LIFE INSURANCE COMPANY,****,10,$,(410)-591-5596,17:00,19:00,10/27/2011,Credit Debit Plus-Dollars,Barbeque Breakfast Chinese French Mexican Seafood
-2426 PENNSYLVANIA Baltimore MD,ARCH SOCIAL CLUB,*****,2,$,(410)-611-5506,16:00,21:00,5/3/1952,Cash Check Debit Plus-Dollars,Chinese Fast-Food French Indian
-129 BROADWAY Baltimore MD,ARCOS,****,7,$,(410)-688-7361,4:00,16:00,1/24/1914,Check Credit,Southern
-25 BROADWAY Baltimore MD,ARIZONA BAR & GRILL,*,7,$$$,(410)-392-5554,9:00,22:00,9/11/1815,Cash Credit Debit Plus-Dollars,Barbeque Breakfast Chinese Fast-Food French Indian Italian Seafood Southern
-629 BROADWAY Baltimore MD,ASAHI SUSHI,*****,1,$$$,(410)-211-0517,0:00,22:00,6/9/1882,Cash Check Credit,Breakfast French Italian Mexican Seafood Southern
-916 36th st Baltimore MD,asian taste,***,7,$$,(410)-514-4628,5:00,22:00,9/21/1858,Cash Debit,Barbeque Chinese French Indian Italian Mexican Seafood Southern
-529 BELVEDERE AVE Baltimore MD,ATWATER'S,***,4,$$$,(410)-768-8206,3:00,6:00,6/11/1835,Cash Credit,Barbeque Breakfast Chinese Fast-Food French Italian Seafood Southern
-1 SOUTH ST Baltimore MD,AU BON PAIN,****,3,$$,(410)-186-3300,7:00,9:00,7/1/1969,Cash Check Credit Plus-Dollars,Mexican
-2400 BOSTON ST Baltimore MD,AUSTIN GRILL,***,9,$$$,(410)-878-6848,2:00,12:00,1/5/1906,Cash Debit,French Indian
-1238 GREENMOUNT AVE Baltimore MD,AVENUE BAR & LIQUOR,**,10,$$,(410)-828-3103,14:00,21:00,6/17/1924,Cash Check Credit Plus-Dollars,Barbeque Breakfast Fast-Food French Indian Italian Mexican
-4901 eastern ave Baltimore MD,azteca de oro,***,7,$,(410)-199-2341,0:00,9:00,12/24/1830,Cash Debit Plus-Dollars,Breakfast Chinese Fast-Food Indian Mexican Seafood Southern
-1501 bolton ST Baltimore MD,B,*****,6,$,(410)-567-0817,5:00,16:00,10/18/1932,Cash Credit Debit Plus-Dollars,Chinese
-2251 WILKENS AVE Baltimore MD,B & J RESTAURANT,*****,0,$$$,(410)-800-9305,11:00,19:00,6/1/1910,Check,Breakfast Southern
-1301 PRATT ST Baltimore MD,B & O CAFE,*,2,$$,(410)-450-8057,4:00,22:00,3/25/1939,Credit,Barbeque Chinese Fast-Food Indian Italian Mexican Seafood Southern
-301 PAYSON ST Baltimore MD,B G'S,*****,10,$$$,(410)-245-1796,8:00,22:00,10/26/1839,Credit Plus-Dollars,Italian Southern
-619 OLDHAM ST Baltimore MD,"B.G.'S,PUB INCORPORATED",*****,5,$$$,(410)-714-2332,10:00,14:00,9/4/1942,Debit,Barbeque Indian Italian Mexican
-34 MARKET PL Baltimore MD,babalu grill,****,10,$$,(410)-230-5652,6:00,8:00,11/16/1920,Cash Check Plus-Dollars,Barbeque Breakfast Chinese Fast-Food Indian Italian Mexican Seafood Southern
-1301 OLD COLDSPRING Ln Baltimore MD,BACKSTRETCH SALOON,*,4,$,(410)-847-2414,1:00,10:00,1/7/2015,Check Plus-Dollars,Barbeque Breakfast Fast-Food French Indian Italian Mexican Seafood Southern
-55 MARKET PL Baltimore MD,BAJA BEACH CLUB  (COMBINED WITH BAR-L),****,7,$$$,(410)-112-9260,5:00,19:00,2/27/1802,Cash Check Credit Plus-Dollars,French Indian Italian Mexican
-20 BALTIMORE ST Baltimore MD,BALTIMORE BEVERAGE CO. LLC,*****,2,$,(410)-793-3181,19:00,21:00,10/14/1822,Cash Check Credit Plus-Dollars,French
-4712 CLUB RD Baltimore MD,BALTIMORE COUNTRY CLUB,**,2,$$$,(410)-467-4933,20:00,22:00,12/14/1913,Cash Credit Debit Plus-Dollars,Breakfast Fast-Food French Indian Italian Mexican Seafood Southern
-4713 EASTERN AVENUE Baltimore MD,BALTIMORE DELIGHT RESTAURANT,***,9,$$$,(410)-718-4978,3:00,5:00,7/8/1915,Check Debit,Barbeque Breakfast Chinese Fast-Food Indian Italian Mexican Seafood Southern
-2022 CHARLES ST Baltimore MD,"BALTIMORE EAGLE, INC.",***,1,$$$,(410)-704-8131,2:00,15:00,8/5/2005,Cash Debit Plus-Dollars,Barbeque Chinese French Italian
-1932 BELAIR RD Baltimore MD,BALTIMORE ESTONIAN SOCIETY,*****,10,$,(410)-790-4330,2:00,4:00,8/19/1979,Credit,Barbeque Fast-Food French Indian Italian Mexican Seafood Southern
-700 ALICEANNA ST Baltimore MD,BALTIMORE MARRIOTT WATERFRONT/EMPLOYEE CAFETERIA,***,4,$,(410)-370-7933,4:00,11:00,10/10/1883,Check Credit Debit,Barbeque Breakfast Chinese Fast-Food French Indian Italian Seafood Southern
+r_address, r_name, r_review, r_price, r_phone_number, opening_time, closing_time, date_opened, r_payment, r_cuisine
+4509 BELAIR ROAD Baltimore MD,410,*,$$,(410)-174-2053,2:00,18:00,5/7/1936,Cash Check Debit,Barbeque Chinese Fast-Food Indian Italian Seafood Southern
+1919 FLEET ST Baltimore MD,1919,*,$$$,(410)-770-8462,7:00,10:00,5/23/1879,Check Credit Debit Plus-Dollars,Barbeque Breakfast Chinese Fast-Food French Indian Italian Mexican Southern
+2844 HUDSON ST Baltimore MD,SAUTE,*****,$$,(410)-884-2332,1:00,22:00,12/25/1971,Cash Check Credit Debit,French Mexican
+3998 ROLAND AVE Baltimore MD,#1 CHINESE KITCHEN,***,$$,(410)-494-5686,0:00,4:00,12/5/1897,Cash Check Debit,Barbeque Breakfast Chinese French Italian Mexican Southern
+2481 frederick ave Baltimore MD,#1 chinese restaurant,*****,$$$,(410)-500-1361,6:00,18:00,10/27/1953,Cash Check Credit Plus-Dollars,Fast-Food
+2722 HARFORD RD Baltimore MD,19TH HOLE,*,$$$,(410)-610-8353,20:00,22:00,11/6/1887,Cash Check,French
+2510 MCELDERRY ST Baltimore MD,3 KINGS,*****,$,(410)-059-4975,8:00,22:00,3/21/1884,Check Credit Debit Plus-Dollars,Barbeque Breakfast Indian
+2701 MILES AVE Baltimore MD,"3 MILES HOUSE, INC.",*,$,(410)-403-7117,0:00,3:00,9/23/1955,Cash Check Debit Plus-Dollars,Chinese Fast-Food French Indian Mexican Seafood Southern
+2518 MONUMENT ST Baltimore MD,3 W'S TAVERN,****,$,(410)-810-6121,6:00,14:00,7/12/1971,Cash Check Debit Plus-Dollars,Barbeque Breakfast Chinese French Indian Italian Mexican Southern
+300 ANN ST Baltimore MD,300 SOUTH ANN STREET,**,$,(410)-049-5231,3:00,15:00,6/17/2004,Credit Debit Plus-Dollars,Barbeque Breakfast Fast-Food French Indian Italian Mexican Seafood Southern
+1600 HAZEL ST Baltimore MD,438 CLUB,*,$$,(410)-348-2417,3:00,24:00,11/1/1842,Check,Barbeque Breakfast Chinese Fast-Food French Italian Mexican Seafood Southern
+5302 REISTERSTOWN RD Baltimore MD,5-MILE HOUSE,***,$$,(410)-109-3238,9:00,13:00,10/19/1830,Check Plus-Dollars,Breakfast Fast-Food
+743 MONTFORD ST Baltimore MD,"743 S. MONTFORD,INC.",****,$$$,(410)-595-1868,5:00,8:00,3/5/1979,Cash Check Plus-Dollars,Barbeque Breakfast Fast-Food French Mexican Seafood
+5625 O DONNELL ST Baltimore MD,A & W RESTAURANT,*,$$,(410)-558-5940,9:00,21:00,8/20/1860,Cash Debit Plus-Dollars,Breakfast Chinese Fast-Food Italian Mexican Seafood Southern
+219 BALTIMORE ST Baltimore MD,A TASTE OF CHINA,**,$$,(410)-315-7113,9:00,14:00,9/19/1864,Cash,Barbeque Breakfast Chinese Fast-Food French Mexican Seafood
+58 BIDDLE STREET Baltimore MD,ABACROMBIE FINE FOODS,*,$$,(410)-389-0832,11:00,14:00,1/24/1908,Cash,Barbeque Fast-Food French Indian Italian Southern
+2003 MONUMENT ST Baltimore MD,ABC SUSHI,***,$$,(410)-309-0390,4:00,8:00,12/1/1911,Credit,Barbeque Chinese Fast-Food French Indian Italian Mexican Seafood Southern
+4718 EASTERN AVE Baltimore MD,ACROPOLIS RESTAURANT,***,$$$,(410)-413-2931,16:00,23:00,1/9/1919,Check Credit,Barbeque Breakfast Chinese Fast-Food French Italian Seafood Southern
+818 BROADWAY Baltimore MD,ADMIRAL FELL INN,***,$$$,(410)-347-5276,7:00,11:00,6/26/2008,Check Credit Plus-Dollars,Barbeque Chinese Fast-Food French Indian Italian Mexican Southern
+2522 WASHINGTON BLVD Baltimore MD,AG & HARP'S,*****,$$$,(410)-577-8874,14:00,17:00,10/26/1958,Credit Plus-Dollars,Barbeque Breakfast Chinese Fast-Food French Indian Italian Mexican Southern
+6500 RIVERVIEW AVE Baltimore MD,"AIRPORT BAR & GRILL, INC.",****,$$,(410)-666-4274,14:00,24:00,7/11/1801,Cash Check Debit Plus-Dollars,Breakfast
+823 CHARLES ST Baltimore MD,AKBAR RESTAURANT,**,$$,(410)-255-2566,8:00,13:00,1/11/1841,Check,Barbeque Breakfast
+2407 FREDERICK AVE Baltimore MD,"AKDEY SUBWAY, INC.",*****,$$,(410)-462-7921,9:00,24:00,3/25/2009,Credit,Barbeque Fast-Food French Mexican Seafood Southern
+306 HIGH ST Baltimore MD,ALDO'S   RESTAURANT,*****,$,(410)-219-2241,4:00,16:00,2/10/1880,Cash Debit,Italian Seafood
+1939 FLEET ST Baltimore MD,ALE MARY'S,****,$,(410)-090-1258,1:00,23:00,12/10/1993,Credit Plus-Dollars,Barbeque Breakfast Indian Seafood Southern
+710 BROADWAY Baltimore MD,ALEXANDER'S TAVERN,****,$$$,(410)-457-0002,10:00,16:00,7/24/1966,Credit Debit,Fast-Food
+2401 LIBERTY HEIGHTS AVE Baltimore MD,ALFEO'S,****,$$$,(410)-362-5881,13:00,17:00,6/19/2013,Cash Plus-Dollars,Barbeque Breakfast Chinese Fast-Food Italian Mexican Seafood Southern
+2105 FREDERICK AVE Baltimore MD,AL-HO CLUB,***,$$,(410)-537-9958,12:00,19:00,10/18/1984,Cash Credit Debit,Chinese Mexican
+206 REDWOOD ST Baltimore MD,BAY ATLANTIC CLUB,*,$$,(410)-732-6648,0:00,21:00,8/18/1965,Check Credit Debit Plus-Dollars,French Seafood
+2809 BOSTON ST Baltimore MD,BAY CAFE,****,$$,(410)-431-3532,12:00,19:00,1/17/1880,Cash Check Debit Plus-Dollars,Barbeque Breakfast Fast-Food Indian Italian Seafood Southern
+1038 LIGHT ST Baltimore MD,BEACH  BUMS CAF,**,$,(410)-503-5983,14:00,21:00,7/1/1853,Cash Check Plus-Dollars,Barbeque Breakfast Chinese Fast-Food French Indian Mexican Seafood
+3820 PRATT ST Baltimore MD,BECKER'S TAVERN,***,$$,(410)-401-1635,4:00,13:00,6/15/1880,Cash Check Credit Debit,Chinese French Indian Mexican Seafood
+401 BALTIMORE ST Baltimore MD,BEDROCK,**,$$$,(410)-187-8292,9:00,12:00,4/1/1819,Plus-Dollars,Barbeque Breakfast Chinese Fast-Food French Indian Italian Seafood Southern
+5860 BELAIR RD Baltimore MD,BELAIR PUB,*,$$$,(410)-670-2726,15:00,18:00,9/20/2005,Cash Check,French
+1747 BELT ST Baltimore MD,BELT STREET PUB,*,$,(410)-668-1808,9:00,23:00,5/28/2016,Credit Debit Plus-Dollars,Breakfast French Italian Mexican Southern
+1190 NORTHERN PKWY Baltimore MD,BELVEDERE TOWERS CAF,*****,$$,(410)-667-1142,16:00,21:00,3/1/1866,Cash Check Plus-Dollars,Barbeque Breakfast Fast-Food French Mexican
+5523 BELAIR RD Baltimore MD,"BERGER'S TAVERN, INCORPORATED",*****,$$$,(410)-785-3074,12:00,16:00,5/8/1840,Cash,Barbeque Breakfast Chinese Fast-Food French Indian Italian Mexican Seafood
+1801 NORTH AVE Baltimore MD,BERMUDA BAR,****,$$$,(410)-661-7263,9:00,19:00,9/10/1963,Check Credit Debit Plus-Dollars,Breakfast Chinese Fast-Food French Indian Italian Mexican Seafood Southern
+734 BROADWAY Baltimore MD,BERTHA'S RESTAURANT,**,$,(410)-699-0714,3:00,7:00,5/27/1896,Cash Credit Debit,Breakfast Chinese Fast-Food French Italian Seafood Southern
+3105 ST PAUL ST Baltimore MD,BERT'S EATS & DRINKS (3103-05),*****,$,(410)-160-9696,0:00,24:00,8/10/1905,Cash Credit,Breakfast Fast-Food Italian Southern
+300 BALTIMORE ST Baltimore MD,BIG APPLE TREE CAF,*****,$$$,(410)-335-6546,21:00,23:00,10/14/1954,Cash Check Debit Plus-Dollars,Barbeque Breakfast Chinese Fast-Food French Indian Mexican Southern
+5713 HARFORD RD Baltimore MD,BIG BAD WOLF'S HOUSE OF BARBEQUE,****,$$$,(410)-263-6269,9:00,16:00,7/25/1996,Check,Breakfast French
+301 LIGHT ST Baltimore MD,BIG KAHUNA CANTINA,***,$$$,(410)-774-6384,1:00,4:00,3/22/1809,Debit,Barbeque Breakfast Chinese Fast-Food French Indian Italian Seafood
+300 OLDHAM ST Baltimore MD,BIG TEE'S BAR & GRILL,****,$,(410)-441-5450,1:00,4:00,9/18/1843,Credit Debit,Barbeque French Italian Mexican
+1000 LOMBARD ST Baltimore MD,BILL'S 60'S & 70'S CLUB,*****,$$$,(410)-645-1525,5:00,6:00,10/28/1808,Credit Debit Plus-Dollars,Barbeque Breakfast Chinese French Mexican Seafood
+6701 HOLABIRD AVE Baltimore MD,BILL'S CAFE,***,$,(410)-527-2267,2:00,17:00,2/3/1952,Cash Credit Debit Plus-Dollars,Barbeque Fast-Food French Seafood
+1741 LIGHT ST Baltimore MD,BILL'S LIGHTHOUSE INN,***,$,(410)-595-3998,10:00,12:00,10/2/1891,Cash Check Credit Plus-Dollars,Breakfast Fast-Food French Italian Seafood
+205 MADISON ST Baltimore MD,BILTMORE SUITES HOTEL,****,$$$,(410)-766-9982,2:00,11:00,9/4/1831,Plus-Dollars,Breakfast Chinese Indian Mexican Seafood
+641 MONTFORD AVE Baltimore MD,BIRCHES RESTAURANT,**,$$,(410)-541-2690,1:00,6:00,7/6/2007,Cash Check Plus-Dollars,Barbeque Chinese Fast-Food French Indian Italian Seafood Southern
+1712 ALICEANNA ST Baltimore MD,BIRDS OF A FEATHER,**,$$$,(410)-098-8884,4:00,20:00,7/23/1943,Check Credit Debit,Indian Italian Seafood
+4700 MT HOPE DR Baltimore MD,"BLACKTIE SERVICE, LLP",*****,$$,(410)-309-7466,10:00,16:00,3/26/1899,Check,Barbeque Breakfast Chinese Fast-Food French Indian Italian Southern
+3725 MALDEN AVE Baltimore MD,BLACKTIE SERVICES,**,$,(410)-014-5810,2:00,3:00,11/12/1940,Plus-Dollars,Fast-Food French Italian Seafood
+3915 HANOVER ST Baltimore MD,BLARNEY STONE INN,****,$$,(410)-733-6996,0:00,2:00,9/12/1881,Cash Credit Debit Plus-Dollars,Breakfast French Indian Italian Mexican Seafood Southern
+704 BROADWAY Baltimore MD,BLARNEY STONE PUB,*,$$,(410)-719-7394,6:00,16:00,4/17/2013,Cash Check Debit Plus-Dollars,Mexican
+2501 FLEET ST Baltimore MD,BLEACHERS,***,$$,(410)-326-1815,5:00,13:00,11/23/2001,Cash Plus-Dollars,Barbeque Breakfast Chinese Fast-Food French Italian Seafood Southern
+5621 BELAIR RD Baltimore MD,ALLEN RESTAURANT,*,$$$,(410)-783-1578,10:00,22:00,3/12/1840,Cash Check Plus-Dollars,Barbeque Breakfast Chinese Fast-Food Indian Italian Seafood Southern
+1120 FORT AVE Baltimore MD,ALOHA TOKYO,**,$,(410)-772-5033,2:00,21:00,3/28/1939,Check Credit Debit Plus-Dollars,Barbeque Fast-Food French Italian Seafood
+415 COLD SPRING LN Baltimore MD,ALONSO'S RESTAURANT & COCKTAIL LOUNGE,***,$,(410)-574-3626,6:00,10:00,6/16/1953,Check,Mexican Seafood
+3811 CANTERBURY RD Baltimore MD,AMBASSADOR DINNING ROOM,*,$,(410)-519-4399,19:00,22:00,6/17/1915,Credit Debit,Chinese Indian Southern
+1810 CHERRY HILL RD Baltimore MD,AMBROSIA'S,*,$$,(410)-823-1009,10:00,13:00,10/7/1801,Credit Debit Plus-Dollars,French Seafood
+901 PRATT ST Baltimore MD,AMERICAN FOOD SERVICE,*****,$,(410)-257-4504,14:00,18:00,8/14/1904,Check,Barbeque Breakfast Fast-Food French Mexican Seafood
+1502 MADISON AVE Baltimore MD,AMERICAN LEGION FEDERAL POST #19,**,$$$,(410)-615-6119,15:00,23:00,4/10/1852,Plus-Dollars,Chinese Southern
+1527 CHERRY ST Baltimore MD,AMERICAN LEGION POST #187,*****,$$$,(410)-573-7846,3:00,16:00,1/22/1808,Check Plus-Dollars,Barbeque Breakfast Chinese Fast-Food French Indian Mexican Seafood Southern
+506 FORT AVE Baltimore MD,AMERICAN LEIGON FORT MCHENRY POST #133,**,$$$,(410)-812-7040,18:00,19:00,2/2/2014,Cash Check,Barbeque Chinese Fast-Food French Italian Seafood Southern
+400 EATON ST Baltimore MD,AMIGO'S BAR,*****,$,(410)-518-4758,3:00,10:00,4/12/1908,Cash Credit,Barbeque Seafood
+7135 HARFORD RD Baltimore MD,ANGELINA'S,***,$$$,(410)-882-6996,4:00,9:00,7/23/1932,Cash Credit Debit,Barbeque Chinese Fast-Food French Italian Mexican Seafood Southern
+3600 KESWICK RD Baltimore MD,ANGELO'S RESTAURANT & CARRYOUT,*,$$,(410)-764-7899,4:00,5:00,9/22/1914,Cash Credit,Breakfast French Italian
+10 MARKET PLACE Baltimore MD,ANGELS ROCK BAR,*****,$$,(410)-184-6588,3:00,9:00,7/19/1936,Check Credit Debit,Fast-Food French Mexican Seafood
+5805 O Donnell ST Baltimore MD,ANGLE INN,**,$,(410)-699-6444,1:00,6:00,6/5/1860,Cash Debit Plus-Dollars,Barbeque Breakfast Fast-Food French Italian Mexican Southern
+601 CLINTON ST Baltimore MD,ANNABEL LEE TAVERN,***,$$,(410)-422-4203,4:00,5:00,1/21/1997,Credit Debit Plus-Dollars,Breakfast Chinese Fast-Food French Indian Italian Mexican Seafood Southern
+631 LEXINGTON ST Baltimore MD,ANNS AT LEXINGTON PLACE,*,$$,(410)-734-2826,3:00,21:00,11/4/1851,Cash Check Credit,Barbeque Breakfast Chinese Fast-Food French Italian Seafood Southern
+6798 REISTERSTOWN RD Baltimore MD,APPLEBEE'S NEIGHBORHOOD GRILL & BAR,****,$$$,(410)-032-4319,7:00,18:00,8/5/1980,Cash Check Credit,Barbeque Breakfast Chinese Fast-Food French Italian Mexican Seafood Southern
+300 st paul pl Baltimore MD,aramark at citi bank baltimore,****,$,(410)-549-4980,3:00,18:00,1/6/1907,Credit Debit,Fast-Food Indian
+1101 RUSSELL ST Baltimore MD,ARAMARK FHC SPORTS  (MAIN KITCHEN),***,$$,(410)-516-4416,7:00,23:00,8/3/1815,Check Credit,Chinese Fast-Food French Mexican Seafood
+Hopkins Pl Baltimore MD,ARAMARK/PNC,***,$$,(410)-373-4940,12:00,24:00,2/27/2008,Cash Plus-Dollars,Barbeque Chinese Fast-Food Seafood
+2 CHASE ST Baltimore MD,ARA-MONUMENTAL LIFE INSURANCE COMPANY,****,$,(410)-597-9609,19:00,20:00,11/23/1835,Credit Debit Plus-Dollars,French Seafood
+2426 PENNSYLVANIA Baltimore MD,ARCH SOCIAL CLUB,*****,$,(410)-311-3343,8:00,17:00,1/2/1864,Cash Check,Breakfast Chinese Mexican Seafood
+129 BROADWAY Baltimore MD,ARCOS,***,$$$,(410)-390-5961,4:00,15:00,12/25/1933,Cash Credit Debit,French Italian Southern
+25 BROADWAY Baltimore MD,ARIZONA BAR & GRILL,**,$$$,(410)-604-5497,2:00,11:00,1/8/1887,Check Plus-Dollars,Breakfast Chinese Italian Southern
+629 BROADWAY Baltimore MD,ASAHI SUSHI,**,$$,(410)-528-0251,0:00,12:00,8/5/1984,Cash Check Credit Plus-Dollars,Indian
+916 36th st Baltimore MD,asian taste,***,$$$,(410)-854-0202,22:00,22:00,3/8/1818,Cash,Barbeque Breakfast Fast-Food Italian
+529 BELVEDERE AVE Baltimore MD,ATWATER'S,*****,$$$,(410)-407-5562,2:00,19:00,9/9/1967,Cash Plus-Dollars,Chinese Indian
+1 SOUTH ST Baltimore MD,AU BON PAIN,*,$,(410)-885-3882,15:00,22:00,5/12/1973,Cash Check Plus-Dollars,Breakfast Indian Mexican Seafood
+2400 BOSTON ST Baltimore MD,AUSTIN GRILL,**,$,(410)-737-1328,13:00,23:00,4/20/1874,Check Debit,Barbeque Breakfast Chinese Italian Mexican Seafood
+1238 GREENMOUNT AVE Baltimore MD,AVENUE BAR & LIQUOR,*,$,(410)-351-4826,12:00,15:00,7/11/1891,Check,Barbeque Indian Mexican Southern
+4901 eastern ave Baltimore MD,azteca de oro,****,$$,(410)-185-3616,12:00,20:00,1/1/1887,Cash Debit,Barbeque Chinese Fast-Food Indian Italian Mexican Seafood Southern
+1501 bolton ST Baltimore MD,B,***,$$,(410)-298-9621,8:00,16:00,9/16/1889,Cash Plus-Dollars,Barbeque Fast-Food French Indian Italian Mexican Seafood Southern
+2251 WILKENS AVE Baltimore MD,B & J RESTAURANT,***,$,(410)-590-0502,8:00,20:00,3/5/1990,Check,Barbeque Chinese Indian
+1301 PRATT ST Baltimore MD,B & O CAFE,**,$$$,(410)-655-9832,16:00,23:00,12/6/1852,Check Credit Debit Plus-Dollars,Barbeque Breakfast Chinese Fast-Food French Indian Mexican Seafood Southern
+301 PAYSON ST Baltimore MD,B G'S,****,$,(410)-439-6877,1:00,2:00,3/12/1960,Cash Credit Debit Plus-Dollars,Fast-Food French
+619 OLDHAM ST Baltimore MD,"B.G.'S,PUB INCORPORATED",**,$$$,(410)-570-2552,4:00,14:00,8/3/2013,Cash,Barbeque Breakfast Fast-Food French Indian Italian Seafood
+34 MARKET PL Baltimore MD,babalu grill,****,$$,(410)-459-9561,4:00,18:00,1/11/1806,Check Debit Plus-Dollars,Indian Italian
+1301 OLD COLDSPRING Ln Baltimore MD,BACKSTRETCH SALOON,*****,$$,(410)-102-8264,8:00,8:00,12/1/1931,Cash Check Credit Debit,Fast-Food Italian Seafood
+55 MARKET PL Baltimore MD,BAJA BEACH CLUB  (COMBINED WITH BAR-L),*,$,(410)-698-6507,12:00,14:00,7/8/1830,Debit,Breakfast Chinese Fast-Food Indian Italian Mexican Seafood Southern
+20 BALTIMORE ST Baltimore MD,BALTIMORE BEVERAGE CO. LLC,****,$$,(410)-539-3781,0:00,3:00,2/25/2003,Cash Plus-Dollars,Breakfast Fast-Food French Italian Seafood Southern
+4712 CLUB RD Baltimore MD,BALTIMORE COUNTRY CLUB,**,$$$,(410)-842-5574,5:00,6:00,2/1/1867,Debit Plus-Dollars,Barbeque Breakfast Chinese Fast-Food French Seafood Southern
+4713 EASTERN AVENUE Baltimore MD,BALTIMORE DELIGHT RESTAURANT,*,$$$,(410)-218-8749,15:00,22:00,3/25/1924,Credit Plus-Dollars,Barbeque Breakfast Chinese Fast-Food
+2022 CHARLES ST Baltimore MD,"BALTIMORE EAGLE, INC.",*,$$,(410)-302-0760,5:00,13:00,6/12/1807,Credit Plus-Dollars,Breakfast Chinese Fast-Food Indian Italian Seafood
+1932 BELAIR RD Baltimore MD,BALTIMORE ESTONIAN SOCIETY,*,$,(410)-432-0956,17:00,21:00,10/9/2007,Plus-Dollars,Chinese
+700 ALICEANNA ST Baltimore MD,BALTIMORE MARRIOTT WATERFRONT/EMPLOYEE CAFETERIA,***,$$,(410)-187-5365,0:00,5:00,1/9/1968,Cash Credit Debit Plus-Dollars,Barbeque Breakfast Fast-Food French Indian Italian Mexican Southern
