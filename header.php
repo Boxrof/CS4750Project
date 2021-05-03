@@ -27,17 +27,51 @@
                 <?php 
                 session_start();
                     if (isset($_SESSION['firstName'])) {
-                        echo("
-                        <li class='nav-item'>
-                            <a class='nav-link' href='logout.php'>Logout</a>
-                        </li>
-                        <li class='nav-item'>
-                            <a class='nav-link' href='main.php'> Restaurant List </a>
-                        </li>
-                        <li class='nav-item'>
-                            <a class='nav-link' href='cart.php'> Cart </a>
-                        </li>
-                        ");                        
+                        if ($_SESSION['user_type'] == 'customer') { // customer account
+                            echo("
+                            <li class='nav-item'>
+                                <a class='nav-link' href='edit-customer.php'> Edit Profile </a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class='nav-link' href='main.php'> Restaurant List </a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class='nav-link' href='cart.php'> Cart </a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class='nav-link' href='logout.php'>Logout</a>
+                            </li>
+                            "); 
+                        }
+
+                        if ($_SESSION['user_type'] == 'driver') { // driver account
+                            echo("
+                            <li class='nav-item'>
+                                <a class='nav-link' href='edit-driver.php'> Edit Profile </a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class='nav-link' href='main.php'> Restaurant List </a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class='nav-link' href='logout.php'>Logout</a>
+                            </li>
+                            "); 
+                        }
+
+                        if ($_SESSION['user_type'] == 'owner') { // owner account
+                            echo("
+                            <li class='nav-item'>
+                                <a class='nav-link' href='edit-restaurant.php'> Edit Restaurant </a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class='nav-link' href='main.php'> Restaurant List </a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class='nav-link' href='logout.php'>Logout</a>
+                            </li>
+                            "); 
+                        }
+                       
                     } else {
                         echo("
                         <li class='nav-item active'>
