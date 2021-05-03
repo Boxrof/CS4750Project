@@ -12,10 +12,17 @@
         if (isset($_SESSION['firstName'])) {
             echo('<h2>Welcome ' . $_SESSION["firstName"]. '!</h2>');
         }
-        
+        if (isset($_GET['cuisine'])) {
+            $res = $pdo->prepare("SELECT * FROM Restaurants NATURAL JOIN Cuisines WHERE cuisine LIKE :cuisine");
+            $res->bindParam(":cuisine",$_GET['cuisine']);
+            $res->execute();
+        } else {
+            $res = $pdo->query("SELECT * FROM Restaurants");
+        }
+        // SELECT * FROM Restaurants NATURAL JOIN Cuisines WHERE cuisine LIKE :cuisine 
         // Get the list of all restaurants to render in the front-end
         echo "<h1 class='text-center'> List of Restaurants: </h1>";
-        $res = $pdo->query("SELECT * FROM Restaurants");
+        echo "<br>";
         echo "<table class='table table-condensed table-hover' style='table-layout: fixed; border-collapse:collapse;'>";
             echo "<thead>";
                 echo "<tr>";
