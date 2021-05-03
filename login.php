@@ -76,6 +76,7 @@
 					$_SESSION['firstName'] = $result['first_name'];
 					$_SESSION['user_ID'] = $result['user_ID'];	// new
 					$_SESSION['user_type'] = $accountType;
+					$_SESSION['curr_order'] = -1;
 					
 
 					// redirect to index page
