@@ -20,9 +20,11 @@
             echo "<thead>";
                 echo "<tr>";
                     echo "<th scope='col'> Detail </th>";
-                    echo "<th scope='col'>Address: </th>";
-                    echo "<th scope='col'>Restaurant Name: </th>";
-                    echo "<th scope='col'>Rating: </th>";
+                    echo "<th scope='col'>Address </th>";
+                    echo "<th scope='col'>Restaurant Name </th>";
+                    echo "<th scope='col'>Rating </th>";
+                    echo "<th scope='col'>Price </th>";
+                    echo "<th scope='col'>Cuisine </th>";
                 echo "</tr>";
             echo "</thead>";
 
@@ -34,6 +36,8 @@
                     echo('<td> ' .  $row["r_address"]. '</td>');
                     echo('<td> ' .  $row["r_name"]. '</td>');
                     echo('<td> ' .  $row["r_rating"]. '</td>');
+                    echo('<td> ' .  $row["r_price"]. '</td>');
+                    echo('<td> ' .  $row["r_cuisine"]. '</td>');
                 echo "</tr>";    
             }
 
