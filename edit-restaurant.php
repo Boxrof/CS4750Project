@@ -153,6 +153,23 @@
               ?>">
         </div>
 
+        <div class="form-group">  
+          <label for="r_payment">Payment Types</label>
+          <input type="text" id="r_payment" class="form-control" name="r_payment"
+          value="<?php 
+              echo(selectRestaurantData('r_payment')[0][0]); // to autofill the form so user can edit their data
+              ?>">
+        </div>
+
+        <div class="form-group">  
+          <label for="r_cuisine">Cuisine Types</label>
+          <input type="text" id="r_cuisine" class="form-control" name="r_cuisine"
+          value="<?php 
+              echo(selectRestaurantData('r_cuisine')[0][0]); // to autofill the form so user can edit their data
+              ?>">
+        </div>
+
+
 
         <button class="btn btn-lg btn-primary btn-block mt-4" type="submit">Edit Restaurant</button>
       </form>
@@ -186,6 +203,8 @@
           $opening_time = $_POST['opening_time'];
           $closing_time = $_POST['closing_time'];
           $date_opened = $_POST['date_opened'];
+          $r_payment = $_POST['r_payment'];
+          $r_cuisine = $_POST['r_cuisine'];
           $user_ID = $_SESSION['user_ID'];
 
           $hashed_password = password_hash($password, PASSWORD_DEFAULT);
@@ -268,6 +287,14 @@
             $num_errors++;
             echo "<div class='alert alert-danger' role='alert'>" . "Please enter your restaurant's closing time" . "</div>";
           }
+          if (!$r_payment) {
+            $num_errors++;
+            echo "<div class='alert alert-danger' role='alert'>" . "Please enter your restaurant's payment types" . "</div>";
+          }
+          if (!$r_cuisine) {
+            $num_errors++;
+            echo "<div class='alert alert-danger' role='alert'>" . "Please enter your restaurant's cuisine types" . "</div>";
+          }
           if (!$date_opened) 
           {
             $num_errors++;
@@ -280,20 +307,25 @@
                   // initialize the query to insert the new customer into the Customer database
                   // Check the database to see if the email is already existed. If yes, then we cannot allow users to register
                   
+                // get the r_ID
+                  $query = "SELECT * FROM Restaurants WHERE r_phone_number=$r_phone_number";
+                  $statement = $pdo->prepare($query);
+                  $statement->execute();
+                  $results = $statement->fetchAll();
+                  $statement->closecursor();
+                  $r_ID = $results[0][0];
+
                   $query1 = "UPDATE Users SET
                   email=:email, password=:password, phone_number=:phone_number, 
                   first_name=:first_name, last_name=:last_name, user_type=:user_type
-                  WHERE `user_ID`='$user_ID';";
-
-                  $query2 = "UPDATE Owners SET
-                  r_address=:r_address
                   WHERE `user_ID`='$user_ID';";
             
                   $query3 = "UPDATE Restaurants SET
                   r_address=:r_address, r_name=:r_name, r_rating=:r_rating, 
                   r_price=:r_price, r_phone_number=:r_phone_number, closing_time=:closing_time, 
-                  opening_time=:opening_time, date_opened=:date_opened
-                  WHERE `r_address`=" . "'$r_address'" . " OR `r_name`=" . "'$r_name'" . " OR `r_phone_number`=" . "'$r_phone_number';";
+                  opening_time=:opening_time, date_opened=:date_opened, r_payment=:r_payment,
+                  r_cuisine=:r_cuisine
+                  WHERE `r_ID`=$r_ID;";
 
                   $statement = $pdo->prepare($query3); // edit restaurant 
                   $statement->bindValue(':r_address', $r_address);
@@ -304,6 +336,8 @@
                   $statement->bindValue(':closing_time', $closing_time);
                   $statement->bindValue(':opening_time', $opening_time);
                   $statement->bindValue(':date_opened', $date_opened);
+                  $statement->bindValue(':r_payment', $r_payment);
+                  $statement->bindValue(':r_cuisine', $r_cuisine);
                   $statement->execute();
                   $statement->closeCursor();
 
@@ -315,11 +349,6 @@
                   $statement->bindValue(':password', $hashed_password);
                   $statement->bindValue(':phone_number', $phone);
                   $statement->bindValue(':user_type', 'owner');
-                  $statement->execute();
-                  $statement->closeCursor();
-
-                  $statement = $pdo->prepare($query2); // edit restaurant owner user
-                  $statement->bindValue(':r_address', $r_address);
                   $statement->execute();
                   $statement->closeCursor();
 

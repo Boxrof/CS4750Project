@@ -76,6 +76,16 @@
           <input type="text" id="date_opened" class="form-control" name="date_opened">
         </div>
 
+        <div class="form-group">  
+          <label for="r_payment">Payment Types</label>
+          <input type="text" id="r_payment" class="form-control" name="r_payment">
+        </div>
+
+        <div class="form-group">  
+          <label for="r_cuisine">Cuisine Types</label>
+          <input type="text" id="r_cuisine" class="form-control" name="r_cuisine">
+        </div>
+
 
         <button class="btn btn-lg btn-primary btn-block mt-4" type="submit">Create Account</button>
         <a href="./login.php" class="d-inline-block text-center mt-3 mb-3">Already have an account? Sign in</a>
@@ -109,6 +119,8 @@
           $r_phone_number = $_POST['r_phone_number'];
           $opening_time = $_POST['opening_time'];
           $closing_time = $_POST['closing_time'];
+          $r_payment = $_POST['r_payment'];
+          $r_cuisine = $_POST['r_cuisine'];
           $date_opened = $_POST['date_opened'];
           
           $hashed_password = password_hash($password, PASSWORD_DEFAULT);
@@ -192,6 +204,14 @@
             $num_errors++;
             echo "<div class='alert alert-danger' role='alert'>" . "Please enter your restaurant's closing time" . "</div>";
           }
+          if (!$r_payment) {
+            $num_errors++;
+            echo "<div class='alert alert-danger' role='alert'>" . "Please enter your restaurant's payment types" . "</div>";
+          }
+          if (!$r_cuisine) {
+            $num_errors++;
+            echo "<div class='alert alert-danger' role='alert'>" . "Please enter your restaurant's cuisine types" . "</div>";
+          }
           if (!$date_opened) 
           {
             $num_errors++;
@@ -222,11 +242,11 @@
                   $query1 = "INSERT INTO Users (email, password, phone_number, first_name, last_name, user_type) 
                     VALUES (:email, :password, :phone_number, :first_name, :last_name, :user_type)";
 
-                  $query2 = "INSERT INTO Owners (user_ID, r_address) 
-                    VALUES (:user_ID, :r_address)";
+                  $query2 = "INSERT INTO Owners (user_ID, r_ID) 
+                    VALUES (:user_ID, :r_ID)";
 
-                  $query3 = "INSERT INTO Restaurants (r_address, r_name, r_rating, r_price, r_phone_number, closing_time, opening_time, date_opened)
-                    VALUES (:r_address, :r_name, :r_rating, :r_price, :r_phone_number, :closing_time, :opening_time, :date_opened)";
+                  $query3 = "INSERT INTO Restaurants (r_address, r_name, r_rating, r_price, r_phone_number, closing_time, opening_time, date_opened, r_cuisine, r_payment)
+                    VALUES (:r_address, :r_name, :r_rating, :r_price, :r_phone_number, :closing_time, :opening_time, :date_opened, :r_cuisine, :r_payment)";
     
                   $statement = $pdo->prepare($query1); // insert new user
                   // bind the form data to the sql query
@@ -259,12 +279,21 @@
                   $statement->bindValue(':closing_time', $closing_time);
                   $statement->bindValue(':opening_time', $opening_time);
                   $statement->bindValue(':date_opened', $date_opened);
+                  $statement->bindValue(':r_payment', $r_payment);
+                  $statement->bindValue(':r_cuisine', $r_cuisine);
                   $statement->execute();
                   $statement->closeCursor();
 
+                  $query = "SELECT * FROM Restaurants WHERE r_address LIKE '%$r_address%'";
+                  $statement = $pdo->prepare($query);
+                  $statement->execute();
+                  $results = $statement->fetchAll();
+                  $statement->closecursor();
+                  $r_ID = $results[0][0];
+
                   $statement = $pdo->prepare($query2); // insert new restaurant owner user
                   $statement->bindValue(':user_ID', $user_ID);
-                  $statement->bindValue(':r_address', $r_address);
+                  $statement->bindValue(':r_ID', $r_ID);
                   $statement->execute();
                   $statement->closeCursor();
 

@@ -103,11 +103,11 @@
         <div class="dropdown">
 			<label for="rating">Rating</label>
 			<select id="rating" name="rating" class="form-control">
-				<option value="*">1</option>
-				<option value="**">2</option>
-				<option value="***">3</option>
-                <option value="****">4</option>
-                <option value="*****">5</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
 			</select> 
 		</div>
 
@@ -204,7 +204,7 @@
                   WHERE `user_ID`='$user_ID';";
 
                   $query2 = "UPDATE Drivers SET
-                  time_worked=:time_worked, salary=:salary, d_rating=:rating
+                  time_worked=:time_worked, salary=:salary, d_rating=:d_rating
                   WHERE `user_ID`='$user_ID';";
                   $statement = $pdo->prepare($query1);
                   // bind the form data to the sql query
@@ -220,13 +220,12 @@
                   $statement = $pdo->prepare($query2);
                   $statement->bindValue(':time_worked', $time_worked);
                   $statement->bindValue(':salary', $salary);
-                  $statement->bindValue(':rating', $rating);
+                  $statement->bindValue(':d_rating', $rating);
                   $statement->execute();
                   $statement->closeCursor();
 
                   $_SESSION['firstName'] = $firstName; // set the firstName in session data to say hello <firstName> on index.php
                   $_SESSION['user_type'] = 'driver';
-
                   // redirect to index.php after successful account creation
                   echo("<script>location.href = 'index.php';</script>");
                   // echo "<div class='alert alert-success' role='alert'>" . "Account created! <a href='login.php'>Return to login page</a>" . "</div>";
