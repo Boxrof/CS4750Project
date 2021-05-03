@@ -1,4 +1,4 @@
-import urllib.request, csv, random
+import urllib.request, csv, random, string
 
 restaurants = "https://raw.githubusercontent.com/DataScienceSpecialization/courses/master/03_GettingData/03_02_summarizingData/data/restaurants.csv"
 response = urllib.request.urlopen(restaurants)
@@ -74,7 +74,7 @@ firsts = [l.decode('utf-8', 'ignore').split(',')[2].upper() for l in first.readl
 lasts = [l.decode('utf-8', 'ignore').split(',')[1] for l in last.readlines()]
 
 with open('drivers.csv', 'w+', encoding='utf-8') as f:
-	f.write("d_employee_ID, d_rating, d_firstname, d_lastname, d_time_worked, d_salary\n")
+	f.write("user_id, d_rating, first_name, last_name, time_worked, salary, email, password, user_type\n")
 	for i in range(100):
 		ID = ""
 
@@ -90,7 +90,11 @@ with open('drivers.csv', 'w+', encoding='utf-8') as f:
 		lastname = lasts[random.randrange(1, len(lasts))]
 		time_worked = random.randrange(1, 49)
 		salary = random.randrange(7, 16)
-		driverList.append([ID, rating, firstname, lastname, time_worked, salary])
+		email = firstname + "_" + lastname + "@gmail.com"
+		password = ""
+		for i in range(random.randrange(5, 11)):
+			password += random.choice(string.ascii_letters + "123456789!")
+		driverList.append([ID, rating, firstname, lastname, time_worked, salary, email, password, 'driver'])
 
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(driverList)
@@ -101,7 +105,7 @@ streets = urllib.request.urlopen(Streetnames)
 CustIDs = {}
 customerList = []
 with open('customers.csv', "w+", encoding='utf-8') as f:
-	f.write("c_account_ID, c_address, c_firstname, c_lastname, c_phone_number, c_email\n")
+	f.write("c_account_ID, c_address, c_firstname, c_lastname, c_phone_number, c_email, user_type\n")
 	streets = [l.decode('utf-8', 'ignore').split(',')[0] for l in streets.readlines()]
 
 	for i in range(500):
@@ -126,7 +130,10 @@ with open('customers.csv', "w+", encoding='utf-8') as f:
 				currentPhoneNumbers[phoneNumber] = True
 				break
 		email = firstname + "_" + lastname + "@gmail.com"
-		customerList.append([ID, address, firstname, lastname, phoneNumber, email])
+		password = ""
+		for i in range(random.randrange(5, 11)):
+			password += random.choice(string.ascii_letters + "123456789!")
+		customerList.append([ID, address, firstname, lastname, phoneNumber, email, password, 'customer'])
 
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(customerList)
