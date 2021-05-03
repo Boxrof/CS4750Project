@@ -19,9 +19,10 @@
         */
         // 
         $customer = $_GET['current_customer']; // 3
-        $restaurant_address = $_GET['chosen_restaurant']; // address 
+        $restaurant_id = $_GET['chosen_restaurant']; // address 
         $meal = $_GET['meal_number']; // 1
         $price = $_GET['price'];
+        $address = $_GET['r_address'];
         $array_random = [];
         //$order_time = rtrim(strval(date("h:i:sa")),'PM');
         $order_time = date("h:i:sa");
@@ -37,18 +38,19 @@
         
         echo $chosen_driver_id;
         echo $customer;
-        echo $restaurant_address;
+        echo $restaurant_id;
         echo $meal;
         echo $price;
         //$order_number = 1;
-        $query = "INSERT INTO Orders (order_time,o_price,driver_ID,customer_ID,r_address) VALUES (:order_time,:o_price,:driver_ID,:customer_ID,:r_address)";
+        $query = "INSERT INTO Orders (order_time,o_price,driver_ID,customer_ID,r_ID,r_address) VALUES (:order_time,:o_price,:driver_ID,:customer_ID,:r_id,:r_address)";
         $statement = $pdo->prepare($query);
         //$statement->bindValue(':order_number',$order_number);
         $statement->bindValue(':order_time',$truncated_time);
         $statement->bindValue(':o_price',$price);
         $statement->bindValue(':driver_ID',$chosen_driver_id);
         $statement->bindValue(':customer_ID',$customer);
-        $statement->bindValue(':r_address',$restaurant_address);
+        $statement->bindValue(':r_id',$restaurant_id);
+        $statement->bindValue(':r_address',$address);
         $statement->execute();
         $statement->closeCursor();
 

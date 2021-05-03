@@ -44,8 +44,8 @@
                     $driver_name = $r['first_name'] . " " . $r['last_name'];
                     $res2->closeCursor();
 
-                    $res3 = $pdo->prepare("SELECT * FROM Restaurants WHERE r_address=:r_address");
-                    $res3->bindParam(":r_address",$row['r_address']);
+                    $res3 = $pdo->prepare("SELECT * FROM Restaurants WHERE r_ID=:id");
+                    $res3->bindParam(":id",$row['r_ID']);
                     $res3->execute();
                     $r_name = $res3->fetch();
                     $name = $r_name['r_name'];

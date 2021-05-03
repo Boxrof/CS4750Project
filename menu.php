@@ -9,7 +9,8 @@
     <?php
         
         global $pdo;
-        $receiver = $_GET['address']; 
+        $receiver = $_GET['r_id'];
+        $restaurant_address = $_GET['address']; 
         if (isset($_SESSION['user_ID'])) {
             $current_customer = $_SESSION['user_ID']; //Get current user
         } else {
@@ -20,8 +21,8 @@
         if ($receiver) {
             // TODO: Figure it out how to pass the parameter to where statement with query function
             // TODO: render all meals based on the restaurant address
-            $res = $pdo->prepare("SELECT * FROM Meals WHERE r_address=:the_address");
-            $res->bindParam(":the_address",$receiver);
+            $res = $pdo->prepare("SELECT * FROM Meals WHERE r_id=:id");
+            $res->bindParam(":id",$receiver);
             $res->execute();
             
 
@@ -39,7 +40,7 @@
                         echo "<tr>";
                             $meal_ID = $row['meal_ID']; 
                             $price = $row['m_price'];
-                            echo "<th scope='row'><a class='btn btn-outline-secondary btn-sm' href='order.php?current_customer=",$current_customer,"&meal_number=",$meal_ID,"&chosen_restaurant=",$receiver,"&price=",$price,"'> Click here to add it to your cart </a></th>";                
+                            echo "<th scope='row'><a class='btn btn-outline-secondary btn-sm' href='order.php?current_customer=",$current_customer,"&meal_number=",$meal_ID,"&chosen_restaurant=",$receiver,"&price=",$price,"&r_address=",$restaurant_address,"'> Click here to add it to your cart </a></th>";                
                             echo('<td> ' .  $row["meal_ID"]. '</td>');
                             echo('<td> ' .  $row["m_name"]. '</td>');
                             echo('<td> ' .  $row["m_price"]. '</td>');
