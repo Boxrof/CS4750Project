@@ -15,10 +15,28 @@
         
         
         // Get the list of all restaurants to render in the front-end
-        $res = $pdo->prepare("DELETE FROM Orders WHERE order_number=:order");
-        $res->bindParam(":order",$_GET['order_number']);
-        $res->execute();
-        $res->closeCursor();
+        $check = $pdo->prepare("SELECT * FROM Included WHERE order_number=:order");
+        $check->bindParam(":order",$_GET['order_number']);
+        $check->execute();
+        echo $check->rowCount();
+        
+        if ($check->rowCount() == 1) {
+            //If our cart has only one item left, remove the order
+            $del = $pdo->prepare("DELETE FROM Orders WHERE order_number=:order");
+            $del->bindParam(":order",$_GET['order_number']);
+            $del->execute();
+            $del->closeCursor();
+        } else {
+            //Do not remove the order while there are still items in the cart
+            $res = $pdo->prepare("DELETE FROM Included WHERE meal_ID=:id");
+            $res->bindParam(":id",$_GET['meal_ID']);
+            $res->execute();
+            $res->closeCursor();
+        }
+        
+        $check->closeCursor();
+
+        
         
         echo("<script>location.href = 'cart.php';</script>");
         //echo "<th scope='row'><a class='btn btn-outline-secondary btn-sm' href = 'cart.php'> Click here to go back cart</a></th>"; 
