@@ -1,984 +1,1050 @@
-meal_ID, r_address, m_name, m_price
-1,4509 BELAIR ROAD Baltimore MD,Spaghetti or Mostaccioli with 2 Meat Balls,$11.37
-2,4509 BELAIR ROAD Baltimore MD,Blt,$8.77
-3,4509 BELAIR ROAD Baltimore MD,Ribeye Steak Sandwich,$2.29
-4,4509 BELAIR ROAD Baltimore MD,Hot Tea,$12.00
-5,4509 BELAIR ROAD Baltimore MD,P'Zone Pizza,$3.73
-6,4509 BELAIR ROAD Baltimore MD,Tijuana Taxi,$5.20
-7,4509 BELAIR ROAD Baltimore MD,Milk Shake,$1.10
-8,4509 BELAIR ROAD Baltimore MD,Taco Sauce,$11.12
-9,4509 BELAIR ROAD Baltimore MD,Buffalo Chicken,$9.46
-10,1919 FLEET ST Baltimore MD,Buster Bar,$10.83
-11,1919 FLEET ST Baltimore MD,1/2 Ham,$7.44
-12,1919 FLEET ST Baltimore MD,Sausage Biscuit,$7.33
-13,1919 FLEET ST Baltimore MD,Cajun Cornmeal Dusted Catfish,$5.16
-14,1919 FLEET ST Baltimore MD,Bistro French Onion Soup - 1 1/2 cups,$12.05
-15,1919 FLEET ST Baltimore MD,Strawberry Frutista Freeze,$10.60
-16,1919 FLEET ST Baltimore MD,Reduced-Fat Chive & Onion Cream Cheese,$6.52
-17,1919 FLEET ST Baltimore MD,Flavored Lemonades,$4.53
-18,1919 FLEET ST Baltimore MD,Garden Salad,$2.83
-19,2844 HUDSON ST Baltimore MD,Blackened Chicken Sandwich,$11.61
-20,2844 HUDSON ST Baltimore MD,Bacon Cheddar Grilled Chicken Sandwich,$5.29
-21,2844 HUDSON ST Baltimore MD,Tomato Basil Bisque and Salad Lunch Duo,$10.16
-22,2844 HUDSON ST Baltimore MD,Chicken Parmesan,$1.45
-23,2844 HUDSON ST Baltimore MD,Strawberry,$11.62
-24,2844 HUDSON ST Baltimore MD,Fish Po-Boy,$11.96
-25,2844 HUDSON ST Baltimore MD,Fettucini Alfredo,$7.15
-26,3998 ROLAND AVE Baltimore MD,1/3 Lb Bacon Cheese Thickburger,$11.75
-27,3998 ROLAND AVE Baltimore MD,Moo Shu Chicken,$4.60
-28,3998 ROLAND AVE Baltimore MD,Chicken Strips and Fries,$4.57
-29,3998 ROLAND AVE Baltimore MD,Oreo Cookie Ice Cream Shake,$5.12
-30,3998 ROLAND AVE Baltimore MD,Large,$4.42
-31,3998 ROLAND AVE Baltimore MD,Hash Rounds Small,$10.26
-32,3998 ROLAND AVE Baltimore MD,Made With Snickers Sundae,$4.37
-33,3998 ROLAND AVE Baltimore MD,Hunan Pork,$7.41
-34,3998 ROLAND AVE Baltimore MD,Build your Own Pasta,$12.38
-35,3998 ROLAND AVE Baltimore MD,Short Shake,$4.94
-36,3998 ROLAND AVE Baltimore MD,Fries,$6.61
-37,3998 ROLAND AVE Baltimore MD,Beef Chop Suey,$9.34
-38,3998 ROLAND AVE Baltimore MD,Egg & Cheese,$11.84
-39,2481 frederick ave Baltimore MD,Kids Grilled Cheese Sandwich,$12.18
-40,2481 frederick ave Baltimore MD,Starbucks Doubleshot Light Espresso,$4.09
-41,2481 frederick ave Baltimore MD,Hibachi Seabass Dinner,$8.15
-42,2481 frederick ave Baltimore MD,Sierra Mist,$4.47
-43,2481 frederick ave Baltimore MD,Spaghetti,$12.96
-44,2481 frederick ave Baltimore MD,Bread,$11.44
-45,2481 frederick ave Baltimore MD,B.L.T.,$7.86
-46,2481 frederick ave Baltimore MD,Tazo Shaken Iced Green Tea Lemonade,$5.26
-47,2481 frederick ave Baltimore MD,Sunrise Crossiant with Bacon,$2.12
-48,2481 frederick ave Baltimore MD,Whole Sliced Fish in Chili Broth,$5.72
-49,2481 frederick ave Baltimore MD,Roast Turkey & Swiss Wrap,$12.97
-50,2481 frederick ave Baltimore MD,Fudge Nut Browine,$12.93
-51,2481 frederick ave Baltimore MD,Duck End (1),$10.05
-52,2481 frederick ave Baltimore MD,Small Chili,$4.64
-53,2722 HARFORD RD Baltimore MD,Spinach and Broccoli,$1.32
-54,2722 HARFORD RD Baltimore MD,Strawberry & Blueberry Yogurt Parfait,$9.11
-55,2722 HARFORD RD Baltimore MD,Jr. Double Cheeseburger,$9.90
-56,2722 HARFORD RD Baltimore MD,Fuji Apple Salad with Chicken - half salad,$3.82
-57,2722 HARFORD RD Baltimore MD,Chili Nachos,$8.04
-58,2722 HARFORD RD Baltimore MD,Ice Cream Flavors - Chai Tea,$8.66
-59,2722 HARFORD RD Baltimore MD,Belgian Waffle,$1.44
-60,2722 HARFORD RD Baltimore MD,Gourmet Sandwiches Handmade Daily,$1.33
-61,2722 HARFORD RD Baltimore MD,Fresco Chicken Soft Taco,$6.92
-62,2722 HARFORD RD Baltimore MD,Sweet Tea,$11.16
-63,2722 HARFORD RD Baltimore MD,OREO® Bites,$2.24
-64,2510 MCELDERRY ST Baltimore MD,Veggie Delite,$5.18
-65,2510 MCELDERRY ST Baltimore MD,Tuscani Tuesday Deal,$12.64
-66,2510 MCELDERRY ST Baltimore MD,Oreo Cookie Pieces,$1.50
-67,2510 MCELDERRY ST Baltimore MD,California Roll,$12.39
-68,2510 MCELDERRY ST Baltimore MD,Turkey Sandwich - half sandwich,$5.56
-69,2510 MCELDERRY ST Baltimore MD,Prosciutto-Wrapped Dayboat Scallops,$3.36
-70,2701 MILES AVE Baltimore MD,Sierra Mist,$11.88
-71,2701 MILES AVE Baltimore MD,Caranel,$9.21
-72,2701 MILES AVE Baltimore MD,Cole Slaw,$11.92
-73,2701 MILES AVE Baltimore MD,Eel Roll,$3.83
-74,2701 MILES AVE Baltimore MD,Prime-Cut™ Chicken Tenders,$10.57
-75,2701 MILES AVE Baltimore MD,Imos Extra Special,$12.06
-76,2701 MILES AVE Baltimore MD,Ocean Water,$10.35
-77,2701 MILES AVE Baltimore MD,Loaded Italian,$11.49
-78,2518 MONUMENT ST Baltimore MD,Tuscan Salami & Roasted Veggie,$6.50
-79,2518 MONUMENT ST Baltimore MD,41622. Life Balance Blackened Ahi Tuna,$12.00
-80,2518 MONUMENT ST Baltimore MD,3 Tenders Meal,$7.47
-81,2518 MONUMENT ST Baltimore MD,Pan Fry Noodles,$10.05
-82,2518 MONUMENT ST Baltimore MD,50440. Dasani Bottled Water,$7.39
-83,2518 MONUMENT ST Baltimore MD,Honolulu Hawaiian Pizza,$3.54
-84,2518 MONUMENT ST Baltimore MD,Green Peas,$3.32
-85,2518 MONUMENT ST Baltimore MD,Chunky Chicken Pot Pie,$11.30
-86,2518 MONUMENT ST Baltimore MD,Baja Chicken,$1.30
-87,2518 MONUMENT ST Baltimore MD,Breakfast Burrito,$6.39
-88,2518 MONUMENT ST Baltimore MD,Roasted Chili-Corn (Medium),$2.47
-89,2518 MONUMENT ST Baltimore MD,Onion,$10.29
-90,2518 MONUMENT ST Baltimore MD,Italian Submarine,$11.92
-91,300 ANN ST Baltimore MD,41478. Cilantro Ranch Chicken Sandwich,$2.19
-92,300 ANN ST Baltimore MD,L5. Lunch Pad Pak Roum Mit,$1.51
-93,300 ANN ST Baltimore MD,Strawberry & Avocado Salad,$4.56
-94,300 ANN ST Baltimore MD,Cinnamon Crumb Coffee Cake - 2 oz,$7.56
-95,300 ANN ST Baltimore MD,Broccoli Chicken Dinner,$4.29
-96,300 ANN ST Baltimore MD,Sonoma Turkey,$1.15
-97,300 ANN ST Baltimore MD,Cheese,$1.49
-98,300 ANN ST Baltimore MD,Roast Beef Double,$12.70
-99,300 ANN ST Baltimore MD,Premium Beef Hot Dogs - Chili Cheese Coney,$12.07
-100,300 ANN ST Baltimore MD,Fiery Hawaiian Pizza,$4.55
-101,300 ANN ST Baltimore MD,Mist Twist,$7.21
-102,300 ANN ST Baltimore MD,Half Cup,$3.36
-103,1600 HAZEL ST Baltimore MD,Sweet Potato Casserole,$9.93
-104,1600 HAZEL ST Baltimore MD,Knife & Fork Chili Dog,$10.40
-105,1600 HAZEL ST Baltimore MD,Kung Pao Shrimp,$5.98
-106,1600 HAZEL ST Baltimore MD,Triple Thick Brown Sugar Bacon BLT,$5.17
-107,1600 HAZEL ST Baltimore MD,Certified Angus Burger,$3.41
-108,1600 HAZEL ST Baltimore MD,Napa Almond Chicken Salad Sandwich - whole sandwich,$2.98
-109,1600 HAZEL ST Baltimore MD,Iced Caffe Americano,$9.12
-110,5302 REISTERSTOWN RD Baltimore MD,Mushroom Swiss,$2.28
-111,5302 REISTERSTOWN RD Baltimore MD,Bacon,$10.04
-112,5302 REISTERSTOWN RD Baltimore MD,Skinny Flavored Latte,$7.00
-113,5302 REISTERSTOWN RD Baltimore MD,Premium Beef Hot Dogs - New York Dog,$5.03
-114,5302 REISTERSTOWN RD Baltimore MD,Mango Strawberry Frutista Freeze,$9.52
-115,5302 REISTERSTOWN RD Baltimore MD,SunChips Parmesan & Herb Snacks,$9.22
-116,5302 REISTERSTOWN RD Baltimore MD,Big Country Breakfast Platter with Bacon,$8.66
-117,5302 REISTERSTOWN RD Baltimore MD,Mediterranean Egg White on Ciabatta,$12.47
-118,743 MONTFORD ST Baltimore MD,San Pellegrino; Sparkling Water,$2.05
-119,743 MONTFORD ST Baltimore MD,Crab Rangoon,$4.64
-120,743 MONTFORD ST Baltimore MD,Mountain Dew,$11.16
-121,743 MONTFORD ST Baltimore MD,Eggplant with Garlic Sauce,$5.59
-122,743 MONTFORD ST Baltimore MD,Pacific Veggie Pizza,$11.63
-123,743 MONTFORD ST Baltimore MD,Chicken,$8.57
-124,743 MONTFORD ST Baltimore MD,Small Frosty,$2.58
-125,743 MONTFORD ST Baltimore MD,Chicken Teriyaki Bowl,$6.49
-126,743 MONTFORD ST Baltimore MD,Bootlegger Club,$12.70
-127,743 MONTFORD ST Baltimore MD,Beef with Broccoli,$10.63
-128,743 MONTFORD ST Baltimore MD,KEY LIME ‘SHINER™,$5.78
-129,743 MONTFORD ST Baltimore MD,Grilled Shrimp,$9.06
-130,5625 O DONNELL ST Baltimore MD,Dallas Po Boy,$3.52
-131,5625 O DONNELL ST Baltimore MD,Value Curly Fries,$4.69
-132,5625 O DONNELL ST Baltimore MD,Others,$2.49
-133,5625 O DONNELL ST Baltimore MD,House Made Steakloaf,$3.26
-134,5625 O DONNELL ST Baltimore MD,Super Sonic Bacon Double Cheeseburger,$7.55
-135,5625 O DONNELL ST Baltimore MD,Chocolate Stampede,$3.03
-136,5625 O DONNELL ST Baltimore MD,$10 Dinner Box,$1.62
-137,219 BALTIMORE ST Baltimore MD,Turkey Breast,$10.63
-138,219 BALTIMORE ST Baltimore MD,Roast Beef Gyro,$10.08
-139,219 BALTIMORE ST Baltimore MD,Lipton Teas,$7.47
-140,219 BALTIMORE ST Baltimore MD,Veggie Delite,$10.91
-141,219 BALTIMORE ST Baltimore MD,Cheese,$10.22
-142,219 BALTIMORE ST Baltimore MD,C2. Beef with Broccoli Special Combo Plate,$2.35
-143,219 BALTIMORE ST Baltimore MD,12839. El Paso,$3.32
-144,219 BALTIMORE ST Baltimore MD,$10 Dinner Box,$6.07
-145,219 BALTIMORE ST Baltimore MD,Little Cheeseburger,$6.07
-146,219 BALTIMORE ST Baltimore MD,Chicken Salad,$11.37
-147,58 BIDDLE STREET Baltimore MD,Margherita,$8.80
-148,58 BIDDLE STREET Baltimore MD,Mountain Dew Baja Blast,$2.36
-149,58 BIDDLE STREET Baltimore MD,Black and Bleu,$9.50
-150,58 BIDDLE STREET Baltimore MD,Jumbo,$7.18
-151,58 BIDDLE STREET Baltimore MD,Nambo Combo,$1.42
-152,2003 MONUMENT ST Baltimore MD,DQ Ultimate Burger,$6.53
-153,2003 MONUMENT ST Baltimore MD,Texas Toast,$9.39
-154,2003 MONUMENT ST Baltimore MD,Build your Own Pasta,$3.00
-155,2003 MONUMENT ST Baltimore MD,Sauce and Cheese,$8.93
-156,2003 MONUMENT ST Baltimore MD,Meatball Marinara,$7.04
-157,2003 MONUMENT ST Baltimore MD,Loaded Breakfast Burrito,$5.91
-158,2003 MONUMENT ST Baltimore MD,Tots,$9.65
-159,2003 MONUMENT ST Baltimore MD,Pumpkin Muffin,$2.10
-160,2003 MONUMENT ST Baltimore MD,Louisiana Fried Shrimp,$11.86
-161,2003 MONUMENT ST Baltimore MD,Black Forest Ham,$7.11
-162,2003 MONUMENT ST Baltimore MD,Grande Sausage Burrito Combo,$2.30
-163,2003 MONUMENT ST Baltimore MD,5-piece Chicken Nuggets,$5.34
-164,2003 MONUMENT ST Baltimore MD,ButterBurger The Original,$3.08
-165,4718 EASTERN AVE Baltimore MD,Tots or Fries,$7.67
-166,4718 EASTERN AVE Baltimore MD,Chicken Strips,$11.52
-167,4718 EASTERN AVE Baltimore MD,Almond Chicken,$8.29
-168,4718 EASTERN AVE Baltimore MD,Club Sandwich,$6.96
-169,4718 EASTERN AVE Baltimore MD,1. Select a size:,$1.97
-170,4718 EASTERN AVE Baltimore MD,Sm. Famous Slush,$12.06
-171,4718 EASTERN AVE Baltimore MD,Homestyle Ranch Chicken Club,$8.49
-172,4718 EASTERN AVE Baltimore MD,Green Goddess Cobb Salad with Chicken - half salad,$1.99
-173,4718 EASTERN AVE Baltimore MD,Fried Chicken Thigh,$5.04
-174,4718 EASTERN AVE Baltimore MD,Cappuccino,$3.38
-175,4718 EASTERN AVE Baltimore MD,Side Garden Salad,$10.65
-176,4718 EASTERN AVE Baltimore MD,Ginger Molasses Cookie,$9.78
-177,818 BROADWAY Baltimore MD,Sweet Tea,$6.43
-178,818 BROADWAY Baltimore MD,Everything Bagel,$5.68
-179,818 BROADWAY Baltimore MD,Vegetable Tempura,$12.08
-180,818 BROADWAY Baltimore MD,Thai Shrimp Salad (Contains Peanut Sauce),$11.42
-181,818 BROADWAY Baltimore MD,Hot Braised Chicken Wings,$9.83
-182,818 BROADWAY Baltimore MD,Grilled Chicken Salad,$4.47
-183,818 BROADWAY Baltimore MD,Subway Club,$8.42
-184,818 BROADWAY Baltimore MD,Starbucks Doubleshot Energy Cinnamon Dolce,$7.37
-185,2522 WASHINGTON BLVD Baltimore MD,BLACKENED TILAPIA,$10.64
-186,2522 WASHINGTON BLVD Baltimore MD,Fountain Drinks,$11.19
-187,2522 WASHINGTON BLVD Baltimore MD,Sweet and Sour Pork,$4.44
-188,2522 WASHINGTON BLVD Baltimore MD,Pasta Rustica,$8.30
-189,2522 WASHINGTON BLVD Baltimore MD,Breadsticks,$10.45
-190,2522 WASHINGTON BLVD Baltimore MD,T-Bone Steak,$5.35
-191,2522 WASHINGTON BLVD Baltimore MD,Cheese and Olive Plate,$12.19
-192,2522 WASHINGTON BLVD Baltimore MD,Nachos,$7.03
-193,2522 WASHINGTON BLVD Baltimore MD,Blackened Chicken Pasta,$1.88
-194,2522 WASHINGTON BLVD Baltimore MD,Special,$7.96
-195,6500 RIVERVIEW AVE Baltimore MD,Cold Cut Combo Sub Meal,$12.38
-196,6500 RIVERVIEW AVE Baltimore MD,Big Country Breakfast Platter with Country Steak,$7.01
-197,6500 RIVERVIEW AVE Baltimore MD,Caffe Latte,$3.59
-198,6500 RIVERVIEW AVE Baltimore MD,The Harvest Charcuterie Board,$7.05
-199,6500 RIVERVIEW AVE Baltimore MD,Joia; Grapefruit Soda,$9.92
-200,6500 RIVERVIEW AVE Baltimore MD,Roast Beef and Cheese,$5.07
-201,6500 RIVERVIEW AVE Baltimore MD,Fountain Drinks,$7.32
-202,6500 RIVERVIEW AVE Baltimore MD,Breakfast Jack,$11.00
-203,6500 RIVERVIEW AVE Baltimore MD,Deluxe,$8.01
-204,6500 RIVERVIEW AVE Baltimore MD,Snow Crab Legs,$4.09
-205,823 CHARLES ST Baltimore MD,French Fries Medium,$2.02
-206,823 CHARLES ST Baltimore MD,Cookies,$8.18
-207,823 CHARLES ST Baltimore MD,Peppermint Mocha Ice Cream,$8.43
-208,823 CHARLES ST Baltimore MD,Chonga Bagel,$7.78
-209,823 CHARLES ST Baltimore MD,Fountain Drinks,$10.31
-210,823 CHARLES ST Baltimore MD,Spinach & Artichoke Dip,$8.03
-211,2407 FREDERICK AVE Baltimore MD,Mashed Potatoes,$8.20
-212,2407 FREDERICK AVE Baltimore MD,Au Jus Sauce,$6.14
-213,2407 FREDERICK AVE Baltimore MD,Super Stacked Trio,$12.38
-214,2407 FREDERICK AVE Baltimore MD,Tuscani Creamy Chicken Alfredo,$7.13
-215,2407 FREDERICK AVE Baltimore MD,Espresso,$12.94
-216,2407 FREDERICK AVE Baltimore MD,Today's Soup with any Meal,$9.12
-217,2407 FREDERICK AVE Baltimore MD,Cheesy Cheddarburger,$1.09
-218,306 HIGH ST Baltimore MD,Shamrock Farms®Low-Fat Chocolate Milk - Limited Availability,$11.74
-219,306 HIGH ST Baltimore MD,3. Tako Su,$5.55
-220,306 HIGH ST Baltimore MD,Strawberry Shake,$5.07
-221,306 HIGH ST Baltimore MD,Tossed Salad,$6.10
-222,306 HIGH ST Baltimore MD,Pizza Bagels,$2.70
-223,306 HIGH ST Baltimore MD,Wednesday - Fish Tacos,$8.11
-224,306 HIGH ST Baltimore MD,55021. Chicken Calzone,$11.17
-225,306 HIGH ST Baltimore MD,Lox and Cream Cheese,$10.09
-226,306 HIGH ST Baltimore MD,Extra Dressing,$2.33
-227,306 HIGH ST Baltimore MD,Caramel Frappuccino Light,$3.57
-228,306 HIGH ST Baltimore MD,Potato Salad,$8.59
-229,306 HIGH ST Baltimore MD,Subway Melt,$4.89
-230,1939 FLEET ST Baltimore MD,Tuna Salad Sandwich - whole sandwich,$4.16
-231,1939 FLEET ST Baltimore MD,Vegetables With Hot Braised Sauce,$2.04
-232,1939 FLEET ST Baltimore MD,Onion Rings,$6.14
-233,1939 FLEET ST Baltimore MD,Macaroni and Cheese,$2.62
-234,1939 FLEET ST Baltimore MD,Steamed Vegetables,$8.60
-235,1939 FLEET ST Baltimore MD,Naked Wings,$7.39
-236,1939 FLEET ST Baltimore MD,Natural-Cut French Fries,$2.32
-237,1939 FLEET ST Baltimore MD,Spicy Sicilian Pizza,$3.11
-238,1939 FLEET ST Baltimore MD,Ham & Swiss Sandwich - half sandwich,$8.77
-239,1939 FLEET ST Baltimore MD,Chicken Vesuvio with Mushroom,$12.59
-240,1939 FLEET ST Baltimore MD,Fritos Chili Pie,$8.70
-241,1939 FLEET ST Baltimore MD,Cold Cut Combo,$8.86
-242,1939 FLEET ST Baltimore MD,Lassi,$7.73
-243,1939 FLEET ST Baltimore MD,Poppers,$11.98
-244,1939 FLEET ST Baltimore MD,Guinness Wings,$7.40
-245,710 BROADWAY Baltimore MD,Black Forest Ham,$5.84
-246,710 BROADWAY Baltimore MD,Crispy Curls Medium,$3.51
-247,710 BROADWAY Baltimore MD,Skinny Mocha,$12.66
-248,710 BROADWAY Baltimore MD,Double Meat,$6.23
-249,710 BROADWAY Baltimore MD,Steak and Wedge Salad,$4.87
-250,2401 LIBERTY HEIGHTS AVE Baltimore MD,The Club,$9.85
-251,2401 LIBERTY HEIGHTS AVE Baltimore MD,Hokkien Street Noodles,$1.45
-252,2401 LIBERTY HEIGHTS AVE Baltimore MD,Egg,$8.36
-253,2401 LIBERTY HEIGHTS AVE Baltimore MD,Macaroni and Cheese Pizza,$10.67
-254,2401 LIBERTY HEIGHTS AVE Baltimore MD,Fried Chicken Wings 3 Whole,$2.93
-255,2401 LIBERTY HEIGHTS AVE Baltimore MD,Fried Wonton (5),$9.67
-256,2401 LIBERTY HEIGHTS AVE Baltimore MD,Build Your Own Burger,$9.84
-257,2401 LIBERTY HEIGHTS AVE Baltimore MD,Pecan Waffle,$4.16
-258,2401 LIBERTY HEIGHTS AVE Baltimore MD,Malts,$8.50
-259,2401 LIBERTY HEIGHTS AVE Baltimore MD,Turkey Breast,$10.06
-260,2401 LIBERTY HEIGHTS AVE Baltimore MD,Misty Flavors - Blue Raspberry,$11.35
-261,2401 LIBERTY HEIGHTS AVE Baltimore MD,Curley (Q) French Fries,$1.99
-262,2401 LIBERTY HEIGHTS AVE Baltimore MD,Fennel Dusted and Seared Scallops,$5.45
-263,2401 LIBERTY HEIGHTS AVE Baltimore MD,Buffalo Medium,$2.43
-264,2401 LIBERTY HEIGHTS AVE Baltimore MD,Kocoa Kakes,$10.79
-265,2105 FREDERICK AVE Baltimore MD,Onion Rings,$9.69
-266,2105 FREDERICK AVE Baltimore MD,Quesadilla Rellenas,$11.76
-267,2105 FREDERICK AVE Baltimore MD,Pepperoni Lover's Pizza,$3.89
-268,2105 FREDERICK AVE Baltimore MD,Chicken Tenders,$7.22
-269,2105 FREDERICK AVE Baltimore MD,Chicken Tender Platter,$9.54
-270,2105 FREDERICK AVE Baltimore MD,Lemon Parmesan Shrimp,$11.59
-271,2105 FREDERICK AVE Baltimore MD,Chocolate,$3.76
-272,2105 FREDERICK AVE Baltimore MD,Cream of Broccoli Soup,$2.19
-273,2105 FREDERICK AVE Baltimore MD,Grilled Chicken Salad,$2.91
-274,2105 FREDERICK AVE Baltimore MD,Bacon Cheddar Ham,$8.77
-275,206 REDWOOD ST Baltimore MD,Salted Caramel Hot Chocolate,$3.68
-276,206 REDWOOD ST Baltimore MD,Dew Berry Burst Signature Soda,$8.58
-277,206 REDWOOD ST Baltimore MD,Smashed Chicken Meatball Piadina Half Sandwich with Salad,$8.23
-278,206 REDWOOD ST Baltimore MD,Chicken Alfredo,$12.84
-279,206 REDWOOD ST Baltimore MD,Pacific Veggie Pizza,$6.92
-280,206 REDWOOD ST Baltimore MD,Sonic Wave Bottled Water,$2.93
-281,206 REDWOOD ST Baltimore MD,Cheese Sticks,$1.95
-282,206 REDWOOD ST Baltimore MD,17537. Doro Tibs,$5.76
-283,206 REDWOOD ST Baltimore MD,Sprite,$8.45
-284,206 REDWOOD ST Baltimore MD,Rye - Loaf,$3.18
-285,2809 BOSTON ST Baltimore MD,Chocolate Chip Muffie,$2.46
-286,2809 BOSTON ST Baltimore MD,Sweet Potato Tots,$1.39
-287,2809 BOSTON ST Baltimore MD,Java Chillers,$2.25
-288,2809 BOSTON ST Baltimore MD,Chicken Teriyaki,$3.94
-289,2809 BOSTON ST Baltimore MD,Naked Wings,$8.78
-290,1038 LIGHT ST Baltimore MD,Iced Tea,$1.13
-291,1038 LIGHT ST Baltimore MD,Side Shredded Hash Browns,$9.92
-292,1038 LIGHT ST Baltimore MD,Wonton Soup,$1.55
-293,1038 LIGHT ST Baltimore MD,Kid's Slider,$3.88
-294,1038 LIGHT ST Baltimore MD,Bacon Cheeseburger Pizza,$5.33
-295,1038 LIGHT ST Baltimore MD,Turkey Breast,$7.84
-296,1038 LIGHT ST Baltimore MD,Steak & Cheese,$3.23
-297,3820 PRATT ST Baltimore MD,Hibachi Vegetable Fried Rice,$9.53
-298,3820 PRATT ST Baltimore MD,Petite Green Beans,$11.33
-299,3820 PRATT ST Baltimore MD,42760. Filet and Shrimp Hibachi Plate,$11.41
-300,3820 PRATT ST Baltimore MD,Buffalo chicken,$4.90
-301,3820 PRATT ST Baltimore MD,Apple Slices,$7.76
-302,3820 PRATT ST Baltimore MD,Rotisserie Turkey Breast Sandwich,$12.28
-303,401 BALTIMORE ST Baltimore MD,Strawberry Cheesecake Dessert Shooter,$1.43
-304,401 BALTIMORE ST Baltimore MD,Birthday Cake Pop,$10.91
-305,401 BALTIMORE ST Baltimore MD,Chicken Carbonara,$9.18
-306,401 BALTIMORE ST Baltimore MD,Sweet Potato Tots,$2.90
-307,401 BALTIMORE ST Baltimore MD,Moo Shu Chicken,$10.08
-308,401 BALTIMORE ST Baltimore MD,Mediterranean Veggie Sandwich - half sandwich,$8.50
-309,401 BALTIMORE ST Baltimore MD,Chicken Tenders,$10.74
-310,5860 BELAIR RD Baltimore MD,Iced Cappy Blast Mocha,$1.87
-311,5860 BELAIR RD Baltimore MD,Seafood Chowder,$1.66
-312,5860 BELAIR RD Baltimore MD,Raspberry Truffle Cake Pop,$10.60
-313,5860 BELAIR RD Baltimore MD,Chicken Flatbread Sandwich Big Box Meal,$7.53
-314,5860 BELAIR RD Baltimore MD,Choose a Crust,$1.56
-315,5860 BELAIR RD Baltimore MD,Breakfast B.M.T. Melt,$7.81
-316,5860 BELAIR RD Baltimore MD,Taco Salad,$2.36
-317,5860 BELAIR RD Baltimore MD,Original Fajita Nachos - Steak,$10.71
-318,5860 BELAIR RD Baltimore MD,Fountain Drinks,$9.58
-319,1747 BELT ST Baltimore MD,Turkey Breast,$9.99
-320,1747 BELT ST Baltimore MD,Sausage Links,$1.52
-321,1747 BELT ST Baltimore MD,Double Cheese Prime Rib,$4.84
-322,1747 BELT ST Baltimore MD,Vanilla Cone,$8.24
-323,1747 BELT ST Baltimore MD,Turkey Melt,$10.36
-324,1190 NORTHERN PKWY Baltimore MD,Coffee,$3.86
-325,1190 NORTHERN PKWY Baltimore MD,Chef Salad,$10.13
-326,1190 NORTHERN PKWY Baltimore MD,Veggie Delite,$11.08
-327,1190 NORTHERN PKWY Baltimore MD,41966. Maki Combo,$12.61
-328,1190 NORTHERN PKWY Baltimore MD,Chicken Tenders (Large),$4.47
-329,1190 NORTHERN PKWY Baltimore MD,Steamed Broccoli,$9.22
-330,1190 NORTHERN PKWY Baltimore MD,Shrimp W. Lobster Sauce,$10.02
-331,1190 NORTHERN PKWY Baltimore MD,Classic Cheeseburger,$1.25
-332,1190 NORTHERN PKWY Baltimore MD,Garden Salad,$10.20
-333,1190 NORTHERN PKWY Baltimore MD,Bacon Cheese Burger,$4.33
-334,1190 NORTHERN PKWY Baltimore MD,Nachos Mexicanos with Steak,$9.45
-335,1190 NORTHERN PKWY Baltimore MD,Hardee's Vanilla Malt,$12.01
-336,5523 BELAIR RD Baltimore MD,1lb Family Special,$11.09
-337,5523 BELAIR RD Baltimore MD,Italian Hamburger,$11.37
-338,5523 BELAIR RD Baltimore MD,Country Scrambler Plate - Bacon,$8.18
-339,5523 BELAIR RD Baltimore MD,Turkey Breast & Black Forest Ham,$1.55
-340,5523 BELAIR RD Baltimore MD,Roast Turkey & Swiss Wrap,$6.36
-341,5523 BELAIR RD Baltimore MD,Tuscani Meaty Marinara,$8.10
-342,5523 BELAIR RD Baltimore MD,Hushpuppies,$6.12
-343,5523 BELAIR RD Baltimore MD,2-Piece Chicken Tenders,$9.57
-344,5523 BELAIR RD Baltimore MD,Peppercorn Prime Rib,$1.50
-345,5523 BELAIR RD Baltimore MD,Kids Garden Salad,$1.47
-346,5523 BELAIR RD Baltimore MD,Hamburger,$5.66
-347,5523 BELAIR RD Baltimore MD,Coffee,$6.36
-348,5523 BELAIR RD Baltimore MD,1 Lunch,$5.33
-349,5523 BELAIR RD Baltimore MD,Lou Burger,$1.61
-350,1801 NORTH AVE Baltimore MD,Chicken 'n Cheese Slider,$7.72
-351,1801 NORTH AVE Baltimore MD,Empress Chicken,$7.74
-352,1801 NORTH AVE Baltimore MD,5-piece Spicy Chicken Nuggets,$7.88
-353,1801 NORTH AVE Baltimore MD,Combo,$1.04
-354,1801 NORTH AVE Baltimore MD,Chicken,$2.37
-355,734 BROADWAY Baltimore MD,Pasta Con Pesce,$6.43
-356,734 BROADWAY Baltimore MD,Sour Cream And Chive Potato,$10.54
-357,734 BROADWAY Baltimore MD,Chicken Habanero,$12.77
-358,734 BROADWAY Baltimore MD,American Fries,$3.24
-359,734 BROADWAY Baltimore MD,Meats,$9.68
-360,734 BROADWAY Baltimore MD,Caramel,$7.17
-361,734 BROADWAY Baltimore MD,Four Cheese Lasagna,$2.07
-362,734 BROADWAY Baltimore MD,Sweet and Sour Shrimp,$8.54
-363,734 BROADWAY Baltimore MD,Mini Tacos,$10.35
-364,734 BROADWAY Baltimore MD,Bottomless Beverages,$11.19
-365,734 BROADWAY Baltimore MD,Asiago Cheese Focaccia,$2.60
-366,734 BROADWAY Baltimore MD,Sonoma,$9.04
-367,734 BROADWAY Baltimore MD,Chicken Strips,$2.97
-368,3105 ST PAUL ST Baltimore MD,Cheesesticks,$3.07
-369,3105 ST PAUL ST Baltimore MD,Harvest Chicken,$8.51
-370,3105 ST PAUL ST Baltimore MD,Sweet Dumpling Ball,$3.77
-371,3105 ST PAUL ST Baltimore MD,Juice,$10.23
-372,3105 ST PAUL ST Baltimore MD,Cappuccino,$4.45
-373,3105 ST PAUL ST Baltimore MD,Espresso Macchiato,$9.11
-374,3105 ST PAUL ST Baltimore MD,Double Decker Taco Supreme,$8.62
-375,3105 ST PAUL ST Baltimore MD,Chopped Side Salad,$2.09
-376,3105 ST PAUL ST Baltimore MD,Volcano Nachos,$12.62
-377,3105 ST PAUL ST Baltimore MD,Coffee,$7.90
-378,3105 ST PAUL ST Baltimore MD,Fried Squid,$4.94
-379,3105 ST PAUL ST Baltimore MD,Peach Flavored Iced Tea (24 Oz.),$1.69
-380,3105 ST PAUL ST Baltimore MD,Caesar Salad - whole salad,$4.48
-381,300 BALTIMORE ST Baltimore MD,Spaghetti or Mostaccioli with Meat Sauce,$10.52
-382,300 BALTIMORE ST Baltimore MD,French Fries,$5.94
-383,300 BALTIMORE ST Baltimore MD,Chicken Salad,$9.99
-384,300 BALTIMORE ST Baltimore MD,Cinnapie,$5.22
-385,300 BALTIMORE ST Baltimore MD,Double Chocolate Brownie,$6.08
-386,5713 HARFORD RD Baltimore MD,Cheese Lovers Plus,$2.75
-387,5713 HARFORD RD Baltimore MD,Beef Stew,$1.10
-388,5713 HARFORD RD Baltimore MD,Subway Melt,$7.58
-389,5713 HARFORD RD Baltimore MD,Diet Pepsi,$12.65
-390,5713 HARFORD RD Baltimore MD,Baja Chicken,$3.14
-391,5713 HARFORD RD Baltimore MD,Vegetarian Creamy Tomato Soup - 1 cup,$12.04
-392,5713 HARFORD RD Baltimore MD,Combo,$10.91
-393,5713 HARFORD RD Baltimore MD,Footlong Quarter Pound Coney,$9.30
-394,5713 HARFORD RD Baltimore MD,Savory Soups (Small),$2.04
-395,5713 HARFORD RD Baltimore MD,Cinnamon Spiced Apple Cider,$7.49
-396,5713 HARFORD RD Baltimore MD,Ham & Turkey Bella,$12.53
-397,5713 HARFORD RD Baltimore MD,Chili,$5.15
-398,301 LIGHT ST Baltimore MD,Spinach Pork Tamal,$3.75
-399,301 LIGHT ST Baltimore MD,SunChips Parmesan & Herb Snacks,$6.30
-400,301 LIGHT ST Baltimore MD,Red Snapper,$3.71
-401,301 LIGHT ST Baltimore MD,Apple Slices,$10.74
-402,301 LIGHT ST Baltimore MD,Kids Turkey Sandwich,$10.81
-403,301 LIGHT ST Baltimore MD,BBQ Sauce Dipping Sauce,$1.95
-404,301 LIGHT ST Baltimore MD,Turkey Breast,$7.65
-405,301 LIGHT ST Baltimore MD,Bacon Avocado Turkey Burger,$3.04
-406,301 LIGHT ST Baltimore MD,Black Forest Ham,$5.98
-407,301 LIGHT ST Baltimore MD,Double Chocolate Brownie,$7.11
-408,300 OLDHAM ST Baltimore MD,Mocha,$10.66
-409,300 OLDHAM ST Baltimore MD,Diet Pepsi,$6.83
-410,300 OLDHAM ST Baltimore MD,Orange Mango Smoothie,$4.67
-411,300 OLDHAM ST Baltimore MD,Turkey Club,$11.65
-412,300 OLDHAM ST Baltimore MD,Fresh Brewed Iced Tea,$5.17
-413,300 OLDHAM ST Baltimore MD,45769. Dark Chocolate Mint Smoothie,$12.13
-414,300 OLDHAM ST Baltimore MD,Turkey & Cheese,$1.05
-415,300 OLDHAM ST Baltimore MD,Steak Diane,$6.41
-416,300 OLDHAM ST Baltimore MD,Tuscani Meaty Marinara,$11.12
-417,300 OLDHAM ST Baltimore MD,Jr. Breakfast Burrito,$9.25
-418,300 OLDHAM ST Baltimore MD,Tulip Cookie,$1.20
-419,300 OLDHAM ST Baltimore MD,Soft Drinks (Pepsi),$5.06
-420,1000 LOMBARD ST Baltimore MD,Skinny Caffe Mocha,$9.42
-421,1000 LOMBARD ST Baltimore MD,Gold Medal Ribbon Ice Cream Quart,$3.87
-422,1000 LOMBARD ST Baltimore MD,Caesar Salad - whole salad,$4.86
-423,1000 LOMBARD ST Baltimore MD,BBQ Chicken Pizza,$4.62
-424,1000 LOMBARD ST Baltimore MD,Spring Asparagus,$10.73
-425,1000 LOMBARD ST Baltimore MD,Mango Strawberry Frutista Freeze,$6.38
-426,1000 LOMBARD ST Baltimore MD,$10 Dinner Box,$2.57
-427,1000 LOMBARD ST Baltimore MD,Cheeseburger,$11.53
-428,1000 LOMBARD ST Baltimore MD,Traditional Thin Crust,$4.64
-429,1000 LOMBARD ST Baltimore MD,Breadsticks,$3.99
-430,1000 LOMBARD ST Baltimore MD,Tazo Shaken Iced Passion Tea,$5.92
-431,6701 HOLABIRD AVE Baltimore MD,Imos Extra Special,$9.30
-432,6701 HOLABIRD AVE Baltimore MD,2/3 Lb Double Bacon Cheese Thickburger,$6.63
-433,6701 HOLABIRD AVE Baltimore MD,Caesar Salad - whole salad,$7.45
-434,6701 HOLABIRD AVE Baltimore MD,Powerade Flavors Vary,$3.42
-435,6701 HOLABIRD AVE Baltimore MD,Monster Energy®,$4.12
-436,6701 HOLABIRD AVE Baltimore MD,Breakfast,$4.53
-437,6701 HOLABIRD AVE Baltimore MD,Sourdough Burger,$9.59
-438,6701 HOLABIRD AVE Baltimore MD,Grilled Chicken Caesar Salad,$8.99
-439,6701 HOLABIRD AVE Baltimore MD,Chicken Livers,$10.74
-440,6701 HOLABIRD AVE Baltimore MD,Sprite,$9.63
-441,6701 HOLABIRD AVE Baltimore MD,Seasoned Potato Wedges,$9.29
-442,6701 HOLABIRD AVE Baltimore MD,Beef with Broccoli Party Tray,$10.74
-443,6701 HOLABIRD AVE Baltimore MD,Cheeseburger,$6.33
-444,6701 HOLABIRD AVE Baltimore MD,Country Biscuit,$5.32
-445,6701 HOLABIRD AVE Baltimore MD,Gravy,$2.16
-446,1741 LIGHT ST Baltimore MD,Roast Beef Gyro,$1.05
-447,1741 LIGHT ST Baltimore MD,Pepsi®,$2.92
-448,1741 LIGHT ST Baltimore MD,Northern Beans,$5.14
-449,1741 LIGHT ST Baltimore MD,Chicken & Bacon Ranch Melt,$10.87
-450,1741 LIGHT ST Baltimore MD,Tazo China Green Tips Brewed Tea,$11.97
-451,205 MADISON ST Baltimore MD,Greek Salad with Chicken - half salad,$4.41
-452,205 MADISON ST Baltimore MD,Vanilla Cone,$9.45
-453,205 MADISON ST Baltimore MD,Chicken Quesadilla,$5.51
-454,205 MADISON ST Baltimore MD,Sprite,$10.85
-455,205 MADISON ST Baltimore MD,Egg & Cheese,$1.99
-456,641 MONTFORD AVE Baltimore MD,Cashew Chicken Dinner Combo,$2.80
-457,641 MONTFORD AVE Baltimore MD,Wanton Soup,$3.96
-458,641 MONTFORD AVE Baltimore MD,Black Forest Ham,$5.81
-459,641 MONTFORD AVE Baltimore MD,Italian Sausage and Peppers,$2.83
-460,641 MONTFORD AVE Baltimore MD,Aquafina,$8.37
-461,641 MONTFORD AVE Baltimore MD,Ploughmans Platter,$11.12
-462,641 MONTFORD AVE Baltimore MD,Cozumel Sopapilla,$3.84
-463,641 MONTFORD AVE Baltimore MD,Hamburger,$12.93
-464,641 MONTFORD AVE Baltimore MD,Baja Salad,$12.69
-465,641 MONTFORD AVE Baltimore MD,Cheese,$6.80
-466,1712 ALICEANNA ST Baltimore MD,Chicken Parmesan Panini,$3.26
-467,1712 ALICEANNA ST Baltimore MD,Signature Salads,$5.83
-468,1712 ALICEANNA ST Baltimore MD,Veggie Sandwich,$2.49
-469,1712 ALICEANNA ST Baltimore MD,Ginger Molasses Cookie,$3.33
-470,1712 ALICEANNA ST Baltimore MD,Lasagna,$8.05
-471,1712 ALICEANNA ST Baltimore MD,Macaroni & Cheese,$3.18
-472,1712 ALICEANNA ST Baltimore MD,Peppermint Brownie,$1.22
-473,1712 ALICEANNA ST Baltimore MD,John's Favorite,$5.75
-474,1712 ALICEANNA ST Baltimore MD,Gordita Supreme,$12.01
-475,1712 ALICEANNA ST Baltimore MD,Mongolian Pork,$1.66
-476,1712 ALICEANNA ST Baltimore MD,SIMI,$8.37
-477,1712 ALICEANNA ST Baltimore MD,Hibachi Steak & Scallop,$1.71
-478,1712 ALICEANNA ST Baltimore MD,Shrimp Chop Suey with Rice,$12.71
-479,1712 ALICEANNA ST Baltimore MD,New XXL Grilled Stuft Burrito Beef,$6.27
-480,4700 MT HOPE DR Baltimore MD,Shrimp Chow Mein,$10.59
-481,4700 MT HOPE DR Baltimore MD,XXL Grilled Stuft Burrito Chicken,$4.76
-482,4700 MT HOPE DR Baltimore MD,Premium Beef Hot Dogs - Chili Cheese Coney,$4.66
-483,4700 MT HOPE DR Baltimore MD,Fountain Drinks,$4.71
-484,4700 MT HOPE DR Baltimore MD,Skim Milk,$5.61
-485,4700 MT HOPE DR Baltimore MD,Reuben,$9.99
-486,4700 MT HOPE DR Baltimore MD,Roast Turkey & Swiss Sandwich,$6.78
-487,4700 MT HOPE DR Baltimore MD,Mucha Hambre,$3.68
-488,4700 MT HOPE DR Baltimore MD,The Big Philly Cheesesteak,$12.99
-489,4700 MT HOPE DR Baltimore MD,Toasted Ravioli with Meat Sauce,$11.07
-490,4700 MT HOPE DR Baltimore MD,Soda,$12.17
-491,3725 MALDEN AVE Baltimore MD,Crab (Kani),$10.26
-492,3725 MALDEN AVE Baltimore MD,Misty Flavors - Lemon-Lime,$8.69
-493,3725 MALDEN AVE Baltimore MD,Chicken Breast Salad,$8.26
-494,3725 MALDEN AVE Baltimore MD,Combination,$1.76
-495,3725 MALDEN AVE Baltimore MD,Pasta,$10.32
-496,3725 MALDEN AVE Baltimore MD,Starbucks Bottled Dark Chocolate Mocha Frappuccino Coffee,$6.23
-497,3725 MALDEN AVE Baltimore MD,Hot Spicy Pork Lunch,$11.56
-498,3725 MALDEN AVE Baltimore MD,The Frisco Burger,$12.26
-499,3725 MALDEN AVE Baltimore MD,Barg's Root Beer,$10.58
-500,3725 MALDEN AVE Baltimore MD,Classic White,$12.34
-501,3725 MALDEN AVE Baltimore MD,House,$5.00
-502,3725 MALDEN AVE Baltimore MD,Chopped Side Salad,$10.98
-503,3725 MALDEN AVE Baltimore MD,Hawaiian,$2.20
-504,3915 HANOVER ST Baltimore MD,Ace Pear,$8.85
-505,3915 HANOVER ST Baltimore MD,Chicken Strips,$12.02
-506,3915 HANOVER ST Baltimore MD,House Caesar Salad,$8.85
-507,3915 HANOVER ST Baltimore MD,Chicken Quesadilla,$10.65
-508,3915 HANOVER ST Baltimore MD,Savory Cedar Salmon,$3.30
-509,3915 HANOVER ST Baltimore MD,Beef Add,$4.65
-510,3915 HANOVER ST Baltimore MD,Traditional,$4.70
-511,3915 HANOVER ST Baltimore MD,Fratelli's Special,$2.15
-512,3915 HANOVER ST Baltimore MD,Tuna Salad,$11.94
-513,3915 HANOVER ST Baltimore MD,Breaded Cheese Sticks,$1.88
-514,3915 HANOVER ST Baltimore MD,Subway Club,$6.80
-515,3915 HANOVER ST Baltimore MD,Cheese Lovers Plus,$1.55
-516,3915 HANOVER ST Baltimore MD,Chicken Parmesan Pizza,$6.05
-517,3915 HANOVER ST Baltimore MD,The Breakfast Burger,$11.42
-518,704 BROADWAY Baltimore MD,Crab Stix (4),$6.20
-519,704 BROADWAY Baltimore MD,Creamed Chipped Beef,$7.18
-520,704 BROADWAY Baltimore MD,Jack Daniel's Ribs & Shrimp,$5.91
-521,704 BROADWAY Baltimore MD,Sonic Burger,$7.68
-522,704 BROADWAY Baltimore MD,Cinnamon Chip Scone,$7.80
-523,704 BROADWAY Baltimore MD,Vegetarian Chili,$4.47
-524,704 BROADWAY Baltimore MD,SA4. Squid Salad,$5.17
-525,2501 FLEET ST Baltimore MD,Cheeseburger Deluxe,$6.61
-526,2501 FLEET ST Baltimore MD,Chile Crusted Potato Fries,$11.54
-527,2501 FLEET ST Baltimore MD,Chicken Cordon Blue,$8.39
-528,2501 FLEET ST Baltimore MD,Roast Beef,$2.33
-529,2501 FLEET ST Baltimore MD,Green Bean Crispers,$4.57
-530,2501 FLEET ST Baltimore MD,Slushes,$5.64
-531,2501 FLEET ST Baltimore MD,Banana Split,$11.79
-532,2501 FLEET ST Baltimore MD,Peanut Butter,$6.21
-533,2501 FLEET ST Baltimore MD,Egg Salad Sandwich,$10.71
-534,2501 FLEET ST Baltimore MD,Teriyaki Salmon Lunch,$2.02
-535,2501 FLEET ST Baltimore MD,Sauteed Veggie Wrap,$9.40
-536,2501 FLEET ST Baltimore MD,Low Carb Burger,$11.39
-537,2501 FLEET ST Baltimore MD,Smoked Sausage Platter,$12.67
-538,2501 FLEET ST Baltimore MD,Chocolate,$3.45
-539,2501 FLEET ST Baltimore MD,House Salad,$9.31
-540,5621 BELAIR RD Baltimore MD,Lemonade,$11.78
-541,5621 BELAIR RD Baltimore MD,Chicken Lo Mein,$10.08
-542,5621 BELAIR RD Baltimore MD,36. Lo Mein,$2.09
-543,5621 BELAIR RD Baltimore MD,Lunch - Turkey Overlake,$10.43
-544,5621 BELAIR RD Baltimore MD,Truemoo Lowfat White Milk,$5.13
-545,1120 FORT AVE Baltimore MD,No Suger Added Dilly Bar,$7.01
-546,1120 FORT AVE Baltimore MD,Blueberry Oat Bar,$2.31
-547,1120 FORT AVE Baltimore MD,Corn Soup,$3.76
-548,1120 FORT AVE Baltimore MD,Signature Limeades,$9.59
-549,1120 FORT AVE Baltimore MD,Supreme Pizza,$7.40
-550,1120 FORT AVE Baltimore MD,45795. Breakfast of Champions Burger,$12.11
-551,1120 FORT AVE Baltimore MD,Mustard,$7.33
-552,1120 FORT AVE Baltimore MD,40269. Homestyle Chicken Tenderloins,$4.01
-553,1120 FORT AVE Baltimore MD,Veggie Roll,$5.07
-554,1120 FORT AVE Baltimore MD,Bourbon BBQ Steak Grilled Sandwich,$12.18
-555,1120 FORT AVE Baltimore MD,Diet Dr. Pepper,$7.69
-556,1120 FORT AVE Baltimore MD,Steel Cut Oatmeal with Blueberries and Granola,$3.77
-557,1120 FORT AVE Baltimore MD,XXL Chalupa - Beef,$7.32
-558,1120 FORT AVE Baltimore MD,Beef Pepper Steak,$7.58
-559,1120 FORT AVE Baltimore MD,Shrimp with Vegetables,$7.92
-560,415 COLD SPRING LN Baltimore MD,Stuffed Pizza Rollers,$12.27
-561,415 COLD SPRING LN Baltimore MD,Mediterranean Veggie Sandwich - whole sandwich,$9.11
-562,415 COLD SPRING LN Baltimore MD,Misty Flavors - Kiwi-Strawberry,$6.98
-563,415 COLD SPRING LN Baltimore MD,Pepperoni,$5.11
-564,415 COLD SPRING LN Baltimore MD,Bacon Cheese Potato,$1.13
-565,415 COLD SPRING LN Baltimore MD,Red Sea Monster,$3.90
-566,415 COLD SPRING LN Baltimore MD,Loaded Fries,$6.51
-567,415 COLD SPRING LN Baltimore MD,Create Your Own,$1.46
-568,415 COLD SPRING LN Baltimore MD,Dips & Spreads by The Pin,$5.73
-569,415 COLD SPRING LN Baltimore MD,Shredded Pork with Vegetables and Vermicelli Noodles,$3.65
-570,415 COLD SPRING LN Baltimore MD,Garlic Butter and Poppyseed Spaghettini,$12.13
-571,415 COLD SPRING LN Baltimore MD,Coke Zero,$6.43
-572,3811 CANTERBURY RD Baltimore MD,Pecan Mudslide,$8.48
-573,3811 CANTERBURY RD Baltimore MD,Washington St. Sirloin,$12.22
-574,3811 CANTERBURY RD Baltimore MD,Steak & Egg Burrito,$3.43
-575,3811 CANTERBURY RD Baltimore MD,Tuscani Meaty Marinara,$11.87
-576,3811 CANTERBURY RD Baltimore MD,Tenderloin Quesadilla,$2.95
-577,3811 CANTERBURY RD Baltimore MD,Mashed Potatoes,$3.02
-578,3811 CANTERBURY RD Baltimore MD,Baconator Single,$5.67
-579,3811 CANTERBURY RD Baltimore MD,Dr Pepper®,$8.40
-580,3811 CANTERBURY RD Baltimore MD,Sm. Tots or Fries,$7.32
-581,3811 CANTERBURY RD Baltimore MD,Cowboy Burger,$1.45
-582,1810 CHERRY HILL RD Baltimore MD,Cheesesticks,$7.89
-583,1810 CHERRY HILL RD Baltimore MD,Garlic Cheese Focaccia with Checca,$6.38
-584,1810 CHERRY HILL RD Baltimore MD,Today's Soup with any Meal,$10.65
-585,1810 CHERRY HILL RD Baltimore MD,Pollo Mariachi,$1.24
-586,1810 CHERRY HILL RD Baltimore MD,Calzone Ring,$10.92
-587,1810 CHERRY HILL RD Baltimore MD,Steak & Egg on Everything Bagel,$7.26
-588,1810 CHERRY HILL RD Baltimore MD,Charboiled BBQ Chicken Sandwich,$1.97
-589,1810 CHERRY HILL RD Baltimore MD,Iced Teas & Soft Drinks,$4.21
-590,1810 CHERRY HILL RD Baltimore MD,Sunrise Crossiant,$11.32
-591,1810 CHERRY HILL RD Baltimore MD,Chicken Flatbread Sandwich Big Box Meal,$1.31
-592,1810 CHERRY HILL RD Baltimore MD,The Cozumel,$2.82
-593,1810 CHERRY HILL RD Baltimore MD,California Bleu,$10.63
-594,1810 CHERRY HILL RD Baltimore MD,Black Forest Ham,$7.43
-595,1810 CHERRY HILL RD Baltimore MD,Chicken Lo Mein,$10.67
-596,1810 CHERRY HILL RD Baltimore MD,Chile Relleno,$1.63
-597,901 PRATT ST Baltimore MD,Sourdough Steak Melt,$4.78
-598,901 PRATT ST Baltimore MD,Buffalo Mild,$10.24
-599,901 PRATT ST Baltimore MD,Grilled Cheese w/Bacon,$12.72
-600,901 PRATT ST Baltimore MD,Pepsi,$4.88
-601,901 PRATT ST Baltimore MD,Au Jus Sauce,$5.22
-602,1502 MADISON AVE Baltimore MD,Escargot,$10.16
-603,1502 MADISON AVE Baltimore MD,Coke,$9.84
-604,1502 MADISON AVE Baltimore MD,Trumoo Lowfat Chocolate Milk,$3.87
-605,1502 MADISON AVE Baltimore MD,Beef 'n Cheddar Half Pound,$5.33
-606,1502 MADISON AVE Baltimore MD,Vegetable Fried Noodles,$7.47
-607,1502 MADISON AVE Baltimore MD,D' Bronx Chicken Noodle,$10.88
-608,1527 CHERRY ST Baltimore MD,Sierra Mist,$10.61
-609,1527 CHERRY ST Baltimore MD,Beef Tenderloin Trio,$11.50
-610,1527 CHERRY ST Baltimore MD,Fountain Drinks,$8.32
-611,1527 CHERRY ST Baltimore MD,Veggie Delite,$2.68
-612,1527 CHERRY ST Baltimore MD,Cinnamon Streusel,$6.50
-613,506 FORT AVE Baltimore MD,Viviano's Special,$7.53
-614,506 FORT AVE Baltimore MD,Tazo Black Shaken Iced Tea Lemonade,$11.38
-615,506 FORT AVE Baltimore MD,Special Deli Boy,$10.87
-616,506 FORT AVE Baltimore MD,Green Goddess Cobb Salad with Chicken - whole salad,$3.10
-617,506 FORT AVE Baltimore MD,Caranel,$9.14
-618,506 FORT AVE Baltimore MD,Ice Cream Flavors - Vanilla,$12.62
-619,506 FORT AVE Baltimore MD,Half Walnut Cran,$11.61
-620,506 FORT AVE Baltimore MD,Chicken Fiesta Potatoes,$7.11
-621,506 FORT AVE Baltimore MD,Cinna Stix,$5.65
-622,506 FORT AVE Baltimore MD,Twist,$9.53
-623,400 EATON ST Baltimore MD,Chicken with Snow Peas,$7.35
-624,400 EATON ST Baltimore MD,Hushpuppies,$8.98
-625,400 EATON ST Baltimore MD,Pepperoni,$11.06
-626,400 EATON ST Baltimore MD,Chicken,$4.06
-627,400 EATON ST Baltimore MD,Fresh Mex Rice,$11.91
-628,7135 HARFORD RD Baltimore MD,Chili,$10.72
-629,7135 HARFORD RD Baltimore MD,24 oz. Bottled Soda,$8.92
-630,7135 HARFORD RD Baltimore MD,Black Forest Ham,$12.62
-631,7135 HARFORD RD Baltimore MD,Imported Greek Cheese Sampler,$12.73
-632,7135 HARFORD RD Baltimore MD,26. Mushroom with Beef Combo Platter,$3.15
-633,3600 KESWICK RD Baltimore MD,Big Sir-Acha Tavern Burger,$1.98
-634,3600 KESWICK RD Baltimore MD,110. Crab Sandwich,$2.01
-635,3600 KESWICK RD Baltimore MD,Bacon,$5.86
-636,3600 KESWICK RD Baltimore MD,Tazo Full Leaf Chai Tea,$4.90
-637,3600 KESWICK RD Baltimore MD,Veggie Delite,$9.44
-638,3600 KESWICK RD Baltimore MD,Big Kahuna Burger,$9.68
-639,3600 KESWICK RD Baltimore MD,8 Breadsticks,$6.14
-640,3600 KESWICK RD Baltimore MD,Bottled Drinks,$11.21
-641,3600 KESWICK RD Baltimore MD,Road Warrior,$8.85
-642,3600 KESWICK RD Baltimore MD,42299. 24 oz. Soda,$7.88
-643,3600 KESWICK RD Baltimore MD,1/2 Jack Up Chicken Ranch,$7.69
-644,3600 KESWICK RD Baltimore MD,Breaded Chicken Sandwich,$1.72
-645,3600 KESWICK RD Baltimore MD,Chocolate,$10.88
-646,3600 KESWICK RD Baltimore MD,Bruschetta Chicken Sandwich,$12.73
-647,10 MARKET PLACE Baltimore MD,Breaded Pork Chop Biscuit,$3.09
-648,10 MARKET PLACE Baltimore MD,Chicken Breast Bowl,$3.97
-649,10 MARKET PLACE Baltimore MD,1/2 Lb Grilled Sourdough Thickburger,$7.76
-650,10 MARKET PLACE Baltimore MD,Chocolate Temptation Cake,$2.22
-651,10 MARKET PLACE Baltimore MD,Sunrise Subway Melt,$11.09
-652,10 MARKET PLACE Baltimore MD,Pepperoni Delite,$2.80
-653,10 MARKET PLACE Baltimore MD,55894. Chipotle Queso and Chips,$3.28
-654,10 MARKET PLACE Baltimore MD,Texas Brisket,$1.56
-655,10 MARKET PLACE Baltimore MD,Macchiato,$8.20
-656,10 MARKET PLACE Baltimore MD,Hot Wings W. French Fries & Cheese,$11.24
-657,5805 O Donnell ST Baltimore MD,Ham & Turkey,$3.23
-658,5805 O Donnell ST Baltimore MD,Create Your Own,$4.59
-659,5805 O Donnell ST Baltimore MD,Chocolate Chip Muffie,$2.72
-660,5805 O Donnell ST Baltimore MD,Streusel,$11.43
-661,5805 O Donnell ST Baltimore MD,Queso Rangoons,$2.89
-662,5805 O Donnell ST Baltimore MD,Cheesy Chicken Tortilla Soup,$1.38
-663,5805 O Donnell ST Baltimore MD,Cocktail Sauce,$3.77
-664,5805 O Donnell ST Baltimore MD,Crab Dip,$7.76
-665,5805 O Donnell ST Baltimore MD,Kids Turkey and American Meal,$6.25
-666,5805 O Donnell ST Baltimore MD,Salisbury Steak,$5.90
-667,5805 O Donnell ST Baltimore MD,Vanilla Dish,$7.45
-668,5805 O Donnell ST Baltimore MD,Cheesy Nachos,$2.52
-669,5805 O Donnell ST Baltimore MD,Mama's Lasagna Bolognese Lunch,$4.83
-670,601 CLINTON ST Baltimore MD,Regular Roast Beef,$9.63
-671,601 CLINTON ST Baltimore MD,Imos House Salad,$10.34
-672,601 CLINTON ST Baltimore MD,KFC Famous Bowl,$1.87
-673,601 CLINTON ST Baltimore MD,The Bacon Deluxe,$9.26
-674,601 CLINTON ST Baltimore MD,Jalapeño Roast Beef Slider,$7.15
-675,631 LEXINGTON ST Baltimore MD,Breadsticks,$9.21
-676,631 LEXINGTON ST Baltimore MD,Skinny Mocha,$3.87
-677,631 LEXINGTON ST Baltimore MD,Strawberry Ice Cream Shake,$2.68
-678,631 LEXINGTON ST Baltimore MD,Mexican Rice,$1.22
-679,631 LEXINGTON ST Baltimore MD,Side Salad,$6.90
-680,631 LEXINGTON ST Baltimore MD,Three Little Piggies,$8.71
-681,631 LEXINGTON ST Baltimore MD,Pork Tofu,$7.63
-682,631 LEXINGTON ST Baltimore MD,49139. Shrimp Hibachi Fried Rice,$3.25
-683,631 LEXINGTON ST Baltimore MD,Carved Ham,$3.60
-684,631 LEXINGTON ST Baltimore MD,Grilled Asparagus,$3.71
-685,6798 REISTERSTOWN RD Baltimore MD,Hunan Shrimp,$11.89
-686,6798 REISTERSTOWN RD Baltimore MD,Jr. Breakfast Burrito,$11.38
-687,6798 REISTERSTOWN RD Baltimore MD,Negi Toro,$2.10
-688,6798 REISTERSTOWN RD Baltimore MD,London Broil,$5.51
-689,6798 REISTERSTOWN RD Baltimore MD,3-Piece Breast Strips,$8.57
-690,300 st paul pl Baltimore MD,Queso Dip,$3.33
-691,300 st paul pl Baltimore MD,Turkey Club,$11.30
-692,300 st paul pl Baltimore MD,SPICED GREEN,$2.18
-693,300 st paul pl Baltimore MD,Pei Wei Spicy,$4.67
-694,300 st paul pl Baltimore MD,Seaweed Tofu Soup,$10.93
-695,300 st paul pl Baltimore MD,41560. Gluten Free Plain Ol' House Salad,$5.62
-696,300 st paul pl Baltimore MD,Peach Cobbler Ala Mode,$11.85
-697,300 st paul pl Baltimore MD,Fettuccini Alfredo,$11.34
-698,300 st paul pl Baltimore MD,Saganaki,$3.61
-699,300 st paul pl Baltimore MD,Barbecue Baked Potato,$10.67
-700,300 st paul pl Baltimore MD,Decaf Pike Place Roast,$12.40
-701,300 st paul pl Baltimore MD,Bean Burrito,$5.84
-702,300 st paul pl Baltimore MD,Low-Fat Vegetarian Black Bean Soup - 1 1/2 cups,$6.49
-703,300 st paul pl Baltimore MD,Taco,$12.46
-704,300 st paul pl Baltimore MD,Vanilla Shake,$8.68
-705,1101 RUSSELL ST Baltimore MD,Double Reuben,$6.94
-706,1101 RUSSELL ST Baltimore MD,B.L.T.,$1.90
-707,1101 RUSSELL ST Baltimore MD,Seasoned Potato Wedges,$12.45
-708,1101 RUSSELL ST Baltimore MD,Low Country Boil,$12.12
-709,1101 RUSSELL ST Baltimore MD,Mushroom Swiss,$9.47
-710,Hopkins Pl Baltimore MD,Oven Roasted Chicken,$8.26
-711,Hopkins Pl Baltimore MD,Veggie Delite,$4.20
-712,Hopkins Pl Baltimore MD,White Chocolate Mocha Frappuccino Blended,$10.04
-713,Hopkins Pl Baltimore MD,Pulled Chicken Sandwich,$3.76
-714,Hopkins Pl Baltimore MD,Broccoli Chicken Dinner,$10.44
-715,Hopkins Pl Baltimore MD,Black Forest Ham,$7.87
-716,Hopkins Pl Baltimore MD,6. Fried Wonton,$9.60
-717,Hopkins Pl Baltimore MD,Crunchy Taco,$7.54
-718,Hopkins Pl Baltimore MD,Nestle® Pure Life® Bottled Water,$11.50
-719,Hopkins Pl Baltimore MD,Coconut Juice,$6.47
-720,2 CHASE ST Baltimore MD,Bottled Drinks,$1.36
-721,2 CHASE ST Baltimore MD,Duck,$3.00
-722,2 CHASE ST Baltimore MD,Meatball Pepperoni Melt,$9.47
-723,2 CHASE ST Baltimore MD,Shrimp Con Pesto,$3.29
-724,2 CHASE ST Baltimore MD,Shrimp and Avocado Tacos Lunch,$8.56
-725,2 CHASE ST Baltimore MD,The Starwberry Frosty Shake,$6.61
-726,2 CHASE ST Baltimore MD,Original Ultimate Nachos,$6.95
-727,2 CHASE ST Baltimore MD,Cocoa Fudge,$2.71
-728,2 CHASE ST Baltimore MD,Sandwich of Your Choice,$6.95
-729,2 CHASE ST Baltimore MD,Mandrin Chicken,$4.02
-730,2 CHASE ST Baltimore MD,Apple Butter n Biscuits,$7.05
-731,2 CHASE ST Baltimore MD,Napa Almond Chicken Salad Sandwich - half sandwich,$3.13
-732,2 CHASE ST Baltimore MD,Garden Fresco,$5.43
-733,2 CHASE ST Baltimore MD,Buffalo Chicken,$2.23
-734,2 CHASE ST Baltimore MD,Ham N' Cheese Slider,$7.21
-735,2426 PENNSYLVANIA Baltimore MD,8 oz. Bacon Wrapped Filet Mignon,$7.29
-736,2426 PENNSYLVANIA Baltimore MD,Black Forest Ham,$7.10
-737,2426 PENNSYLVANIA Baltimore MD,Smoked Sausage Patties,$6.15
-738,2426 PENNSYLVANIA Baltimore MD,Breadsticks,$7.02
-739,2426 PENNSYLVANIA Baltimore MD,Sesame Beef,$9.03
-740,2426 PENNSYLVANIA Baltimore MD,Bacon Turkey Bravo; Sandwich - half sandwich,$12.43
-741,2426 PENNSYLVANIA Baltimore MD,12 oz. Rib-Eye Steak,$2.76
-742,2426 PENNSYLVANIA Baltimore MD,Sesame Chicken Lunch,$8.84
-743,2426 PENNSYLVANIA Baltimore MD,Cheese Release Me with Both Ham And Bacon,$1.71
-744,2426 PENNSYLVANIA Baltimore MD,Hush Puppies,$8.20
-745,2426 PENNSYLVANIA Baltimore MD,Tianjin Style Steam Bun,$11.31
-746,129 BROADWAY Baltimore MD,Insalata Caesar,$1.16
-747,129 BROADWAY Baltimore MD,B.L.T.,$9.92
-748,129 BROADWAY Baltimore MD,Satay Of Sea Bass,$5.27
-749,129 BROADWAY Baltimore MD,Lunch Fajita Combo,$7.25
-750,129 BROADWAY Baltimore MD,Seasonal Salad,$6.41
-751,129 BROADWAY Baltimore MD,Roast Beef,$6.09
-752,129 BROADWAY Baltimore MD,16. Red Clam,$11.46
-753,129 BROADWAY Baltimore MD,Colossal Burger,$2.11
-754,129 BROADWAY Baltimore MD,Multigrain Bagel,$5.42
-755,129 BROADWAY Baltimore MD,Caramel Apple Thumbprint Scone,$11.37
-756,129 BROADWAY Baltimore MD,Sesame Chicken,$9.58
-757,129 BROADWAY Baltimore MD,Kung Pao Three Combo,$4.03
-758,129 BROADWAY Baltimore MD,Buffalo Burnin' Hot,$11.37
-759,25 BROADWAY Baltimore MD,Beef n' Cheddar Double,$7.13
-760,25 BROADWAY Baltimore MD,Cheese,$2.62
-761,25 BROADWAY Baltimore MD,Turkey Bacon & White Cheddar Classic Breakfast Sandwich,$11.13
-762,25 BROADWAY Baltimore MD,Parmesan Creamed Spinach,$3.68
-763,25 BROADWAY Baltimore MD,T3. Fried Rice,$8.09
-764,25 BROADWAY Baltimore MD,Lemon Chicken,$2.61
-765,25 BROADWAY Baltimore MD,Black Forest Ham,$1.09
-766,25 BROADWAY Baltimore MD,Pepper Steak with Onions,$12.06
-767,629 BROADWAY Baltimore MD,Cannelloni Pasta,$12.68
-768,629 BROADWAY Baltimore MD,Pancake Platter,$10.21
-769,629 BROADWAY Baltimore MD,Flavored Iced Teas,$5.40
-770,629 BROADWAY Baltimore MD,Rib Sandwich,$6.45
-771,629 BROADWAY Baltimore MD,Ice Cream Chocolate Or Vanilla,$6.60
-772,629 BROADWAY Baltimore MD,Chirashi,$1.92
-773,629 BROADWAY Baltimore MD,Raspberry Swirl Pound Cake,$9.70
-774,629 BROADWAY Baltimore MD,Parsley Potatoes,$6.33
-775,916 36th st Baltimore MD,Frisco Breakfast Sandwich,$4.10
-776,916 36th st Baltimore MD,Tuna,$4.90
-777,916 36th st Baltimore MD,Georgia Chip Cookies Dough,$10.15
-778,916 36th st Baltimore MD,Chicken Salad,$12.97
-779,916 36th st Baltimore MD,Milk White Or Chocolate,$11.96
-780,916 36th st Baltimore MD,Soup of Day,$9.32
-781,916 36th st Baltimore MD,Premium Beef Hot Dogs - Chicago Dog,$1.70
-782,916 36th st Baltimore MD,Grilled Chicken Go Wrap,$6.94
-783,916 36th st Baltimore MD,Bourbon Chicken Lunch,$7.83
-784,916 36th st Baltimore MD,Vegetarian,$1.60
-785,916 36th st Baltimore MD,Vanilla Latte,$11.00
-786,529 BELVEDERE AVE Baltimore MD,Breakfast Slider with Egg and Cheese,$7.53
-787,529 BELVEDERE AVE Baltimore MD,Fresco Crunchy Taco,$5.87
-788,529 BELVEDERE AVE Baltimore MD,Kids Creamy Milkshake,$10.48
-789,529 BELVEDERE AVE Baltimore MD,1/2 Lb Combo Burrito,$6.01
-790,529 BELVEDERE AVE Baltimore MD,Charbroiled Chicken Parmigiano,$12.55
-791,529 BELVEDERE AVE Baltimore MD,Oatmeal Raisin with Berries Cookie,$8.02
-792,529 BELVEDERE AVE Baltimore MD,Skinny Caramel Macchiato,$7.93
-793,529 BELVEDERE AVE Baltimore MD,Sweet Onion Chicken Teriyaki,$3.71
-794,529 BELVEDERE AVE Baltimore MD,Sprite,$2.37
-795,529 BELVEDERE AVE Baltimore MD,Popcorn Shrimp,$9.61
-796,529 BELVEDERE AVE Baltimore MD,Lipton Brisk Raspberry Iced Tea,$1.91
-797,529 BELVEDERE AVE Baltimore MD,Meximelt,$5.41
-798,529 BELVEDERE AVE Baltimore MD,Prosciutto Pizza Slice,$2.81
-799,529 BELVEDERE AVE Baltimore MD,Roast Beef Classic,$1.95
-800,1 SOUTH ST Baltimore MD,Cottage Cheese,$2.93
-801,1 SOUTH ST Baltimore MD,Breakfast B.M.T. Melt,$3.64
-802,1 SOUTH ST Baltimore MD,Whole Chicken Club,$8.63
-803,1 SOUTH ST Baltimore MD,Double Cheese Prime Rib,$6.49
-804,1 SOUTH ST Baltimore MD,Tiny Top Treat with Shake,$1.12
-805,1 SOUTH ST Baltimore MD,1/2 without Veggies Teriyaki Steak,$6.71
-806,1 SOUTH ST Baltimore MD,Dakota Smashed Pea and Barley Soup and Salad Lunch Duo,$10.29
-807,1 SOUTH ST Baltimore MD,Tuna Pita Combo,$9.28
-808,1 SOUTH ST Baltimore MD,Apple Crisp,$12.50
-809,1 SOUTH ST Baltimore MD,Chicken Modiga,$3.16
-810,2400 BOSTON ST Baltimore MD,Grande Sausage Burrito Combo,$9.96
-811,2400 BOSTON ST Baltimore MD,Boneless Wings,$3.30
-812,2400 BOSTON ST Baltimore MD,Memphis Chicken,$6.02
-813,2400 BOSTON ST Baltimore MD,Modern Greek Salad with Quinoa - whole salad,$5.25
-814,2400 BOSTON ST Baltimore MD,Jr. Deluxe Burger,$1.76
-815,2400 BOSTON ST Baltimore MD,Beef Lo Mein,$9.33
-816,2400 BOSTON ST Baltimore MD,Chicago Steak,$12.20
-817,2400 BOSTON ST Baltimore MD,Veal Piccata,$2.98
-818,2400 BOSTON ST Baltimore MD,Alejandro Favorites,$7.14
-819,2400 BOSTON ST Baltimore MD,Pork with Garlic Sauce,$8.03
-820,2400 BOSTON ST Baltimore MD,Romaine & Kale Caesar Salad with Chicken - half salad,$2.71
-821,2400 BOSTON ST Baltimore MD,Tuscani Tuesday Deal,$11.90
-822,2400 BOSTON ST Baltimore MD,Romesco Calamari,$2.44
-823,2400 BOSTON ST Baltimore MD,French Croissant,$6.23
-824,1238 GREENMOUNT AVE Baltimore MD,House Salad,$10.93
-825,1238 GREENMOUNT AVE Baltimore MD,Brownies,$4.67
-826,1238 GREENMOUNT AVE Baltimore MD,Crab Meat Rangoon,$12.00
-827,1238 GREENMOUNT AVE Baltimore MD,18. Egg Drop Soup,$7.79
-828,1238 GREENMOUNT AVE Baltimore MD,Kids Curly Fries,$9.84
-829,1238 GREENMOUNT AVE Baltimore MD,Ice Cream Flavors - Tres Leches,$3.13
-830,1238 GREENMOUNT AVE Baltimore MD,Wine,$7.00
-831,1238 GREENMOUNT AVE Baltimore MD,GJ Espresso Supreme Decaf,$10.85
-832,1238 GREENMOUNT AVE Baltimore MD,Toppings - Meat,$1.00
-833,1238 GREENMOUNT AVE Baltimore MD,47240. Unsweetened Iced Tea,$7.16
-834,1238 GREENMOUNT AVE Baltimore MD,Oven Roasted Chicken,$6.50
-835,1238 GREENMOUNT AVE Baltimore MD,Black Forest Ham,$6.25
-836,1238 GREENMOUNT AVE Baltimore MD,Jack Daniel's Strip & Shrimp,$11.60
-837,1238 GREENMOUNT AVE Baltimore MD,Strawberry - Raspberry,$7.39
-838,1238 GREENMOUNT AVE Baltimore MD,Italian Sub,$12.41
-839,4901 eastern ave Baltimore MD,Coffee Lover's Only,$10.89
-840,4901 eastern ave Baltimore MD,Cold Cut Combo,$9.21
-841,4901 eastern ave Baltimore MD,Coffee,$5.18
-842,4901 eastern ave Baltimore MD,Berry Blend,$11.53
-843,4901 eastern ave Baltimore MD,Milk,$1.93
-844,4901 eastern ave Baltimore MD,Garlic cheese bread,$7.51
-845,4901 eastern ave Baltimore MD,Bean Burrito,$8.18
-846,4901 eastern ave Baltimore MD,Burrito Supreme,$3.11
-847,1501 bolton ST Baltimore MD,Fettuccine Alfredo,$6.59
-848,1501 bolton ST Baltimore MD,1/2 Lb Combo Burrito,$6.97
-849,1501 bolton ST Baltimore MD,Garden Side Salad,$11.16
-850,1501 bolton ST Baltimore MD,Teriyaki Stir Fry with Shrimp,$6.86
-851,1501 bolton ST Baltimore MD,112. Poached Sliced Beef in Hot Chili Sauce,$9.15
-852,1501 bolton ST Baltimore MD,Espresso Frappuccino,$4.10
-853,1501 bolton ST Baltimore MD,B.L.T.,$1.81
-854,1501 bolton ST Baltimore MD,2 Liter of Soda,$12.28
-855,1501 bolton ST Baltimore MD,Chicken Lettuce Wraps,$7.57
-856,1501 bolton ST Baltimore MD,Ga Xao Xa Ot,$3.04
-857,1501 bolton ST Baltimore MD,Steak Teriyaki Lunch,$1.21
-858,1501 bolton ST Baltimore MD,Scotty's BLT,$3.13
-859,1501 bolton ST Baltimore MD,Turkey,$4.25
-860,1501 bolton ST Baltimore MD,Chicken,$6.45
-861,1501 bolton ST Baltimore MD,THE ULTIMATE BLOODY LOUIE,$6.42
-862,2251 WILKENS AVE Baltimore MD,Shakes and Malts,$10.07
-863,2251 WILKENS AVE Baltimore MD,Eli's Apple Crisp,$5.38
-864,2251 WILKENS AVE Baltimore MD,Alexander Valley Vineyards Chardonnay Alexander Valley 2003,$11.79
-865,2251 WILKENS AVE Baltimore MD,Beef Fried Rice,$2.92
-866,2251 WILKENS AVE Baltimore MD,Cole Slaw,$1.70
-867,2251 WILKENS AVE Baltimore MD,Staropramen Prague,$7.38
-868,2251 WILKENS AVE Baltimore MD,Canadian Bacon,$7.78
-869,2251 WILKENS AVE Baltimore MD,Cobb Combo,$10.35
-870,2251 WILKENS AVE Baltimore MD,Apple Slices,$1.26
-871,2251 WILKENS AVE Baltimore MD,Veggie Delite,$8.98
-872,1301 PRATT ST Baltimore MD,Coconut Macaroon,$4.41
-873,1301 PRATT ST Baltimore MD,Wolf Beans,$10.17
-874,1301 PRATT ST Baltimore MD,Sausage Links,$11.27
-875,1301 PRATT ST Baltimore MD,Raspberry Cream Soda,$9.37
-876,1301 PRATT ST Baltimore MD,House Smoked Salmon,$6.28
-877,1301 PRATT ST Baltimore MD,Spinach & Artichoke,$5.40
-878,1301 PRATT ST Baltimore MD,Bacon Cheddar Potato Wedges,$6.37
-879,1301 PRATT ST Baltimore MD,Italian,$7.75
-880,301 PAYSON ST Baltimore MD,Kids Meal 2 Chicken Strips,$5.22
-881,301 PAYSON ST Baltimore MD,Chicken Salad,$2.79
-882,301 PAYSON ST Baltimore MD,Miami Cuban,$3.77
-883,301 PAYSON ST Baltimore MD,Ming's Beef,$2.79
-884,301 PAYSON ST Baltimore MD,Calamari,$5.96
-885,301 PAYSON ST Baltimore MD,Egg & Cheese,$8.13
-886,301 PAYSON ST Baltimore MD,White Chocolate Creme Frappuccino Blended Creme,$3.82
-887,301 PAYSON ST Baltimore MD,Chicken Wings (4),$5.50
-888,301 PAYSON ST Baltimore MD,Dliet Dr Pepper,$6.45
-889,619 OLDHAM ST Baltimore MD,Oreo 31° Below,$1.06
-890,619 OLDHAM ST Baltimore MD,Apple Slices,$8.61
-891,619 OLDHAM ST Baltimore MD,Spicy Italian,$7.81
-892,619 OLDHAM ST Baltimore MD,Single Cheeseburger,$12.14
-893,619 OLDHAM ST Baltimore MD,Ched R Peppers with Ranch (4 pcs),$3.34
-894,619 OLDHAM ST Baltimore MD,Miami Cuban,$12.98
-895,619 OLDHAM ST Baltimore MD,Chicken Fiesta Taco Salad,$5.84
-896,619 OLDHAM ST Baltimore MD,Hummus Mezza,$11.87
-897,619 OLDHAM ST Baltimore MD,Hot Teas,$6.33
-898,34 MARKET PL Baltimore MD,Tuna,$11.50
-899,34 MARKET PL Baltimore MD,Oven Roasted Chicken,$3.37
-900,34 MARKET PL Baltimore MD,Loaded Breakfast Sandwich Combo,$1.58
-901,34 MARKET PL Baltimore MD,Honey BBQ,$12.23
-902,34 MARKET PL Baltimore MD,Georgia Chip Cookies Dough,$11.03
-903,34 MARKET PL Baltimore MD,Meatball,$8.97
-904,34 MARKET PL Baltimore MD,Flavored Iced Teas,$9.37
-905,34 MARKET PL Baltimore MD,Cheeseburger,$10.59
-906,34 MARKET PL Baltimore MD,Island Impact,$10.47
-907,34 MARKET PL Baltimore MD,Broiled Live Maine Lobster,$9.26
-908,34 MARKET PL Baltimore MD,Choose a Crust,$5.86
-909,1301 OLD COLDSPRING Ln Baltimore MD,Classic Grilled Cheese - whole sandwich,$4.97
-910,1301 OLD COLDSPRING Ln Baltimore MD,Premium Side with Medium Soft Drink,$3.45
-911,1301 OLD COLDSPRING Ln Baltimore MD,Buttered Corn,$5.92
-912,1301 OLD COLDSPRING Ln Baltimore MD,Cheese & Fruit,$1.96
-913,1301 OLD COLDSPRING Ln Baltimore MD,Buffalo Mild,$10.21
-914,1301 OLD COLDSPRING Ln Baltimore MD,Chicken Supreme Pizza,$8.32
-915,55 MARKET PL Baltimore MD,Pepsi®,$3.40
-916,55 MARKET PL Baltimore MD,Chargrilled & Fruit Salad,$8.54
-917,55 MARKET PL Baltimore MD,8-Grain Roll,$3.62
-918,55 MARKET PL Baltimore MD,Vegetable Shrimp,$11.97
-919,55 MARKET PL Baltimore MD,Double Fudge Brownie,$5.37
-920,20 BALTIMORE ST Baltimore MD,Pollo Italiano,$4.98
-921,20 BALTIMORE ST Baltimore MD,Zesty Wings,$7.01
-922,20 BALTIMORE ST Baltimore MD,Brew Pub Pretzels & Beer Cheese Dip,$8.07
-923,20 BALTIMORE ST Baltimore MD,Hot Braised Shrimp,$5.05
-924,20 BALTIMORE ST Baltimore MD,Beef Vernaise,$5.66
-925,20 BALTIMORE ST Baltimore MD,Fresh Baked Rolls 1,$6.99
-926,20 BALTIMORE ST Baltimore MD,Mix-Ins -Peanut Butter M'Azing Bar,$4.97
-927,20 BALTIMORE ST Baltimore MD,Brisk® No-Calorie Green Tea Peach - Limited Availability,$4.17
-928,20 BALTIMORE ST Baltimore MD,Papdi Chat,$7.88
-929,20 BALTIMORE ST Baltimore MD,Hunan Beef,$12.52
-930,20 BALTIMORE ST Baltimore MD,46149. Salmon Roe Nigiri,$12.81
-931,4712 CLUB RD Baltimore MD,Pepperoni Lover's Pizza,$7.65
-932,4712 CLUB RD Baltimore MD,Breakfast B.M.T. Melt,$3.73
-933,4712 CLUB RD Baltimore MD,Mac-N-Cheese,$4.53
-934,4712 CLUB RD Baltimore MD,Grilled Chicken Wonton Tacos,$8.13
-935,4712 CLUB RD Baltimore MD,Ice Cream Sundaes,$1.16
-936,4712 CLUB RD Baltimore MD,Side or Pizza Sauce,$6.55
-937,4712 CLUB RD Baltimore MD,Sonic Wave Bottled Water,$4.41
-938,4712 CLUB RD Baltimore MD,Fruit Plate,$8.75
-939,4712 CLUB RD Baltimore MD,Spicy Asian,$1.48
-940,4712 CLUB RD Baltimore MD,Fresh Brewed Iced Tea,$9.07
-941,4712 CLUB RD Baltimore MD,Chop Suey,$1.18
-942,4712 CLUB RD Baltimore MD,Oatmeal Raisin with Berries Cookie,$12.78
-943,4713 EASTERN AVENUE Baltimore MD,Candied Walnut and Grape,$8.79
-944,4713 EASTERN AVENUE Baltimore MD,Pesto,$11.18
-945,4713 EASTERN AVENUE Baltimore MD,Peppercorn Caesar With Chicken,$1.64
-946,4713 EASTERN AVENUE Baltimore MD,Spicy Italian,$5.65
-947,4713 EASTERN AVENUE Baltimore MD,Ron's Tall Stack,$2.29
-948,4713 EASTERN AVENUE Baltimore MD,Multi Grain Bread,$10.86
-949,4713 EASTERN AVENUE Baltimore MD,Yogurt Parfait,$6.71
-950,4713 EASTERN AVENUE Baltimore MD,Blush Fettuccine,$5.03
-951,4713 EASTERN AVENUE Baltimore MD,Shrimp Yakitori,$6.47
-952,4713 EASTERN AVENUE Baltimore MD,Cheese Lovers Plus,$11.40
-953,2022 CHARLES ST Baltimore MD,Garlicky Lemon Spinach,$5.63
-954,2022 CHARLES ST Baltimore MD,Combo No. 8,$4.23
-955,2022 CHARLES ST Baltimore MD,Spicy Italian,$9.88
-956,2022 CHARLES ST Baltimore MD,Sizzling Double Barrel Whisky Sirloins,$7.08
-957,2022 CHARLES ST Baltimore MD,Plain,$10.64
-958,2022 CHARLES ST Baltimore MD,Apple Dippers with Yogurt,$6.35
-959,2022 CHARLES ST Baltimore MD,Yogurt Parfait,$1.90
-960,2022 CHARLES ST Baltimore MD,Double Dog,$12.15
-961,2022 CHARLES ST Baltimore MD,Peppermint Mocha Frappuccino Light,$10.34
-962,2022 CHARLES ST Baltimore MD,THE CLOVER,$3.75
-963,1932 BELAIR RD Baltimore MD,Cornmeal Catfish,$12.83
-964,1932 BELAIR RD Baltimore MD,7 Wingstop Crispy Tenders By The Piece,$8.50
-965,1932 BELAIR RD Baltimore MD,Thursday,$4.57
-966,1932 BELAIR RD Baltimore MD,Hot Braise Pork,$4.24
-967,1932 BELAIR RD Baltimore MD,Toppings - Meat,$2.15
-968,1932 BELAIR RD Baltimore MD,Lettuce Wrap,$9.39
-969,1932 BELAIR RD Baltimore MD,Cheesy Bites Pizza,$8.22
-970,1932 BELAIR RD Baltimore MD,Chile Relleno,$4.81
-971,1932 BELAIR RD Baltimore MD,Raspberry Truffle Cake Pop,$12.93
-972,1932 BELAIR RD Baltimore MD,Extra Loaf of Meat,$11.06
-973,1932 BELAIR RD Baltimore MD,Plain Fried Rice,$5.42
-974,1932 BELAIR RD Baltimore MD,Slaw Dog,$9.86
-975,700 ALICEANNA ST Baltimore MD,Cinnamon Dolce Frappuccino,$5.44
-976,700 ALICEANNA ST Baltimore MD,Yogurt Parfait,$7.08
-977,700 ALICEANNA ST Baltimore MD,Meat Fest,$6.05
-978,700 ALICEANNA ST Baltimore MD,Mozzarella Cheese Sticks,$1.76
-979,700 ALICEANNA ST Baltimore MD,Multigrain Bagel,$7.19
-980,700 ALICEANNA ST Baltimore MD,Salmon Steaks,$12.33
-981,700 ALICEANNA ST Baltimore MD,Honey Chipotle Chicken Strips,$7.60
-982,700 ALICEANNA ST Baltimore MD,Meaty P'Zone Pizza,$9.54
-983,700 ALICEANNA ST Baltimore MD,Mediterranean Veggie Sandwich - half sandwich,$4.81
+meal_ID, r_address, m_name, m_price, r_ID
+1,4509 BELAIR ROAD Baltimore MD,Italian Steak,$3.26,1
+2,4509 BELAIR ROAD Baltimore MD,Peachtree Melt,$12.09,1
+3,4509 BELAIR ROAD Baltimore MD,BBQ Bacon Cheeseburger,$3.05,1
+4,4509 BELAIR ROAD Baltimore MD,Small Caesar Salad,$7.88,1
+5,4509 BELAIR ROAD Baltimore MD,Spinach Alfredo,$6.80,1
+6,4509 BELAIR ROAD Baltimore MD,Buffalo Chicken Melt,$10.89,1
+7,4509 BELAIR ROAD Baltimore MD,Hong Sui Chicken with Rice,$11.47,1
+8,4509 BELAIR ROAD Baltimore MD,Mongolian Beef,$7.51,1
+9,4509 BELAIR ROAD Baltimore MD,S4. Tofu Soup,$6.96,1
+10,4509 BELAIR ROAD Baltimore MD,Side Selection,$1.01,1
+11,1919 FLEET ST Baltimore MD,Chicken Strip Sandwich,$10.03,2
+12,1919 FLEET ST Baltimore MD,Sushi Special Box,$3.31,2
+13,1919 FLEET ST Baltimore MD,V11. Stir Fried Cabbage,$3.44,2
+14,1919 FLEET ST Baltimore MD,Grand Turkey Club,$2.36,2
+15,1919 FLEET ST Baltimore MD,Diet Pepsi,$5.28,2
+16,1919 FLEET ST Baltimore MD,Subway Club,$3.89,2
+17,1919 FLEET ST Baltimore MD,Iced Teas & Soft Drinks,$9.03,2
+18,1919 FLEET ST Baltimore MD,Chocolate Chess Pie,$12.28,2
+19,1919 FLEET ST Baltimore MD,Root Beer Float,$12.92,2
+20,1919 FLEET ST Baltimore MD,House Salad,$10.40,2
+21,1919 FLEET ST Baltimore MD,Oatmeal Raisin Cookie,$5.69,2
+22,1919 FLEET ST Baltimore MD,Cajun Turkey Wrap,$4.47,2
+23,1919 FLEET ST Baltimore MD,French Fries,$12.42,2
+24,2844 HUDSON ST Baltimore MD,Southwestern Steak Salad,$5.84,3
+25,2844 HUDSON ST Baltimore MD,Apple Dippers with Yogurt,$11.90,3
+26,2844 HUDSON ST Baltimore MD,Fritos Chili Pie,$12.29,3
+27,2844 HUDSON ST Baltimore MD,Italian Sausage & Pepper Trio,$5.77,3
+28,2844 HUDSON ST Baltimore MD,Reuben,$7.85,3
+29,2844 HUDSON ST Baltimore MD,Creamy Coleslaw,$9.76,3
+30,2844 HUDSON ST Baltimore MD,Buffalo Medium,$12.22,3
+31,2844 HUDSON ST Baltimore MD,Oolong Chilean Sea Bass,$9.60,3
+32,2844 HUDSON ST Baltimore MD,Bacon,$8.34,3
+33,2844 HUDSON ST Baltimore MD,Pepperoni Stuffed Flatbread Lunch,$9.52,3
+34,3998 ROLAND AVE Baltimore MD,Mix & Match,$3.31,4
+35,3998 ROLAND AVE Baltimore MD,Spicy Sicilian Pizza,$6.71,4
+36,3998 ROLAND AVE Baltimore MD,Apple Slices,$5.69,4
+37,3998 ROLAND AVE Baltimore MD,45200. Side of Fried Rice,$1.96,4
+38,3998 ROLAND AVE Baltimore MD,Crispy Curls Large,$5.27,4
+39,3998 ROLAND AVE Baltimore MD,Nachos Bellgrande,$2.19,4
+40,3998 ROLAND AVE Baltimore MD,Sweet & Sour Chicken,$12.12,4
+41,3998 ROLAND AVE Baltimore MD,Tropical Fruit Punch,$2.13,4
+42,3998 ROLAND AVE Baltimore MD,Tomato Salad,$2.61,4
+43,3998 ROLAND AVE Baltimore MD,L38. Mandarin Combination Lunch Special,$1.79,4
+44,3998 ROLAND AVE Baltimore MD,French Vanilla,$3.19,4
+45,3998 ROLAND AVE Baltimore MD,Cat Fish Fillet,$2.27,4
+46,3998 ROLAND AVE Baltimore MD,Starbucks Bottled Mocha Frappuccino Coffee,$5.65,4
+47,3998 ROLAND AVE Baltimore MD,Tazo Earl Grey Brewed Tea,$1.00,4
+48,3998 ROLAND AVE Baltimore MD,Fresh Brewed Iced Tea,$9.40,4
+49,2481 frederick ave Baltimore MD,Italian Sausage Marinara,$10.91,5
+50,2481 frederick ave Baltimore MD,Santa Fe Wrap,$4.98,5
+51,2481 frederick ave Baltimore MD,Grilled Chicken Salad,$11.82,5
+52,2481 frederick ave Baltimore MD,Thor-ed on Bleu Sandwich,$4.72,5
+53,2481 frederick ave Baltimore MD,SunChips Parmesan & Herb Snacks,$2.61,5
+54,2481 frederick ave Baltimore MD,Trumoo Lowfat Chocolate Milk,$6.83,5
+55,2481 frederick ave Baltimore MD,Subway Club,$1.87,5
+56,2481 frederick ave Baltimore MD,Steam Flounder in Lotus Leaf,$6.49,5
+57,2481 frederick ave Baltimore MD,Tom and Lucy's,$7.81,5
+58,2481 frederick ave Baltimore MD,8 Pcs California Roll,$2.05,5
+59,2481 frederick ave Baltimore MD,Super Punch Plus,$6.42,5
+60,2481 frederick ave Baltimore MD,Mixed Pickles,$8.89,5
+61,2481 frederick ave Baltimore MD,Philly Cheesesteak Sandwich,$7.38,5
+62,2481 frederick ave Baltimore MD,Side Traditional Caesar,$10.99,5
+63,2481 frederick ave Baltimore MD,Ginger Chicken with String Beans,$8.28,5
+64,2722 HARFORD RD Baltimore MD,Classic Dream Cakes,$12.43,6
+65,2722 HARFORD RD Baltimore MD,Hot Ham 'N' Cheese,$8.78,6
+66,2722 HARFORD RD Baltimore MD,Toro (Tuna Belly,$3.65,6
+67,2722 HARFORD RD Baltimore MD,Crispy Chicken Caesar Wrap,$10.98,6
+68,2722 HARFORD RD Baltimore MD,Buddhist Delight (Mixed Vegetable),$11.58,6
+69,2722 HARFORD RD Baltimore MD,34443. Shahi Paneer,$6.91,6
+70,2722 HARFORD RD Baltimore MD,Beans,$9.17,6
+71,2722 HARFORD RD Baltimore MD,Southwest Chicken Sub,$5.48,6
+72,2510 MCELDERRY ST Baltimore MD,L38. Mandarin Combination Lunch Special,$10.05,7
+73,2510 MCELDERRY ST Baltimore MD,Caramel Iced Coffee,$6.62,7
+74,2510 MCELDERRY ST Baltimore MD,Premium Beef Hot Dogs - Chicago Dog,$11.78,7
+75,2510 MCELDERRY ST Baltimore MD,Flavored Latte,$11.04,7
+76,2510 MCELDERRY ST Baltimore MD,Warm Berry Cake,$10.49,7
+77,2510 MCELDERRY ST Baltimore MD,French Dip,$6.25,7
+78,2510 MCELDERRY ST Baltimore MD,The Big Philly Cheesesteak,$11.91,7
+79,2510 MCELDERRY ST Baltimore MD,Apple Slices,$2.91,7
+80,2510 MCELDERRY ST Baltimore MD,Scrambler Breakfast,$9.45,7
+81,2510 MCELDERRY ST Baltimore MD,Chicken Spedini,$6.54,7
+82,2510 MCELDERRY ST Baltimore MD,15 Piece Prestige,$8.31,7
+83,2701 MILES AVE Baltimore MD,2. Choose a crust:,$11.25,8
+84,2701 MILES AVE Baltimore MD,Grilled Adobo Chicken Burrito,$2.80,8
+85,2701 MILES AVE Baltimore MD,Chicken Parm,$10.12,8
+86,2701 MILES AVE Baltimore MD,Chef Salad,$1.39,8
+87,2701 MILES AVE Baltimore MD,French Fries Large,$5.63,8
+88,2701 MILES AVE Baltimore MD,Meat Lover's Pizza,$11.96,8
+89,2701 MILES AVE Baltimore MD,Decaff Coffee,$8.37,8
+90,2701 MILES AVE Baltimore MD,Soft Pretzel,$3.15,8
+91,2701 MILES AVE Baltimore MD,B5. Duck Noodle Dry,$1.04,8
+92,2518 MONUMENT ST Baltimore MD,Cheese Pizza,$7.97,9
+93,2518 MONUMENT ST Baltimore MD,Fried Chicken,$9.04,9
+94,2518 MONUMENT ST Baltimore MD,Tai Chein Chicken,$12.57,9
+95,2518 MONUMENT ST Baltimore MD,Sierra Mist,$5.69,9
+96,2518 MONUMENT ST Baltimore MD,Chardonnay,$10.51,9
+97,2518 MONUMENT ST Baltimore MD,Mello Yello,$8.27,9
+98,2518 MONUMENT ST Baltimore MD,Extra Crispy Tenders,$5.50,9
+99,2518 MONUMENT ST Baltimore MD,Chopped Side Salad,$5.04,9
+100,2518 MONUMENT ST Baltimore MD,Classic Cheeseburger,$8.92,9
+101,2518 MONUMENT ST Baltimore MD,Chocolate Chip Cookie Dough,$10.97,9
+102,2518 MONUMENT ST Baltimore MD,Reduced-Fat Honey Walnut Cream Cheese,$10.66,9
+103,300 ANN ST Baltimore MD,Hamburger,$10.26,10
+104,300 ANN ST Baltimore MD,Buffalo Chicken Sandwich,$10.68,10
+105,300 ANN ST Baltimore MD,Real Fruit Slushes,$8.90,10
+106,300 ANN ST Baltimore MD,Garlic Chicken,$2.44,10
+107,300 ANN ST Baltimore MD,Caesar Salad,$3.00,10
+108,300 ANN ST Baltimore MD,Pad Gra Ree,$2.03,10
+109,300 ANN ST Baltimore MD,Honey Mustard Chicken,$8.80,10
+110,1600 HAZEL ST Baltimore MD,Filet Mignon,$5.48,11
+111,1600 HAZEL ST Baltimore MD,All American Burger,$6.94,11
+112,1600 HAZEL ST Baltimore MD,42002. Tempura Roll,$1.09,11
+113,1600 HAZEL ST Baltimore MD,Buffalo Mild,$1.76,11
+114,1600 HAZEL ST Baltimore MD,Steamed Zucchini,$10.96,11
+115,1600 HAZEL ST Baltimore MD,Shrimp with Garlic Sauce,$3.13,11
+116,1600 HAZEL ST Baltimore MD,114. Shrimp with Chinese Vegetables,$3.29,11
+117,1600 HAZEL ST Baltimore MD,Heath Bars - Crushed,$6.91,11
+118,1600 HAZEL ST Baltimore MD,Pitcher Of Soda,$10.01,11
+119,1600 HAZEL ST Baltimore MD,Espresso Beverages,$12.50,11
+120,1600 HAZEL ST Baltimore MD,Meximelt,$2.52,11
+121,1600 HAZEL ST Baltimore MD,Brewed Iced Tea,$8.79,11
+122,1600 HAZEL ST Baltimore MD,Cavetelli pasta served in a tomato and basil sauce,$10.57,11
+123,1600 HAZEL ST Baltimore MD,Chimichanga Lunch,$1.80,11
+124,5302 REISTERSTOWN RD Baltimore MD,Knife and Fork Salad,$12.90,12
+125,5302 REISTERSTOWN RD Baltimore MD,Fresh Garden Bar,$6.20,12
+126,5302 REISTERSTOWN RD Baltimore MD,Seasonal Greens Salad with Chicken - half salad,$5.68,12
+127,5302 REISTERSTOWN RD Baltimore MD,Meatball Marinara,$1.83,12
+128,5302 REISTERSTOWN RD Baltimore MD,Root Beer,$6.85,12
+129,5302 REISTERSTOWN RD Baltimore MD,Ultimate Cheese Lover's Pizza,$7.50,12
+130,5302 REISTERSTOWN RD Baltimore MD,White Rice,$3.84,12
+131,5302 REISTERSTOWN RD Baltimore MD,Spaghetti or Mostaccioli,$12.93,12
+132,5302 REISTERSTOWN RD Baltimore MD,Spaghetti with Meatballs,$11.09,12
+133,5302 REISTERSTOWN RD Baltimore MD,Italian Sausage,$8.32,12
+134,5302 REISTERSTOWN RD Baltimore MD,BBQ Chicken Flatbread,$7.28,12
+135,5302 REISTERSTOWN RD Baltimore MD,Steak & Cheese,$9.51,12
+136,5302 REISTERSTOWN RD Baltimore MD,Prime Cut Chicken Tenders,$11.68,12
+137,5302 REISTERSTOWN RD Baltimore MD,Classic Limeade Sparkler,$4.91,12
+138,5302 REISTERSTOWN RD Baltimore MD,Starbucks Doubleshot Energy Mocha Drink,$2.68,12
+139,743 MONTFORD ST Baltimore MD,Breaded Butterflied Shrimp,$6.33,13
+140,743 MONTFORD ST Baltimore MD,Pub Style Fish and Chips,$10.06,13
+141,743 MONTFORD ST Baltimore MD,Queso Blanco,$8.26,13
+142,743 MONTFORD ST Baltimore MD,Stacked Grilled Cheeseburger Munchie Meal (Nighttime),$7.22,13
+143,743 MONTFORD ST Baltimore MD,Miller Lite,$3.96,13
+144,743 MONTFORD ST Baltimore MD,Milk (White or Chocolate),$3.01,13
+145,743 MONTFORD ST Baltimore MD,Bravo Scrambler,$7.50,13
+146,743 MONTFORD ST Baltimore MD,Butter Grill Prawn,$7.71,13
+147,743 MONTFORD ST Baltimore MD,Spicy BBQ,$4.02,13
+148,5625 O DONNELL ST Baltimore MD,French Vanilla,$7.04,14
+149,5625 O DONNELL ST Baltimore MD,Mostaciolli,$9.75,14
+150,5625 O DONNELL ST Baltimore MD,Hand Tossed,$9.75,14
+151,5625 O DONNELL ST Baltimore MD,Turkey Breast & Black Forest Ham,$8.12,14
+152,5625 O DONNELL ST Baltimore MD,Reduced-Fat Honey Walnut Cream Cheese,$7.35,14
+153,5625 O DONNELL ST Baltimore MD,Spicy Crispy Chicken,$8.33,14
+154,5625 O DONNELL ST Baltimore MD,Chicken Pizziola Melt,$3.93,14
+155,5625 O DONNELL ST Baltimore MD,Frozen Mocha,$10.60,14
+156,5625 O DONNELL ST Baltimore MD,5 Piece Chicken Strips,$9.66,14
+157,5625 O DONNELL ST Baltimore MD,Bread,$7.19,14
+158,219 BALTIMORE ST Baltimore MD,Hot Roast Beef Beef Sandwich,$11.83,15
+159,219 BALTIMORE ST Baltimore MD,Mango Ice Cream,$2.73,15
+160,219 BALTIMORE ST Baltimore MD,Premium Beef Hot Dogs - Chili Cheese Coney,$5.31,15
+161,219 BALTIMORE ST Baltimore MD,Chicken Pot Pie,$1.83,15
+162,219 BALTIMORE ST Baltimore MD,Chicken Cashew with Grilled Chicken,$8.47,15
+163,219 BALTIMORE ST Baltimore MD,Sm. Tots or Fries,$8.31,15
+164,219 BALTIMORE ST Baltimore MD,Roaring Lion,$7.71,15
+165,219 BALTIMORE ST Baltimore MD,Santa Fe Salad,$9.36,15
+166,219 BALTIMORE ST Baltimore MD,Chicken Buffalo,$6.80,15
+167,219 BALTIMORE ST Baltimore MD,Texas Toast,$8.62,15
+168,219 BALTIMORE ST Baltimore MD,Sugar Free Red Bull,$3.35,15
+169,58 BIDDLE STREET Baltimore MD,Brownie Earthquake,$5.55,16
+170,58 BIDDLE STREET Baltimore MD,15 Original and 15 Cheese Slider Crave Case®,$4.03,16
+171,58 BIDDLE STREET Baltimore MD,Apple Bites,$6.11,16
+172,58 BIDDLE STREET Baltimore MD,Slim 5,$7.72,16
+173,58 BIDDLE STREET Baltimore MD,Founders Favorite,$1.09,16
+174,58 BIDDLE STREET Baltimore MD,Hot Dog,$4.19,16
+175,58 BIDDLE STREET Baltimore MD,Extra Veggies,$9.16,16
+176,58 BIDDLE STREET Baltimore MD,Volcano Taco,$4.72,16
+177,58 BIDDLE STREET Baltimore MD,Chocolate Cake,$7.30,16
+178,58 BIDDLE STREET Baltimore MD,B.L.T.,$10.70,16
+179,58 BIDDLE STREET Baltimore MD,Supreme,$9.00,16
+180,58 BIDDLE STREET Baltimore MD,Spinach Pie,$9.98,16
+181,2003 MONUMENT ST Baltimore MD,Roast Pork Ho Fun,$8.02,17
+182,2003 MONUMENT ST Baltimore MD,Bourbon Basted Salmon,$6.41,17
+183,2003 MONUMENT ST Baltimore MD,Meatball Marinara,$12.34,17
+184,2003 MONUMENT ST Baltimore MD,Chili,$2.56,17
+185,2003 MONUMENT ST Baltimore MD,The Big Philly Cheesesteak,$6.18,17
+186,2003 MONUMENT ST Baltimore MD,Kids Buttered Ribbon Noodles,$11.67,17
+187,2003 MONUMENT ST Baltimore MD,Spinach & Artichoke,$10.31,17
+188,2003 MONUMENT ST Baltimore MD,Hot Dog,$10.93,17
+189,2003 MONUMENT ST Baltimore MD,Iced Lemon Pound Cake,$4.15,17
+190,2003 MONUMENT ST Baltimore MD,Brownie Bottom Pie,$12.65,17
+191,4718 EASTERN AVE Baltimore MD,Pecan Braid,$3.79,18
+192,4718 EASTERN AVE Baltimore MD,Flame Grilled Pork Chop,$6.36,18
+193,4718 EASTERN AVE Baltimore MD,Chicken Tenders (4 Pc.),$9.67,18
+194,4718 EASTERN AVE Baltimore MD,Cheeseburger Deluxe,$4.05,18
+195,4718 EASTERN AVE Baltimore MD,Black Angus On Rosemary Parmesan,$6.80,18
+196,818 BROADWAY Baltimore MD,Buttered off the Cob Corn,$5.99,19
+197,818 BROADWAY Baltimore MD,Oriental Chicken Salad,$6.56,19
+198,818 BROADWAY Baltimore MD,Fresco Bean Burrito,$10.65,19
+199,818 BROADWAY Baltimore MD,Sunrise Crossiant with Bacon,$6.06,19
+200,818 BROADWAY Baltimore MD,White Rice,$11.66,19
+201,818 BROADWAY Baltimore MD,Minute Maid Lemonade,$3.63,19
+202,818 BROADWAY Baltimore MD,Fudge Mini Roll Cake,$9.06,19
+203,818 BROADWAY Baltimore MD,Foie Gras Torchone,$5.17,19
+204,818 BROADWAY Baltimore MD,Grilled Cheese,$2.41,19
+205,818 BROADWAY Baltimore MD,Bacon & Cheddar Chicken Slider,$7.06,19
+206,818 BROADWAY Baltimore MD,Spicy Italian,$8.61,19
+207,818 BROADWAY Baltimore MD,Wild Blueberry White Chocolate Cheesecake,$9.93,19
+208,818 BROADWAY Baltimore MD,Cheese & Fruit,$8.00,19
+209,818 BROADWAY Baltimore MD,Earl Grey Sachet Hot Tea,$12.59,19
+210,2522 WASHINGTON BLVD Baltimore MD,Steamed Rice,$1.44,20
+211,2522 WASHINGTON BLVD Baltimore MD,Cream Slush Treats,$12.52,20
+212,2522 WASHINGTON BLVD Baltimore MD,Ultimate Chocolate Shake,$6.03,20
+213,2522 WASHINGTON BLVD Baltimore MD,N24. Spicy Noodle Dinner,$5.86,20
+214,2522 WASHINGTON BLVD Baltimore MD,Spicy Scallop Hand Roll Dinner,$10.86,20
+215,2522 WASHINGTON BLVD Baltimore MD,Protein Shake,$12.87,20
+216,2522 WASHINGTON BLVD Baltimore MD,Chicken Fiesta Taco Salad,$10.83,20
+217,2522 WASHINGTON BLVD Baltimore MD,D.W.'s Yummy Gummy Shiver,$12.32,20
+218,6500 RIVERVIEW AVE Baltimore MD,Quesadilla,$9.79,21
+219,6500 RIVERVIEW AVE Baltimore MD,Jack Daniel's Flat Iron and Ribs,$8.88,21
+220,6500 RIVERVIEW AVE Baltimore MD,Diet Pepsi,$9.05,21
+221,6500 RIVERVIEW AVE Baltimore MD,Chicken with Eggplant in Garlic Sauce,$10.49,21
+222,6500 RIVERVIEW AVE Baltimore MD,Classic Burger,$6.88,21
+223,6500 RIVERVIEW AVE Baltimore MD,Vanilla Mini Sparkle Doughnut,$7.61,21
+224,823 CHARLES ST Baltimore MD,Chicken Pizziola Melt,$2.21,22
+225,823 CHARLES ST Baltimore MD,Cheese,$1.78,22
+226,823 CHARLES ST Baltimore MD,Toppings - Veggie,$11.06,22
+227,823 CHARLES ST Baltimore MD,1/3 Lb Low Carb Thickburger,$11.51,22
+228,823 CHARLES ST Baltimore MD,Club Sandwich,$3.90,22
+229,823 CHARLES ST Baltimore MD,Buttermilk Chicken Bacon & Swiss Sandwich,$4.13,22
+230,823 CHARLES ST Baltimore MD,30 Cheese Slider Crave Case®,$1.11,22
+231,2407 FREDERICK AVE Baltimore MD,1/3 Lb Thickburger,$7.31,23
+232,2407 FREDERICK AVE Baltimore MD,Chocolate White Chip Cookies,$12.41,23
+233,2407 FREDERICK AVE Baltimore MD,Veggie Delite,$1.96,23
+234,2407 FREDERICK AVE Baltimore MD,A Wee Cheeseboard,$7.39,23
+235,2407 FREDERICK AVE Baltimore MD,Original,$12.29,23
+236,2407 FREDERICK AVE Baltimore MD,40152. Shrimp Po'Boy,$1.56,23
+237,2407 FREDERICK AVE Baltimore MD,Ultimate Turkey Club,$8.81,23
+238,2407 FREDERICK AVE Baltimore MD,Moo Shu Vegetables,$8.88,23
+239,2407 FREDERICK AVE Baltimore MD,Seasoned Curly Fries,$6.27,23
+240,2407 FREDERICK AVE Baltimore MD,Soda,$5.96,23
+241,306 HIGH ST Baltimore MD,Roast Turkey Ranch & Bacon Sandwich,$12.47,24
+242,306 HIGH ST Baltimore MD,Coffee,$12.02,24
+243,306 HIGH ST Baltimore MD,Big Dipper Chili Cheese Fries,$7.48,24
+244,306 HIGH ST Baltimore MD,Cherry Creme Frutista Freeze,$7.97,24
+245,306 HIGH ST Baltimore MD,Baby Carrots with Ranch,$9.13,24
+246,1939 FLEET ST Baltimore MD,Sm. Iced Tea or Soft Drink,$2.07,25
+247,1939 FLEET ST Baltimore MD,Hash Rounds Small,$8.63,25
+248,1939 FLEET ST Baltimore MD,Smoked Cheddar Slider,$12.12,25
+249,1939 FLEET ST Baltimore MD,Hollywood Salad,$10.71,25
+250,1939 FLEET ST Baltimore MD,Rib Tip Sandwich,$8.76,25
+251,1939 FLEET ST Baltimore MD,46096. Bento E Combo Lunch,$7.55,25
+252,1939 FLEET ST Baltimore MD,Juice,$6.63,25
+253,1939 FLEET ST Baltimore MD,Chocolate Mini Sparkle Doughnut,$1.21,25
+254,1939 FLEET ST Baltimore MD,Super Sonic Breakfast Burrito,$11.63,25
+255,1939 FLEET ST Baltimore MD,Pork Egg Foo Young,$5.40,25
+256,1939 FLEET ST Baltimore MD,Spaghetti With Meatball,$8.84,25
+257,710 BROADWAY Baltimore MD,Lemonade,$12.71,26
+258,710 BROADWAY Baltimore MD,Nachos Bellgrande,$11.05,26
+259,710 BROADWAY Baltimore MD,Black Olives,$12.67,26
+260,710 BROADWAY Baltimore MD,Roast Beef and Cheese,$9.76,26
+261,710 BROADWAY Baltimore MD,Moo Shu Shrimp,$1.83,26
+262,710 BROADWAY Baltimore MD,Herb Butter,$6.24,26
+263,710 BROADWAY Baltimore MD,The Chocolate Frosty Shake,$6.33,26
+264,710 BROADWAY Baltimore MD,Baked Potato,$2.25,26
+265,710 BROADWAY Baltimore MD,Cinnabon Delights® 12 Pack,$5.06,26
+266,710 BROADWAY Baltimore MD,Cinnamon Sugar Cookie,$4.40,26
+267,2401 LIBERTY HEIGHTS AVE Baltimore MD,Crab Stick,$12.61,27
+268,2401 LIBERTY HEIGHTS AVE Baltimore MD,Chicken Cobb Salad,$4.06,27
+269,2401 LIBERTY HEIGHTS AVE Baltimore MD,Roast Beef Sandwich,$3.98,27
+270,2401 LIBERTY HEIGHTS AVE Baltimore MD,Fat Free Thousand Island Dressing,$2.29,27
+271,2401 LIBERTY HEIGHTS AVE Baltimore MD,Green Goddess Wedge,$6.34,27
+272,2401 LIBERTY HEIGHTS AVE Baltimore MD,Grand Turkey Club,$7.17,27
+273,2401 LIBERTY HEIGHTS AVE Baltimore MD,Chips or Crisps,$2.13,27
+274,2401 LIBERTY HEIGHTS AVE Baltimore MD,Roasted Tomato & Mozzarella Panini,$4.19,27
+275,2401 LIBERTY HEIGHTS AVE Baltimore MD,Cheese Sticks,$1.89,27
+276,2401 LIBERTY HEIGHTS AVE Baltimore MD,Buffalo Mild,$8.41,27
+277,2401 LIBERTY HEIGHTS AVE Baltimore MD,Turkey Breast,$4.48,27
+278,2401 LIBERTY HEIGHTS AVE Baltimore MD,Reduced-Fat Wild Blueberry Cream Cheese,$10.73,27
+279,2401 LIBERTY HEIGHTS AVE Baltimore MD,Peach & Blueberry Smoothie with almond milk,$11.26,27
+280,2105 FREDERICK AVE Baltimore MD,Low Carb Charboiled Chicken Club Sandwich,$4.08,28
+281,2105 FREDERICK AVE Baltimore MD,Apple Slices,$7.83,28
+282,2105 FREDERICK AVE Baltimore MD,Garlic Pork,$1.39,28
+283,2105 FREDERICK AVE Baltimore MD,Butterfinger Bar Candy,$2.13,28
+284,2105 FREDERICK AVE Baltimore MD,Subway Club,$10.04,28
+285,2105 FREDERICK AVE Baltimore MD,Dorsett Nachos - Beef Or Chicken,$6.54,28
+286,2105 FREDERICK AVE Baltimore MD,Plain Bagel,$1.40,28
+287,2105 FREDERICK AVE Baltimore MD,12 Boneless Wings,$8.90,28
+288,2105 FREDERICK AVE Baltimore MD,Chocolate Chunk Cookie,$6.90,28
+289,206 REDWOOD ST Baltimore MD,Tuscan Herb Formaggio,$11.51,29
+290,206 REDWOOD ST Baltimore MD,Caffe Mocha,$11.12,29
+291,206 REDWOOD ST Baltimore MD,Bacon,$6.53,29
+292,206 REDWOOD ST Baltimore MD,Pine Nut Chicken,$8.77,29
+293,206 REDWOOD ST Baltimore MD,Fried Chicken,$7.69,29
+294,206 REDWOOD ST Baltimore MD,Pale Ale Battered Fresh Mozzarella,$1.00,29
+295,206 REDWOOD ST Baltimore MD,Baked Lasagna Lunch,$11.83,29
+296,206 REDWOOD ST Baltimore MD,Toasted Ravioli,$2.91,29
+297,206 REDWOOD ST Baltimore MD,Diet Coke,$3.58,29
+298,2809 BOSTON ST Baltimore MD,Grilled Steak Soft Taco,$4.93,30
+299,2809 BOSTON ST Baltimore MD,Veggie Burger,$6.81,30
+300,2809 BOSTON ST Baltimore MD,Premium Burritos - Ultimate Meat and Cheese Breakfast Burrito,$3.76,30
+301,2809 BOSTON ST Baltimore MD,Triple Chocolate Meltdown,$12.60,30
+302,2809 BOSTON ST Baltimore MD,Chocolate Chip Cookies,$4.36,30
+303,2809 BOSTON ST Baltimore MD,Hi - C Fruit Punch,$8.44,30
+304,2809 BOSTON ST Baltimore MD,Egg Drop Soup,$7.44,30
+305,2809 BOSTON ST Baltimore MD,BBQ Smoked Chicken,$11.61,30
+306,2809 BOSTON ST Baltimore MD,Classic Burger,$10.77,30
+307,2809 BOSTON ST Baltimore MD,New Chicken Wings,$3.99,30
+308,1038 LIGHT ST Baltimore MD,Bottled Drinks,$12.05,31
+309,1038 LIGHT ST Baltimore MD,Deluxe,$1.87,31
+310,1038 LIGHT ST Baltimore MD,Chicken Strips,$3.54,31
+311,1038 LIGHT ST Baltimore MD,Meatballs,$5.14,31
+312,1038 LIGHT ST Baltimore MD,Burnt End Stew,$3.23,31
+313,1038 LIGHT ST Baltimore MD,Apple Slices,$9.67,31
+314,1038 LIGHT ST Baltimore MD,Chicken 'n Cheese Slider,$7.03,31
+315,1038 LIGHT ST Baltimore MD,Ham and Cheese,$1.81,31
+316,1038 LIGHT ST Baltimore MD,Quesadilla Con Carne,$8.91,31
+317,1038 LIGHT ST Baltimore MD,Grilled Pork Chops,$2.80,31
+318,1038 LIGHT ST Baltimore MD,Party Tray Pizza,$4.65,31
+319,1038 LIGHT ST Baltimore MD,Apple Pecan Chicken Salad,$6.11,31
+320,1038 LIGHT ST Baltimore MD,Try One Of Our Specialties - Sticky Fingers,$2.19,31
+321,1038 LIGHT ST Baltimore MD,Extra Sauce,$11.58,31
+322,1038 LIGHT ST Baltimore MD,Original Monster Taco,$9.63,31
+323,3820 PRATT ST Baltimore MD,Monterey Ranch Crispy Chicken Sandwich,$7.79,32
+324,3820 PRATT ST Baltimore MD,Chips or Crisps,$3.09,32
+325,3820 PRATT ST Baltimore MD,Charboiled Chicken Club Sandwich,$4.95,32
+326,3820 PRATT ST Baltimore MD,Pulled BBQ Chicken Sandwich Combo,$11.24,32
+327,3820 PRATT ST Baltimore MD,Mountain Dew Baja Blast,$12.89,32
+328,3820 PRATT ST Baltimore MD,Half Pound French Dip & Swiss,$8.10,32
+329,3820 PRATT ST Baltimore MD,Spicy BBQ,$5.07,32
+330,401 BALTIMORE ST Baltimore MD,Make it a Combo,$3.83,33
+331,401 BALTIMORE ST Baltimore MD,Savory Cedar Salmon,$12.79,33
+332,401 BALTIMORE ST Baltimore MD,L17. Hot Braised Pork Lunch,$6.06,33
+333,401 BALTIMORE ST Baltimore MD,Baja Salad,$2.87,33
+334,401 BALTIMORE ST Baltimore MD,Coke Zero,$8.34,33
+335,401 BALTIMORE ST Baltimore MD,Raspberry-Mango,$8.34,33
+336,5860 BELAIR RD Baltimore MD,Mediterranean Veggie Sandwich - whole sandwich,$4.81,34
+337,5860 BELAIR RD Baltimore MD,Java Chip Frappuccino,$5.84,34
+338,5860 BELAIR RD Baltimore MD,Ice Cream Soda,$7.96,34
+339,5860 BELAIR RD Baltimore MD,Pintos N Cheese,$10.97,34
+340,5860 BELAIR RD Baltimore MD,Mix-Ins -Pineapple,$6.29,34
+341,5860 BELAIR RD Baltimore MD,Caesar Salad,$7.01,34
+342,5860 BELAIR RD Baltimore MD,Chocolate Mousse,$8.23,34
+343,1747 BELT ST Baltimore MD,Hot Braised Chicken - Boneless,$12.26,35
+344,1747 BELT ST Baltimore MD,Hibachi Steak,$6.22,35
+345,1747 BELT ST Baltimore MD,Hummus,$9.71,35
+346,1747 BELT ST Baltimore MD,Savory Soups (Small),$10.51,35
+347,1747 BELT ST Baltimore MD,Teriyaki Wings and Hot Wings,$12.89,35
+348,1747 BELT ST Baltimore MD,Chicken Rings (6),$5.50,35
+349,1747 BELT ST Baltimore MD,Premium Burritos - Ultimate Meat and Cheese Breakfast Burrito,$9.17,35
+350,1747 BELT ST Baltimore MD,Fried Shrimp,$10.83,35
+351,1747 BELT ST Baltimore MD,Reese Peanut Butter Cup,$5.25,35
+352,1190 NORTHERN PKWY Baltimore MD,Yogurt Parfait,$3.30,36
+353,1190 NORTHERN PKWY Baltimore MD,Shrimp with Lobster Sauce,$4.65,36
+354,1190 NORTHERN PKWY Baltimore MD,Double Dog,$9.44,36
+355,1190 NORTHERN PKWY Baltimore MD,Roast Beef,$6.28,36
+356,1190 NORTHERN PKWY Baltimore MD,Vegetable Egg Roll,$7.99,36
+357,1190 NORTHERN PKWY Baltimore MD,Balsamic Glazed Chicken,$10.55,36
+358,1190 NORTHERN PKWY Baltimore MD,Tazo Peach Iced Green Tea,$2.79,36
+359,1190 NORTHERN PKWY Baltimore MD,Vegetable Chicken Dinner,$2.72,36
+360,1190 NORTHERN PKWY Baltimore MD,Sweet and Sour Chicken,$1.60,36
+361,5523 BELAIR RD Baltimore MD,Bacon Cheese GrillBUrger,$2.73,37
+362,5523 BELAIR RD Baltimore MD,Grande Sausage Burrito,$4.81,37
+363,5523 BELAIR RD Baltimore MD,Mahi Mahi Tacos,$6.02,37
+364,5523 BELAIR RD Baltimore MD,Chicken & Bacon Ranch Melt,$3.07,37
+365,5523 BELAIR RD Baltimore MD,Chicken Biscuit,$10.75,37
+366,5523 BELAIR RD Baltimore MD,Kids Low-Fat Vegetarian Black Bean Soup,$7.00,37
+367,5523 BELAIR RD Baltimore MD,Cherry,$1.20,37
+368,5523 BELAIR RD Baltimore MD,Meat Craver's,$6.86,37
+369,5523 BELAIR RD Baltimore MD,Santa Fe Chopped,$10.42,37
+370,5523 BELAIR RD Baltimore MD,Kids Curly Fries,$1.35,37
+371,5523 BELAIR RD Baltimore MD,Fresco Burrito Supreme Chicken,$1.87,37
+372,5523 BELAIR RD Baltimore MD,Country Scrambler Plate - Link & Sausage,$4.18,37
+373,5523 BELAIR RD Baltimore MD,Bacon All American Cheeseburger,$8.72,37
+374,5523 BELAIR RD Baltimore MD,Siciliana,$4.30,37
+375,1801 NORTH AVE Baltimore MD,Tostada With Taco Or Flauta,$9.84,38
+376,1801 NORTH AVE Baltimore MD,BBQ Chicken,$9.42,38
+377,1801 NORTH AVE Baltimore MD,Cornmeal Fried Catfish Plate,$4.51,38
+378,1801 NORTH AVE Baltimore MD,Szechuan Spicy Chicken,$1.25,38
+379,1801 NORTH AVE Baltimore MD,The Veggie,$4.55,38
+380,1801 NORTH AVE Baltimore MD,Caldo De Camaron,$10.37,38
+381,1801 NORTH AVE Baltimore MD,Cheese Lovers Plus,$3.09,38
+382,1801 NORTH AVE Baltimore MD,Misty Flavors - Blue Raspberry,$10.24,38
+383,1801 NORTH AVE Baltimore MD,Grilled Chicken Caesar Salad,$3.02,38
+384,1801 NORTH AVE Baltimore MD,Orange Scone,$6.92,38
+385,1801 NORTH AVE Baltimore MD,Chili,$6.09,38
+386,1801 NORTH AVE Baltimore MD,Black Forest Ham,$11.88,38
+387,1801 NORTH AVE Baltimore MD,Chicken Tortilla Soup,$11.06,38
+388,1801 NORTH AVE Baltimore MD,Pork Tenderloin,$7.91,38
+389,1801 NORTH AVE Baltimore MD,Tropical Smoothie,$3.20,38
+390,734 BROADWAY Baltimore MD,5-Meat Stuffed,$7.28,39
+391,734 BROADWAY Baltimore MD,Seasoned Homestyle Potatoes,$1.61,39
+392,734 BROADWAY Baltimore MD,Oreo Overload,$9.15,39
+393,734 BROADWAY Baltimore MD,The Original Chocolate Frosty,$2.80,39
+394,734 BROADWAY Baltimore MD,The Wente's Cobb,$3.45,39
+395,734 BROADWAY Baltimore MD,Spicy Chicken Caesar Salad,$3.52,39
+396,3105 ST PAUL ST Baltimore MD,Enchirito,$5.24,40
+397,3105 ST PAUL ST Baltimore MD,Turkey Breast & Black Forest Ham,$8.77,40
+398,3105 ST PAUL ST Baltimore MD,Egg & Cheese,$8.81,40
+399,3105 ST PAUL ST Baltimore MD,Steamed Mussels,$9.42,40
+400,3105 ST PAUL ST Baltimore MD,Cheesy Bites Pizza,$2.53,40
+401,3105 ST PAUL ST Baltimore MD,Italian,$2.06,40
+402,3105 ST PAUL ST Baltimore MD,Waffle Cone,$10.24,40
+403,3105 ST PAUL ST Baltimore MD,Burrito (1),$1.54,40
+404,3105 ST PAUL ST Baltimore MD,Lemonata,$3.54,40
+405,3105 ST PAUL ST Baltimore MD,Hummus,$3.75,40
+406,3105 ST PAUL ST Baltimore MD,Sourdough Breakfast Sandwich,$2.34,40
+407,3105 ST PAUL ST Baltimore MD,Crispy Curls Medium,$5.86,40
+408,300 BALTIMORE ST Baltimore MD,Applesauce,$9.70,41
+409,300 BALTIMORE ST Baltimore MD,Subway Club,$10.68,41
+410,300 BALTIMORE ST Baltimore MD,Tuscani Tuesday Deal,$12.00,41
+411,300 BALTIMORE ST Baltimore MD,Crunchy Taco,$8.45,41
+412,300 BALTIMORE ST Baltimore MD,Pulled Pork Nachos,$1.97,41
+413,300 BALTIMORE ST Baltimore MD,Kung Pao Beef,$4.12,41
+414,300 BALTIMORE ST Baltimore MD,Pepsi Soft Drinks,$7.60,41
+415,300 BALTIMORE ST Baltimore MD,Sour Cream And Chive Potato,$1.43,41
+416,300 BALTIMORE ST Baltimore MD,Pasta Con Broccoli,$10.56,41
+417,300 BALTIMORE ST Baltimore MD,Adelsheim Vineyards Pinot Gris Oregon 2003,$6.26,41
+418,300 BALTIMORE ST Baltimore MD,Chips or Crisps,$9.93,41
+419,300 BALTIMORE ST Baltimore MD,Fried Pickles,$5.40,41
+420,300 BALTIMORE ST Baltimore MD,Grilled Chicken Breast,$7.51,41
+421,300 BALTIMORE ST Baltimore MD,South Indian Vegetarian Thali,$3.58,41
+422,5713 HARFORD RD Baltimore MD,Ranch Hand Burger,$8.87,42
+423,5713 HARFORD RD Baltimore MD,Bacon Cheese Burger,$5.02,42
+424,5713 HARFORD RD Baltimore MD,Root Beer,$9.59,42
+425,5713 HARFORD RD Baltimore MD,B.L.T.,$10.46,42
+426,5713 HARFORD RD Baltimore MD,Chocolate,$2.06,42
+427,5713 HARFORD RD Baltimore MD,Mashed Potatoes,$6.41,42
+428,5713 HARFORD RD Baltimore MD,Mozzarella Sticks,$7.58,42
+429,5713 HARFORD RD Baltimore MD,Fish Tacos,$11.78,42
+430,5713 HARFORD RD Baltimore MD,Spicy Asian,$4.07,42
+431,5713 HARFORD RD Baltimore MD,Biscuits & Gravy,$4.13,42
+432,5713 HARFORD RD Baltimore MD,Turkey Sandwich - whole sandwich,$10.17,42
+433,5713 HARFORD RD Baltimore MD,Diet Pepsi,$1.05,42
+434,5713 HARFORD RD Baltimore MD,Kids Low-Fat Chicken Noodle Soup,$7.26,42
+435,5713 HARFORD RD Baltimore MD,Joia; Grapefruit Soda,$9.94,42
+436,301 LIGHT ST Baltimore MD,78. Beef with Ginger and Scallion,$6.22,43
+437,301 LIGHT ST Baltimore MD,Butterfly Shrimp,$5.01,43
+438,301 LIGHT ST Baltimore MD,Bacon Cheeseburger Pizza,$3.73,43
+439,301 LIGHT ST Baltimore MD,Fountain Drinks,$5.52,43
+440,301 LIGHT ST Baltimore MD,Black Forest Ham,$2.09,43
+441,301 LIGHT ST Baltimore MD,Two Mini Cheeseburgers or Hamburgers,$5.24,43
+442,301 LIGHT ST Baltimore MD,Juice,$6.88,43
+443,301 LIGHT ST Baltimore MD,Fresh Brewed Iced Tea,$6.19,43
+444,301 LIGHT ST Baltimore MD,Tazo Awake Brewed Tea,$6.83,43
+445,300 OLDHAM ST Baltimore MD,Low-Fat Chicken Noodle Soup - 1 cup,$10.55,44
+446,300 OLDHAM ST Baltimore MD,Salad of Brussels Sprouts,$7.22,44
+447,300 OLDHAM ST Baltimore MD,Jr. Breakfast Burrito,$1.74,44
+448,300 OLDHAM ST Baltimore MD,Curry Chicken,$12.59,44
+449,300 OLDHAM ST Baltimore MD,Frisco Breakfast Sandwich,$2.98,44
+450,300 OLDHAM ST Baltimore MD,Old School Floats,$11.36,44
+451,300 OLDHAM ST Baltimore MD,Jumbo Breakfast Platter,$10.24,44
+452,300 OLDHAM ST Baltimore MD,Tuscani Meaty Marinara,$2.32,44
+453,300 OLDHAM ST Baltimore MD,XXL Chalupa - Chicken,$3.89,44
+454,300 OLDHAM ST Baltimore MD,Fried Mushrooms,$12.25,44
+455,300 OLDHAM ST Baltimore MD,Shrimp Pasta Parmesan,$11.86,44
+456,300 OLDHAM ST Baltimore MD,96. Aloo Palak,$2.62,44
+457,300 OLDHAM ST Baltimore MD,Honey BBQ,$11.80,44
+458,1000 LOMBARD ST Baltimore MD,Veggie Lover's Pizza,$1.01,45
+459,1000 LOMBARD ST Baltimore MD,Fresh Baked Cookies,$6.02,45
+460,1000 LOMBARD ST Baltimore MD,Baked Potato Soup - 1 1/2 cups,$5.53,45
+461,1000 LOMBARD ST Baltimore MD,Enchilada,$1.11,45
+462,1000 LOMBARD ST Baltimore MD,Ultimate Cheese Lover's Pizza,$4.03,45
+463,1000 LOMBARD ST Baltimore MD,42938. Bagel Dog,$1.74,45
+464,1000 LOMBARD ST Baltimore MD,Bacon,$4.80,45
+465,1000 LOMBARD ST Baltimore MD,Frozen Mocha,$5.20,45
+466,1000 LOMBARD ST Baltimore MD,Mashed Potatos,$4.76,45
+467,1000 LOMBARD ST Baltimore MD,Chicken Parmesan,$9.34,45
+468,1000 LOMBARD ST Baltimore MD,Grilled Steak Taquitos,$12.38,45
+469,1000 LOMBARD ST Baltimore MD,Hot Chocolate,$1.68,45
+470,1000 LOMBARD ST Baltimore MD,Strawberry Frutista Freeze,$11.15,45
+471,6701 HOLABIRD AVE Baltimore MD,53305. Original High Protein Smoothie,$1.98,46
+472,6701 HOLABIRD AVE Baltimore MD,DQ Vanilla Orange Bar,$3.00,46
+473,6701 HOLABIRD AVE Baltimore MD,Fried Chicken Wings,$9.72,46
+474,6701 HOLABIRD AVE Baltimore MD,Peppermint White Chocolate Mocha,$8.58,46
+475,6701 HOLABIRD AVE Baltimore MD,Happy Family,$12.92,46
+476,6701 HOLABIRD AVE Baltimore MD,Fresco Burrito Supreme Steak,$3.09,46
+477,6701 HOLABIRD AVE Baltimore MD,Lamb Biryani,$12.26,46
+478,6701 HOLABIRD AVE Baltimore MD,Cheese,$2.48,46
+479,1741 LIGHT ST Baltimore MD,Chicken Pot Pie,$12.67,47
+480,1741 LIGHT ST Baltimore MD,Chicken Rice Soup,$4.04,47
+481,1741 LIGHT ST Baltimore MD,Grilled Asparagus,$6.77,47
+482,1741 LIGHT ST Baltimore MD,Cheeseburger,$4.79,47
+483,1741 LIGHT ST Baltimore MD,Grilled Cheese Sandwich,$3.86,47
+484,1741 LIGHT ST Baltimore MD,Meat and Potato Burrito,$6.29,47
+485,1741 LIGHT ST Baltimore MD,French Fries KIds,$2.18,47
+486,1741 LIGHT ST Baltimore MD,Southern Original Sauce,$2.68,47
+487,1741 LIGHT ST Baltimore MD,Roast Beef,$12.44,47
+488,1741 LIGHT ST Baltimore MD,Kids Meal Cheeseburger,$10.97,47
+489,1741 LIGHT ST Baltimore MD,Iced Flavored Latte,$11.89,47
+490,1741 LIGHT ST Baltimore MD,Meatball Pepperoni Melt,$10.75,47
+491,1741 LIGHT ST Baltimore MD,2 oz. Bacon,$11.33,47
+492,205 MADISON ST Baltimore MD,Baja Salad,$5.87,48
+493,205 MADISON ST Baltimore MD,Grilled Chicken Salad,$11.43,48
+494,205 MADISON ST Baltimore MD,Super Sonic Breakfast Burrito,$8.76,48
+495,205 MADISON ST Baltimore MD,Beef or Chicken Nachos,$7.59,48
+496,205 MADISON ST Baltimore MD,Oreo Cookies,$8.35,48
+497,641 MONTFORD AVE Baltimore MD,L11. Sweet and Sour Shrimp Lunch Special,$1.39,49
+498,641 MONTFORD AVE Baltimore MD,Hand Mixed Shakes & Malts,$2.64,49
+499,641 MONTFORD AVE Baltimore MD,Home Fries,$5.19,49
+500,641 MONTFORD AVE Baltimore MD,Steak & Arugula Sandwich - whole sandwich,$1.37,49
+501,641 MONTFORD AVE Baltimore MD,Fish & Chips,$5.21,49
+502,641 MONTFORD AVE Baltimore MD,4 Piece Nuggets Kids Meal,$7.23,49
+503,641 MONTFORD AVE Baltimore MD,Cheese Burger,$2.13,49
+504,641 MONTFORD AVE Baltimore MD,Reduced-Fat Wild Blueberry Cream Cheese,$11.30,49
+505,641 MONTFORD AVE Baltimore MD,8 oz. Top Sirloin,$10.98,49
+506,641 MONTFORD AVE Baltimore MD,Creole Jambalaya,$10.11,49
+507,641 MONTFORD AVE Baltimore MD,Spicy Italian,$4.89,49
+508,1712 ALICEANNA ST Baltimore MD,Chocolate Chipper Cookie,$12.62,50
+509,1712 ALICEANNA ST Baltimore MD,Raspberry Almond Thumbprint Cookie,$3.63,50
+510,1712 ALICEANNA ST Baltimore MD,Beef with Garlic Sauce,$2.48,50
+511,1712 ALICEANNA ST Baltimore MD,Spicy Basil Fried Rice Lunch Special,$1.78,50
+512,1712 ALICEANNA ST Baltimore MD,Half Southwest,$1.06,50
+513,1712 ALICEANNA ST Baltimore MD,41115. Tiger Balls,$9.78,50
+514,1712 ALICEANNA ST Baltimore MD,Jerk Chicken Wings,$11.30,50
+515,1712 ALICEANNA ST Baltimore MD,Cheesy Bread,$2.60,50
+516,1712 ALICEANNA ST Baltimore MD,Iced Tea,$3.23,50
+517,4700 MT HOPE DR Baltimore MD,Ravioli In Red Or White Sauce,$4.36,51
+518,4700 MT HOPE DR Baltimore MD,Potato Salad,$12.44,51
+519,4700 MT HOPE DR Baltimore MD,Jumbo Jack,$5.86,51
+520,4700 MT HOPE DR Baltimore MD,Playoff Wings,$4.33,51
+521,4700 MT HOPE DR Baltimore MD,Mexican Pizza,$2.53,51
+522,4700 MT HOPE DR Baltimore MD,Chocolate Smoothie,$5.03,51
+523,4700 MT HOPE DR Baltimore MD,Diet Coke,$1.81,51
+524,4700 MT HOPE DR Baltimore MD,Spinach Salad,$4.23,51
+525,4700 MT HOPE DR Baltimore MD,Steak Quesadilla,$10.62,51
+526,4700 MT HOPE DR Baltimore MD,Coleslaw,$7.17,51
+527,4700 MT HOPE DR Baltimore MD,Grilled Chicken Sandwich,$3.80,51
+528,3725 MALDEN AVE Baltimore MD,Tuna Tartare,$12.11,52
+529,3725 MALDEN AVE Baltimore MD,Dinner Soup of the Day,$3.85,52
+530,3725 MALDEN AVE Baltimore MD,Peppercorn Prime Rib,$10.29,52
+531,3725 MALDEN AVE Baltimore MD,Shiromi Chicken - White Breast Meat,$11.25,52
+532,3725 MALDEN AVE Baltimore MD,50446. Pizza and Salad Lunch,$6.69,52
+533,3725 MALDEN AVE Baltimore MD,Kid's Buffalo Shrimp,$7.56,52
+534,3725 MALDEN AVE Baltimore MD,French Fries Medium,$6.97,52
+535,3725 MALDEN AVE Baltimore MD,Egg,$11.91,52
+536,3725 MALDEN AVE Baltimore MD,46186. Caterpillar Roll,$11.72,52
+537,3725 MALDEN AVE Baltimore MD,Apple Crisp,$6.78,52
+538,3725 MALDEN AVE Baltimore MD,The Vanilla Frosty Shake,$8.83,52
+539,3725 MALDEN AVE Baltimore MD,Greek,$10.10,52
+540,3725 MALDEN AVE Baltimore MD,Bella's Funnel Cake,$5.92,52
+541,3725 MALDEN AVE Baltimore MD,JOEL GOTT,$3.18,52
+542,3915 HANOVER ST Baltimore MD,Coffee,$9.35,53
+543,3915 HANOVER ST Baltimore MD,Mashed Potatos,$10.53,53
+544,3915 HANOVER ST Baltimore MD,Hot Chocolate,$8.05,53
+545,3915 HANOVER ST Baltimore MD,Cream Slush Treats,$4.69,53
+546,3915 HANOVER ST Baltimore MD,Kids Greek Salad,$4.21,53
+547,3915 HANOVER ST Baltimore MD,Carrot Cake,$12.38,53
+548,3915 HANOVER ST Baltimore MD,17243. Christmas Roll,$2.99,53
+549,3915 HANOVER ST Baltimore MD,Meat Sauce,$12.23,53
+550,3915 HANOVER ST Baltimore MD,Chicken Grillers,$12.45,53
+551,3915 HANOVER ST Baltimore MD,Ranch Dressing Dipping Sauce,$11.81,53
+552,3915 HANOVER ST Baltimore MD,Sunrise Subway Melt,$1.82,53
+553,3915 HANOVER ST Baltimore MD,Hoagie Roll,$3.01,53
+554,3915 HANOVER ST Baltimore MD,Cinnamon Dolce Frappuccino,$2.34,53
+555,3915 HANOVER ST Baltimore MD,Mexicutioner Monster Burrito,$2.43,53
+556,704 BROADWAY Baltimore MD,55+ Breakfast Sampler,$9.17,54
+557,704 BROADWAY Baltimore MD,Crispy Chicken Caesar Wrap,$10.00,54
+558,704 BROADWAY Baltimore MD,7 Piece Tuna Sashimi Special,$12.02,54
+559,704 BROADWAY Baltimore MD,Quart Cut Corn,$10.04,54
+560,704 BROADWAY Baltimore MD,Vanilla Bean Creme Frappuccino Blended Creme,$10.43,54
+561,704 BROADWAY Baltimore MD,Steamer,$12.75,54
+562,704 BROADWAY Baltimore MD,Shakes,$3.68,54
+563,704 BROADWAY Baltimore MD,Apple Slices,$9.34,54
+564,704 BROADWAY Baltimore MD,Antipasto Freddo,$8.92,54
+565,704 BROADWAY Baltimore MD,Chicken Quesadilla Grande,$3.51,54
+566,2501 FLEET ST Baltimore MD,Hunan Chicken,$6.03,55
+567,2501 FLEET ST Baltimore MD,Oreo Cookies,$5.98,55
+568,2501 FLEET ST Baltimore MD,Crab Rangoon,$3.64,55
+569,2501 FLEET ST Baltimore MD,Mushroom Shrimp,$5.97,55
+570,2501 FLEET ST Baltimore MD,Rib Appetizer,$6.77,55
+571,2501 FLEET ST Baltimore MD,Southwest Eggrolls,$10.95,55
+572,2501 FLEET ST Baltimore MD,Chicken & Bacon Ranch Melt,$6.78,55
+573,2501 FLEET ST Baltimore MD,1/2 ;b. with Cheese Grillburger,$11.44,55
+574,2501 FLEET ST Baltimore MD,Diet Pepsi,$2.37,55
+575,2501 FLEET ST Baltimore MD,49176. Sashimi Appetizer,$5.95,55
+576,2501 FLEET ST Baltimore MD,Meximelt,$12.38,55
+577,2501 FLEET ST Baltimore MD,Cheese Sticks with Meat Sauce,$1.82,55
+578,2501 FLEET ST Baltimore MD,BBQ Beef Ribs,$6.88,55
+579,2501 FLEET ST Baltimore MD,1 Egg,$12.30,55
+580,2501 FLEET ST Baltimore MD,Meat Lovers,$9.44,55
+581,5621 BELAIR RD Baltimore MD,Double Fudge Brownie,$6.92,56
+582,5621 BELAIR RD Baltimore MD,Coca Cola Products,$12.61,56
+583,5621 BELAIR RD Baltimore MD,Pepperoni Delite,$4.84,56
+584,5621 BELAIR RD Baltimore MD,Sonic Burger,$8.17,56
+585,5621 BELAIR RD Baltimore MD,Applebee's Riblets,$8.56,56
+586,5621 BELAIR RD Baltimore MD,Fiesta Taco Salad,$11.43,56
+587,5621 BELAIR RD Baltimore MD,Jr. Deluxe Burger,$6.60,56
+588,5621 BELAIR RD Baltimore MD,Dr. Pepper,$2.76,56
+589,5621 BELAIR RD Baltimore MD,Coconut Almond Chicken,$4.51,56
+590,5621 BELAIR RD Baltimore MD,Starbucks Bottled Dark Chocolate Mocha Frappuccino Coffee,$9.24,56
+591,5621 BELAIR RD Baltimore MD,Low-Fat Vegetarian Garden Vegetable Soup with Pesto - 1 cup,$8.10,56
+592,5621 BELAIR RD Baltimore MD,Sonic Blast,$10.27,56
+593,5621 BELAIR RD Baltimore MD,Chickenstrips,$1.20,56
+594,5621 BELAIR RD Baltimore MD,Vanilla Cone,$12.49,56
+595,1120 FORT AVE Baltimore MD,Turkey Club,$2.34,57
+596,1120 FORT AVE Baltimore MD,Classic with Cheese Grillburger,$9.57,57
+597,1120 FORT AVE Baltimore MD,Buffalo Chicken Pizza,$12.53,57
+598,1120 FORT AVE Baltimore MD,Seasonal Greens Salad - half salad,$7.09,57
+599,1120 FORT AVE Baltimore MD,Chicken Cashew with Grilled Chicken,$8.22,57
+600,1120 FORT AVE Baltimore MD,Apple Bites,$2.70,57
+601,1120 FORT AVE Baltimore MD,1/2 Steamed Veggies Red Pepper,$10.05,57
+602,1120 FORT AVE Baltimore MD,Chocolate Chip Muffie,$10.56,57
+603,1120 FORT AVE Baltimore MD,West County Sandwich,$12.17,57
+604,1120 FORT AVE Baltimore MD,Modern Greek Salad with Quinoa - half salad,$6.51,57
+605,1120 FORT AVE Baltimore MD,Farmers Market Quesadilla,$10.36,57
+606,415 COLD SPRING LN Baltimore MD,The Murphy's Combo,$12.58,58
+607,415 COLD SPRING LN Baltimore MD,Cheese Sticks,$2.30,58
+608,415 COLD SPRING LN Baltimore MD,Roma Pepper Steak,$10.09,58
+609,415 COLD SPRING LN Baltimore MD,Camarones Mariachi,$12.07,58
+610,415 COLD SPRING LN Baltimore MD,Biscuits,$11.86,58
+611,3811 CANTERBURY RD Baltimore MD,Roast Beef Gyro,$7.99,59
+612,3811 CANTERBURY RD Baltimore MD,Baxter's Steak Burger,$10.19,59
+613,3811 CANTERBURY RD Baltimore MD,Handmade Onion Rings,$11.95,59
+614,3811 CANTERBURY RD Baltimore MD,Shrimp,$9.91,59
+615,3811 CANTERBURY RD Baltimore MD,Apple Slices,$3.81,59
+616,3811 CANTERBURY RD Baltimore MD,Kid's Meal French Fries,$10.91,59
+617,3811 CANTERBURY RD Baltimore MD,1/4 Lb Double Cheeseburger,$1.49,59
+618,3811 CANTERBURY RD Baltimore MD,The Vanilla Frosty Shake,$8.85,59
+619,3811 CANTERBURY RD Baltimore MD,Chicken Tenders,$6.12,59
+620,3811 CANTERBURY RD Baltimore MD,Sierra Mist,$12.85,59
+621,3811 CANTERBURY RD Baltimore MD,Sonic Burger,$11.95,59
+622,3811 CANTERBURY RD Baltimore MD,Oreo Cookie Shake,$4.24,59
+623,1810 CHERRY HILL RD Baltimore MD,Mexican Rice,$5.54,60
+624,1810 CHERRY HILL RD Baltimore MD,Spicy Asian,$1.96,60
+625,1810 CHERRY HILL RD Baltimore MD,Yams,$6.59,60
+626,1810 CHERRY HILL RD Baltimore MD,Root Beer,$12.23,60
+627,1810 CHERRY HILL RD Baltimore MD,Jr. Deluxe Burger,$7.26,60
+628,1810 CHERRY HILL RD Baltimore MD,Shrimp with Broccoli,$11.12,60
+629,1810 CHERRY HILL RD Baltimore MD,Holiday Gingerbread,$1.42,60
+630,1810 CHERRY HILL RD Baltimore MD,Chicken Strip Basket,$1.56,60
+631,1810 CHERRY HILL RD Baltimore MD,Cheeseburger,$4.94,60
+632,901 PRATT ST Baltimore MD,1/2 Lb Grilled Sourdough Thickburger,$2.29,61
+633,901 PRATT ST Baltimore MD,Crab Dip,$8.74,61
+634,901 PRATT ST Baltimore MD,Plain Bagel,$3.14,61
+635,901 PRATT ST Baltimore MD,Braised Beef Short Rib Dinner,$8.31,61
+636,901 PRATT ST Baltimore MD,Signature Hot Chocolate Ice Cream,$5.30,61
+637,901 PRATT ST Baltimore MD,12 Piece,$8.43,61
+638,901 PRATT ST Baltimore MD,Diet Pepsi,$6.84,61
+639,901 PRATT ST Baltimore MD,Homemade Pizza Rolls,$10.88,61
+640,901 PRATT ST Baltimore MD,Chicken Madeira,$1.70,61
+641,901 PRATT ST Baltimore MD,Italian,$8.27,61
+642,901 PRATT ST Baltimore MD,10-Piece Chicken Nuggets,$9.89,61
+643,901 PRATT ST Baltimore MD,Grilled Chicken Salad,$7.97,61
+644,1502 MADISON AVE Baltimore MD,P'Zone Pizza,$2.63,62
+645,1502 MADISON AVE Baltimore MD,White Tuna Tataki,$8.32,62
+646,1502 MADISON AVE Baltimore MD,Chicken Tenders,$4.68,62
+647,1502 MADISON AVE Baltimore MD,Tropicana Fruit Punch,$4.84,62
+648,1502 MADISON AVE Baltimore MD,Milk,$10.90,62
+649,1502 MADISON AVE Baltimore MD,Taffy Apple Shake,$3.81,62
+650,1502 MADISON AVE Baltimore MD,Cheeseburger,$5.21,62
+651,1502 MADISON AVE Baltimore MD,45815. Crispy Cheese Curds,$9.14,62
+652,1502 MADISON AVE Baltimore MD,Breaded Chicken Fillet Biscuit,$7.83,62
+653,1502 MADISON AVE Baltimore MD,Chicken Fiesta Potatoes,$11.29,62
+654,1502 MADISON AVE Baltimore MD,Soup,$9.52,62
+655,1502 MADISON AVE Baltimore MD,Caffeine Free Diet Coke,$1.64,62
+656,1527 CHERRY ST Baltimore MD,Blueberry Scone,$1.83,63
+657,1527 CHERRY ST Baltimore MD,Meatball Pepperoni Melt,$2.91,63
+658,1527 CHERRY ST Baltimore MD,Cherry Turnover,$11.32,63
+659,1527 CHERRY ST Baltimore MD,Classic,$1.32,63
+660,1527 CHERRY ST Baltimore MD,Premium Aged Prime Sirloin,$11.56,63
+661,1527 CHERRY ST Baltimore MD,Bourbon Chicken,$8.37,63
+662,1527 CHERRY ST Baltimore MD,Spicy Tuna Tartar,$7.33,63
+663,506 FORT AVE Baltimore MD,Additional Toppings,$10.64,64
+664,506 FORT AVE Baltimore MD,Country Ranch Sandwich,$1.97,64
+665,506 FORT AVE Baltimore MD,Tazo Black Shaken Iced Tea Lemonade,$1.20,64
+666,506 FORT AVE Baltimore MD,Caffe American,$4.79,64
+667,506 FORT AVE Baltimore MD,Mocha Iced Coffee,$1.48,64
+668,506 FORT AVE Baltimore MD,Steak & Egg Burrito,$12.36,64
+669,506 FORT AVE Baltimore MD,Large Crab Rangoon (6),$5.15,64
+670,506 FORT AVE Baltimore MD,Chicken BLT Burger,$10.34,64
+671,506 FORT AVE Baltimore MD,Cheesy Bread,$1.08,64
+672,506 FORT AVE Baltimore MD,Chicken Tortilla Soup,$3.62,64
+673,506 FORT AVE Baltimore MD,Belly Buster,$10.22,64
+674,506 FORT AVE Baltimore MD,Asiago Cheese,$2.01,64
+675,506 FORT AVE Baltimore MD,Grilled Cheese,$12.20,64
+676,506 FORT AVE Baltimore MD,Appetizer Pies,$12.12,64
+677,506 FORT AVE Baltimore MD,Green Beans,$7.96,64
+678,400 EATON ST Baltimore MD,Roast Beef,$9.15,65
+679,400 EATON ST Baltimore MD,Mushroom Swiss Burger,$4.64,65
+680,400 EATON ST Baltimore MD,49206. Sushi Regular,$4.30,65
+681,400 EATON ST Baltimore MD,Chicken Habanero,$8.99,65
+682,400 EATON ST Baltimore MD,Buttermilk Crispy Chicken Sandwich,$5.05,65
+683,400 EATON ST Baltimore MD,Classic Grilled Cheese - whole sandwich,$6.62,65
+684,400 EATON ST Baltimore MD,Pommaberry,$5.08,65
+685,400 EATON ST Baltimore MD,Szechuan Shrimp,$12.63,65
+686,400 EATON ST Baltimore MD,Spicy Italian,$3.78,65
+687,400 EATON ST Baltimore MD,Green Goddess Cobb Salad with Chicken - half salad,$3.33,65
+688,7135 HARFORD RD Baltimore MD,NACHOS SUPREME,$8.17,66
+689,7135 HARFORD RD Baltimore MD,Baby Carrots with Ranch,$11.07,66
+690,7135 HARFORD RD Baltimore MD,The Rock Island,$1.22,66
+691,7135 HARFORD RD Baltimore MD,Asiago Cheese Bagel,$9.28,66
+692,7135 HARFORD RD Baltimore MD,Cherry Pastry,$7.29,66
+693,7135 HARFORD RD Baltimore MD,Baby Back With Chicken Or Sliced Meat,$11.82,66
+694,7135 HARFORD RD Baltimore MD,Spicy Chicken Double,$8.05,66
+695,7135 HARFORD RD Baltimore MD,Vanilla Dish,$11.31,66
+696,7135 HARFORD RD Baltimore MD,Louisiana Fried Shrimp,$12.97,66
+697,7135 HARFORD RD Baltimore MD,Sm. Famous Slush,$7.76,66
+698,7135 HARFORD RD Baltimore MD,5-piece Chicken Nuggets,$7.10,66
+699,7135 HARFORD RD Baltimore MD,Soup Of The Day,$11.97,66
+700,7135 HARFORD RD Baltimore MD,Bourbon Street Chicken,$3.78,66
+701,7135 HARFORD RD Baltimore MD,Chicken Fiesta Taco Salad,$6.99,66
+702,7135 HARFORD RD Baltimore MD,Sides,$3.83,66
+703,3600 KESWICK RD Baltimore MD,Crispy Cashew Chicken,$11.30,67
+704,3600 KESWICK RD Baltimore MD,Hog Dog,$7.75,67
+705,3600 KESWICK RD Baltimore MD,Chicken Strip Sandwich,$11.10,67
+706,3600 KESWICK RD Baltimore MD,Subway Club,$11.79,67
+707,3600 KESWICK RD Baltimore MD,Handmade Onion Rings,$9.55,67
+708,3600 KESWICK RD Baltimore MD,Egg & Cheese,$4.24,67
+709,10 MARKET PLACE Baltimore MD,Shrimp with Garlic Sauce,$4.01,68
+710,10 MARKET PLACE Baltimore MD,Gorditas Rellenas,$11.54,68
+711,10 MARKET PLACE Baltimore MD,Brownie,$1.59,68
+712,10 MARKET PLACE Baltimore MD,39993. Toasted Garlic Sticks,$10.88,68
+713,10 MARKET PLACE Baltimore MD,Broiled Shrimp Rrio,$11.96,68
+714,10 MARKET PLACE Baltimore MD,Chicken Strips,$9.42,68
+715,10 MARKET PLACE Baltimore MD,Spinach Artichoke Dip,$9.16,68
+716,10 MARKET PLACE Baltimore MD,46141. Kani Nigiri,$11.18,68
+717,5805 O Donnell ST Baltimore MD,Ultimate Chicken Grill,$7.10,69
+718,5805 O Donnell ST Baltimore MD,8-Grain Roll,$6.65,69
+719,5805 O Donnell ST Baltimore MD,Baked Potato Soup - 1 1/2 cups,$11.57,69
+720,5805 O Donnell ST Baltimore MD,Premium Roast Coffee,$2.08,69
+721,5805 O Donnell ST Baltimore MD,55924. Chicken Fried Steak,$11.52,69
+722,5805 O Donnell ST Baltimore MD,Crispy Cashew Chicken or Pork,$9.95,69
+723,5805 O Donnell ST Baltimore MD,Reduced-Fat Plain Cream Cheese,$9.31,69
+724,5805 O Donnell ST Baltimore MD,Bacon,$8.82,69
+725,5805 O Donnell ST Baltimore MD,Border Burger,$7.80,69
+726,5805 O Donnell ST Baltimore MD,French Fries,$1.67,69
+727,5805 O Donnell ST Baltimore MD,3 Piece Chicken Strips,$9.77,69
+728,5805 O Donnell ST Baltimore MD,Veggie Deluxe,$4.32,69
+729,601 CLINTON ST Baltimore MD,Quesadilla Burger,$10.74,70
+730,601 CLINTON ST Baltimore MD,Uncle Herschel's Favorite,$12.49,70
+731,601 CLINTON ST Baltimore MD,Lays Regular Chips,$12.16,70
+732,601 CLINTON ST Baltimore MD,Shrimp with Lobster Sauce,$7.49,70
+733,601 CLINTON ST Baltimore MD,Supercrab Roll,$6.61,70
+734,601 CLINTON ST Baltimore MD,Crunchy Onion Rings,$12.96,70
+735,631 LEXINGTON ST Baltimore MD,P'Zone Pizza,$10.08,71
+736,631 LEXINGTON ST Baltimore MD,Coke,$6.95,71
+737,631 LEXINGTON ST Baltimore MD,1 lb. Boned Wings Combo,$8.48,71
+738,631 LEXINGTON ST Baltimore MD,Oven Roasted Chicken,$10.52,71
+739,631 LEXINGTON ST Baltimore MD,Chocolate Cream Truffle,$2.33,71
+740,631 LEXINGTON ST Baltimore MD,Double Espresso,$8.93,71
+741,631 LEXINGTON ST Baltimore MD,Organic White Milk,$2.84,71
+742,631 LEXINGTON ST Baltimore MD,North Atlantic Cod Filet,$7.00,71
+743,631 LEXINGTON ST Baltimore MD,Onion Rings,$9.47,71
+744,631 LEXINGTON ST Baltimore MD,Double Reuben,$12.36,71
+745,6798 REISTERSTOWN RD Baltimore MD,Grilled Chicken Caesar,$2.16,72
+746,6798 REISTERSTOWN RD Baltimore MD,159. Rabbit Guo Zai,$8.71,72
+747,6798 REISTERSTOWN RD Baltimore MD,Additional Toppings,$4.43,72
+748,6798 REISTERSTOWN RD Baltimore MD,Boulevard Pale Ale,$4.54,72
+749,6798 REISTERSTOWN RD Baltimore MD,C3. Sesame Chicken Special Combo Plate,$7.77,72
+750,6798 REISTERSTOWN RD Baltimore MD,Beef Sandwich,$8.01,72
+751,6798 REISTERSTOWN RD Baltimore MD,Cinnamon Sticks,$10.51,72
+752,6798 REISTERSTOWN RD Baltimore MD,California Club Half Sandwich with Soup Lunch Duo,$1.91,72
+753,6798 REISTERSTOWN RD Baltimore MD,85. Chicken with Broccoli,$9.52,72
+754,6798 REISTERSTOWN RD Baltimore MD,Southwest Cobb,$2.54,72
+755,300 st paul pl Baltimore MD,Cali Chicken Bacon Ranch Pizza,$6.94,73
+756,300 st paul pl Baltimore MD,40251. Garden Salad,$12.11,73
+757,300 st paul pl Baltimore MD,Fountain Drinks,$11.43,73
+758,300 st paul pl Baltimore MD,Italian B.M.T.,$5.39,73
+759,300 st paul pl Baltimore MD,Harvest Chicken,$8.69,73
+760,300 st paul pl Baltimore MD,Soft Drinks,$12.71,73
+761,300 st paul pl Baltimore MD,Ultimate Breakfast Sandwich Combo,$5.09,73
+762,300 st paul pl Baltimore MD,Chicken Biscuit,$5.66,73
+763,300 st paul pl Baltimore MD,Ariake Fried Shrimp (5),$4.68,73
+764,300 st paul pl Baltimore MD,Beef,$7.70,73
+765,300 st paul pl Baltimore MD,6 Fried Wonton,$9.11,73
+766,300 st paul pl Baltimore MD,Triple Thick Brown Sugar Bacon Roast Beef,$1.85,73
+767,300 st paul pl Baltimore MD,Minute Maid® Lemonade,$5.54,73
+768,300 st paul pl Baltimore MD,Peanut Butter,$1.81,73
+769,1101 RUSSELL ST Baltimore MD,Egg & Cheese,$8.21,74
+770,1101 RUSSELL ST Baltimore MD,French Dip & Swiss,$5.12,74
+771,1101 RUSSELL ST Baltimore MD,Chicken Sandwich,$8.36,74
+772,1101 RUSSELL ST Baltimore MD,Super Sonic Double Cheeseburger,$7.00,74
+773,1101 RUSSELL ST Baltimore MD,Iced Teas & Soft Drinks,$7.94,74
+774,1101 RUSSELL ST Baltimore MD,Bacon Spinach Salad,$1.57,74
+775,1101 RUSSELL ST Baltimore MD,Hot Stuff Pizza,$12.72,74
+776,1101 RUSSELL ST Baltimore MD,Sunrise Crossiant with Bacon,$2.00,74
+777,1101 RUSSELL ST Baltimore MD,Sweet and Sour,$1.58,74
+778,1101 RUSSELL ST Baltimore MD,Low Carb Charboiled Chicken Club Sandwich,$3.45,74
+779,1101 RUSSELL ST Baltimore MD,Imos Extra Special,$9.08,74
+780,1101 RUSSELL ST Baltimore MD,Hawaiian BBQ Chicken,$1.39,74
+781,1101 RUSSELL ST Baltimore MD,46918. Side of Salsa,$3.70,74
+782,Hopkins Pl Baltimore MD,BBQ Chicken,$8.33,75
+783,Hopkins Pl Baltimore MD,Jr. Deluxe Cheeseburger,$4.35,75
+784,Hopkins Pl Baltimore MD,Fruit Cup,$4.37,75
+785,Hopkins Pl Baltimore MD,Meatball Sub Parmesan,$7.31,75
+786,Hopkins Pl Baltimore MD,Iced Cappuccino,$7.04,75
+787,Hopkins Pl Baltimore MD,Extra Crispy Tenders,$12.26,75
+788,Hopkins Pl Baltimore MD,Shredded Beef with Spicy Sauce,$6.05,75
+789,Hopkins Pl Baltimore MD,Root Beer Lemonade,$12.06,75
+790,Hopkins Pl Baltimore MD,Water,$4.61,75
+791,Hopkins Pl Baltimore MD,Signature Sandwiches,$8.07,75
+792,Hopkins Pl Baltimore MD,4 Cheese Melt,$12.46,75
+793,Hopkins Pl Baltimore MD,Juice,$10.36,75
+794,Hopkins Pl Baltimore MD,Cajun Whitefish,$8.38,75
+795,2 CHASE ST Baltimore MD,72. Pork with Black Bean Sauce,$3.89,76
+796,2 CHASE ST Baltimore MD,BLT,$2.41,76
+797,2 CHASE ST Baltimore MD,Philly Sandwich,$6.57,76
+798,2 CHASE ST Baltimore MD,Fish Tikka Masala,$9.15,76
+799,2 CHASE ST Baltimore MD,Pepsi,$9.27,76
+800,2 CHASE ST Baltimore MD,Breadsticks,$8.25,76
+801,2 CHASE ST Baltimore MD,Old Timer's Breakfast,$10.67,76
+802,2 CHASE ST Baltimore MD,Fresco Burrito Supreme Chicken,$2.27,76
+803,2426 PENNSYLVANIA Baltimore MD,The Vegan,$8.16,77
+804,2426 PENNSYLVANIA Baltimore MD,Unsauced Wings,$7.83,77
+805,2426 PENNSYLVANIA Baltimore MD,Sukiyaki Steak (Lunch),$10.70,77
+806,2426 PENNSYLVANIA Baltimore MD,Combo Special (C),$10.36,77
+807,2426 PENNSYLVANIA Baltimore MD,Cheesy Bread Pizza (Full),$11.39,77
+808,2426 PENNSYLVANIA Baltimore MD,18087. French Toast Doughnut,$5.64,77
+809,2426 PENNSYLVANIA Baltimore MD,Cream Cheese,$4.36,77
+810,2426 PENNSYLVANIA Baltimore MD,Slaw,$4.52,77
+811,2426 PENNSYLVANIA Baltimore MD,2 lbs Pulled Meat & 8 Buns,$3.80,77
+812,129 BROADWAY Baltimore MD,Homemade Beer Bread,$8.92,78
+813,129 BROADWAY Baltimore MD,Creamy Caesar Dressing,$12.35,78
+814,129 BROADWAY Baltimore MD,Honey BBQ,$2.08,78
+815,129 BROADWAY Baltimore MD,Taco,$7.00,78
+816,129 BROADWAY Baltimore MD,Chicken Broccoli Pasta Alfredo,$7.28,78
+817,129 BROADWAY Baltimore MD,Hot Links,$8.71,78
+818,129 BROADWAY Baltimore MD,Toppings - Veggie,$5.25,78
+819,129 BROADWAY Baltimore MD,Triple Thick Brown Sugar Bacon Half Pound Club,$6.87,78
+820,129 BROADWAY Baltimore MD,Cheesy Nachos,$7.12,78
+821,129 BROADWAY Baltimore MD,Tropicana Fruit Punch,$10.44,78
+822,129 BROADWAY Baltimore MD,Bottled Drinks,$10.52,78
+823,129 BROADWAY Baltimore MD,Skinnylicious Chicken Enchiladas,$9.77,78
+824,25 BROADWAY Baltimore MD,Crab Stick (5),$1.49,79
+825,25 BROADWAY Baltimore MD,Lucky 7 Pizza,$7.28,79
+826,25 BROADWAY Baltimore MD,Combo Sandwich,$7.46,79
+827,25 BROADWAY Baltimore MD,Starbucks Bottled Coffee Frappuccino Coffee,$10.82,79
+828,25 BROADWAY Baltimore MD,Cheeseburger,$8.46,79
+829,25 BROADWAY Baltimore MD,Extra Crispy Chicken,$10.49,79
+830,25 BROADWAY Baltimore MD,Subway Club,$7.71,79
+831,25 BROADWAY Baltimore MD,Chicken Popper,$6.29,79
+832,25 BROADWAY Baltimore MD,Steak & Cheese,$5.10,79
+833,25 BROADWAY Baltimore MD,Toasted Ravioli,$6.44,79
+834,25 BROADWAY Baltimore MD,Mist Twist,$6.84,79
+835,25 BROADWAY Baltimore MD,Breadsticks,$6.41,79
+836,629 BROADWAY Baltimore MD,Italian Meatloaf,$9.65,80
+837,629 BROADWAY Baltimore MD,2. Chicken Fried Rice,$1.20,80
+838,629 BROADWAY Baltimore MD,Peppermint White Chocolate Mocha,$10.79,80
+839,629 BROADWAY Baltimore MD,Roast Beef,$1.94,80
+840,629 BROADWAY Baltimore MD,Chips or Crisps,$10.05,80
+841,629 BROADWAY Baltimore MD,Old Fashioned Butter Pecan Ice Cream Quart,$3.97,80
+842,629 BROADWAY Baltimore MD,Loaded Fries,$4.41,80
+843,629 BROADWAY Baltimore MD,Tacos Jalisco,$6.71,80
+844,629 BROADWAY Baltimore MD,Bottomless Cup of Tea,$6.72,80
+845,629 BROADWAY Baltimore MD,Screamsicle,$5.18,80
+846,629 BROADWAY Baltimore MD,Hot Tea,$12.75,80
+847,916 36th st Baltimore MD,Romaine & Kale Caesar Salad with Chicken - whole salad,$11.24,81
+848,916 36th st Baltimore MD,Cinnamon Roll,$4.58,81
+849,916 36th st Baltimore MD,Reese's Mini Soft Serve Parfait,$5.98,81
+850,916 36th st Baltimore MD,Great White,$7.43,81
+851,916 36th st Baltimore MD,Premium Burritos - Ultimate Meat and Cheese Breakfast Burrito,$3.37,81
+852,916 36th st Baltimore MD,Pork withGarlic Sauce,$5.17,81
+853,916 36th st Baltimore MD,4 Piece Vegetable Samosa,$3.06,81
+854,916 36th st Baltimore MD,Pepperoni,$1.59,81
+855,529 BELVEDERE AVE Baltimore MD,DQ Floats and Freezes,$11.36,82
+856,529 BELVEDERE AVE Baltimore MD,Spicy Sicilian Pizza,$10.34,82
+857,529 BELVEDERE AVE Baltimore MD,Roasted Vegetable Panini,$3.13,82
+858,529 BELVEDERE AVE Baltimore MD,Joia; Grapefruit Soda,$5.37,82
+859,529 BELVEDERE AVE Baltimore MD,Purity Organic Strawberry Paradise Juice,$3.79,82
+860,529 BELVEDERE AVE Baltimore MD,Mac & Cheese,$2.47,82
+861,529 BELVEDERE AVE Baltimore MD,Cinnamon Crumb Coffee Cake - 2 oz,$12.21,82
+862,529 BELVEDERE AVE Baltimore MD,Tuscani Tuesday Deal,$12.34,82
+863,529 BELVEDERE AVE Baltimore MD,XXL Chalupa - Steak,$5.79,82
+864,529 BELVEDERE AVE Baltimore MD,Hot Tea,$11.85,82
+865,529 BELVEDERE AVE Baltimore MD,Kid's Buffet,$8.57,82
+866,1 SOUTH ST Baltimore MD,Soft Taco Supreme,$3.11,83
+867,1 SOUTH ST Baltimore MD,Yum Neor Salad,$1.88,83
+868,1 SOUTH ST Baltimore MD,Mediterranean Chicken Salad Combo,$8.62,83
+869,1 SOUTH ST Baltimore MD,Black Olive,$11.89,83
+870,1 SOUTH ST Baltimore MD,Cut Corn,$12.61,83
+871,1 SOUTH ST Baltimore MD,Pancake Platter,$11.67,83
+872,1 SOUTH ST Baltimore MD,Premium Roast Coffee,$8.00,83
+873,1 SOUTH ST Baltimore MD,Wild Cherry Pepsi,$6.90,83
+874,1 SOUTH ST Baltimore MD,Savannah Chopped Salad,$4.36,83
+875,1 SOUTH ST Baltimore MD,Snickerdoodle Jumbo Cookie,$5.06,83
+876,1 SOUTH ST Baltimore MD,Tortellini,$9.89,83
+877,1 SOUTH ST Baltimore MD,Stromboli,$4.32,83
+878,1 SOUTH ST Baltimore MD,Crispy Curls Medium,$7.22,83
+879,1 SOUTH ST Baltimore MD,Cheese Fries,$4.42,83
+880,1 SOUTH ST Baltimore MD,Cowboy Benedict,$4.89,83
+881,2400 BOSTON ST Baltimore MD,Gravy,$4.89,84
+882,2400 BOSTON ST Baltimore MD,Toasted Ravioli or Cannelloni Bites with Tomato Sauce,$2.66,84
+883,2400 BOSTON ST Baltimore MD,The Extreme Cheese,$4.49,84
+884,2400 BOSTON ST Baltimore MD,Poppy Seed Dressing,$6.31,84
+885,2400 BOSTON ST Baltimore MD,Macaroni & Cheese,$2.65,84
+886,2400 BOSTON ST Baltimore MD,Fresh Baked Flatbreads - Wild Mushroom,$11.06,84
+887,2400 BOSTON ST Baltimore MD,Lipton Brisk Raspberry Iced Tea,$10.83,84
+888,2400 BOSTON ST Baltimore MD,Perfect 55 Plus Omelette,$1.51,84
+889,1238 GREENMOUNT AVE Baltimore MD,Linguine with Salsiccia,$3.01,85
+890,1238 GREENMOUNT AVE Baltimore MD,French Dip,$3.71,85
+891,1238 GREENMOUNT AVE Baltimore MD,Gluten-Free Thai Pizza,$1.22,85
+892,1238 GREENMOUNT AVE Baltimore MD,Crunchy Taco Supreme,$1.80,85
+893,1238 GREENMOUNT AVE Baltimore MD,Whole Cheese Steak,$1.33,85
+894,1238 GREENMOUNT AVE Baltimore MD,Baconator Single,$6.87,85
+895,1238 GREENMOUNT AVE Baltimore MD,Value Drink,$7.54,85
+896,1238 GREENMOUNT AVE Baltimore MD,Sesame Bagel,$9.45,85
+897,1238 GREENMOUNT AVE Baltimore MD,Popcorn Nuggets,$8.83,85
+898,1238 GREENMOUNT AVE Baltimore MD,Shrimp Alfredo,$12.14,85
+899,1238 GREENMOUNT AVE Baltimore MD,Crispy Chicken Farmhouse Salad,$1.22,85
+900,1238 GREENMOUNT AVE Baltimore MD,Bear Claw,$8.71,85
+901,1238 GREENMOUNT AVE Baltimore MD,Fiesta Taco Salad,$9.83,85
+902,1238 GREENMOUNT AVE Baltimore MD,Grande Chimichanga,$2.26,85
+903,1238 GREENMOUNT AVE Baltimore MD,Veggie Delite,$6.08,85
+904,4901 eastern ave Baltimore MD,Pepperoni P'Zone Pizza,$3.15,86
+905,4901 eastern ave Baltimore MD,Pineapple,$1.74,86
+906,4901 eastern ave Baltimore MD,Honey BBQ,$6.62,86
+907,4901 eastern ave Baltimore MD,Lipton Brisk Raspberry Iced Tea,$9.18,86
+908,4901 eastern ave Baltimore MD,Whiskey Cake,$1.57,86
+909,4901 eastern ave Baltimore MD,Chipolte BBQ,$4.51,86
+910,4901 eastern ave Baltimore MD,Diet Coke,$1.19,86
+911,1501 bolton ST Baltimore MD,Coffee,$6.69,87
+912,1501 bolton ST Baltimore MD,Foie Gras Frais,$5.53,87
+913,1501 bolton ST Baltimore MD,Lettuce & Tomato,$8.49,87
+914,1501 bolton ST Baltimore MD,Mediterranean Veggie,$7.76,87
+915,1501 bolton ST Baltimore MD,Cherry Limeade Sparkler,$2.82,87
+916,1501 bolton ST Baltimore MD,Supreme Pizza,$5.46,87
+917,2251 WILKENS AVE Baltimore MD,Coconut,$2.36,88
+918,2251 WILKENS AVE Baltimore MD,Avo-Cobb-O Salad,$12.37,88
+919,2251 WILKENS AVE Baltimore MD,Vanilla,$6.43,88
+920,2251 WILKENS AVE Baltimore MD,Black Forest Ham,$5.35,88
+921,2251 WILKENS AVE Baltimore MD,Ham & Swiss Sandwich - half sandwich,$6.69,88
+922,2251 WILKENS AVE Baltimore MD,Coca Cola Products,$10.16,88
+923,2251 WILKENS AVE Baltimore MD,Hot Dog,$12.32,88
+924,2251 WILKENS AVE Baltimore MD,Fresh Brewed Iced Tea,$3.42,88
+925,2251 WILKENS AVE Baltimore MD,Grilled Chicken Salad,$9.16,88
+926,2251 WILKENS AVE Baltimore MD,Grilled Sweet Onion Sirloin,$6.64,88
+927,2251 WILKENS AVE Baltimore MD,Ultimate Nachos,$6.78,88
+928,2251 WILKENS AVE Baltimore MD,Student or Active Military,$5.50,88
+929,1301 PRATT ST Baltimore MD,Honey Chipotle Wings,$9.07,89
+930,1301 PRATT ST Baltimore MD,Pepperoni,$5.12,89
+931,1301 PRATT ST Baltimore MD,Mist Twist,$6.70,89
+932,1301 PRATT ST Baltimore MD,Cheese or Pepperoni Pizza,$3.67,89
+933,1301 PRATT ST Baltimore MD,Shrimp with Chow Mein Combo Plate,$3.41,89
+934,1301 PRATT ST Baltimore MD,Substitute Loaded B.P. for Chips,$1.36,89
+935,1301 PRATT ST Baltimore MD,Chicken Parmesan,$3.40,89
+936,1301 PRATT ST Baltimore MD,Tuna,$11.12,89
+937,1301 PRATT ST Baltimore MD,All Meat,$2.13,89
+938,1301 PRATT ST Baltimore MD,Wild Cherry Pepsi,$3.99,89
+939,1301 PRATT ST Baltimore MD,Salt and Pepper Fried Tofu,$3.59,89
+940,301 PAYSON ST Baltimore MD,Porterhouse 20 Oz.,$6.65,90
+941,301 PAYSON ST Baltimore MD,Barq's Root Beer,$11.26,90
+942,301 PAYSON ST Baltimore MD,Gordita Nacho Cheese,$11.64,90
+943,301 PAYSON ST Baltimore MD,Philly Cheese Steak,$1.13,90
+944,301 PAYSON ST Baltimore MD,Half Pound French Dip & Swiss,$3.93,90
+945,301 PAYSON ST Baltimore MD,The Veggie,$7.40,90
+946,301 PAYSON ST Baltimore MD,Grilled Salmon,$11.99,90
+947,301 PAYSON ST Baltimore MD,Pepsi®,$3.23,90
+948,301 PAYSON ST Baltimore MD,Blue Ribbon Brownie,$1.25,90
+949,619 OLDHAM ST Baltimore MD,Scampi Shrimp,$4.07,91
+950,619 OLDHAM ST Baltimore MD,Cherry Pastry,$8.30,91
+951,619 OLDHAM ST Baltimore MD,Green Goddess Wedge,$3.92,91
+952,619 OLDHAM ST Baltimore MD,Reese's Peanut Butter Cup Sundae,$3.38,91
+953,619 OLDHAM ST Baltimore MD,9 oz. House Sirloin,$7.22,91
+954,619 OLDHAM ST Baltimore MD,The Pork Chop,$6.18,91
+955,619 OLDHAM ST Baltimore MD,Hot Fudge,$6.96,91
+956,34 MARKET PL Baltimore MD,Pepsi,$9.13,92
+957,34 MARKET PL Baltimore MD,$10 Dinner Box,$4.48,92
+958,34 MARKET PL Baltimore MD,White Vegetable Pizza,$6.45,92
+959,34 MARKET PL Baltimore MD,Italian Sandwich,$2.19,92
+960,34 MARKET PL Baltimore MD,Kids Cream of Chicken & Wild Rice Soup,$2.23,92
+961,34 MARKET PL Baltimore MD,Coke,$5.38,92
+962,34 MARKET PL Baltimore MD,Grilled Chicken Salad,$8.89,92
+963,34 MARKET PL Baltimore MD,Double Decker Taco,$7.04,92
+964,34 MARKET PL Baltimore MD,Basket of Fries,$6.56,92
+965,34 MARKET PL Baltimore MD,Classic White,$4.84,92
+966,34 MARKET PL Baltimore MD,Deluxe Stromboli,$9.28,92
+967,34 MARKET PL Baltimore MD,Garlic Pork Combination Plate,$7.92,92
+968,34 MARKET PL Baltimore MD,Seafood Dynasty,$8.70,92
+969,34 MARKET PL Baltimore MD,Roast Turkey Ranch & Bacon Wrap,$6.91,92
+970,1301 OLD COLDSPRING Ln Baltimore MD,Sonic Blast,$1.76,93
+971,1301 OLD COLDSPRING Ln Baltimore MD,Pepperoni Pizza,$9.96,93
+972,1301 OLD COLDSPRING Ln Baltimore MD,Beef,$4.83,93
+973,1301 OLD COLDSPRING Ln Baltimore MD,Sub Sliders (Pick 2),$9.17,93
+974,1301 OLD COLDSPRING Ln Baltimore MD,Tuna,$4.33,93
+975,1301 OLD COLDSPRING Ln Baltimore MD,Large,$10.61,93
+976,1301 OLD COLDSPRING Ln Baltimore MD,Big Chicken Sandwiches,$2.92,93
+977,1301 OLD COLDSPRING Ln Baltimore MD,Banana Split,$2.04,93
+978,1301 OLD COLDSPRING Ln Baltimore MD,Mexican Casserole,$12.52,93
+979,1301 OLD COLDSPRING Ln Baltimore MD,Half Rack of Double-Glazed Baby Back Ribs,$8.99,93
+980,1301 OLD COLDSPRING Ln Baltimore MD,Thai Salad,$1.50,93
+981,1301 OLD COLDSPRING Ln Baltimore MD,Bull's Eye Roll,$9.31,93
+982,1301 OLD COLDSPRING Ln Baltimore MD,Spicy Italian,$11.62,93
+983,55 MARKET PL Baltimore MD,Cherry Coca-Cola,$1.18,94
+984,55 MARKET PL Baltimore MD,Cheese,$6.53,94
+985,55 MARKET PL Baltimore MD,Chicken Quesadilla,$2.60,94
+986,55 MARKET PL Baltimore MD,Hawaiian Chicken,$10.32,94
+987,55 MARKET PL Baltimore MD,Grilled Chicken Breast Po Boy,$8.10,94
+988,55 MARKET PL Baltimore MD,Mountain Dew,$9.82,94
+989,55 MARKET PL Baltimore MD,Enchiladas Ranchera,$12.51,94
+990,55 MARKET PL Baltimore MD,50391. Thai Crunch Salad,$1.69,94
+991,55 MARKET PL Baltimore MD,1 1/2 lb. Wings,$8.39,94
+992,55 MARKET PL Baltimore MD,Turkey Breast,$10.10,94
+993,55 MARKET PL Baltimore MD,Fiesta Chicken Chopped Salad,$2.78,94
+994,55 MARKET PL Baltimore MD,Chili Cheese Tots or Fries,$1.89,94
+995,20 BALTIMORE ST Baltimore MD,Philly Beef & Cheese,$4.46,95
+996,20 BALTIMORE ST Baltimore MD,Mountain Dew,$9.72,95
+997,20 BALTIMORE ST Baltimore MD,Greek Sampler Platter,$1.63,95
+998,20 BALTIMORE ST Baltimore MD,Value Curly Fries,$8.60,95
+999,20 BALTIMORE ST Baltimore MD,Sierra Mist,$5.82,95
+1000,20 BALTIMORE ST Baltimore MD,Fresh Salmon Filet in Cashew Nut Sauce,$6.19,95
+1001,20 BALTIMORE ST Baltimore MD,Toast,$5.93,95
+1002,20 BALTIMORE ST Baltimore MD,Dr. Pepper,$4.94,95
+1003,20 BALTIMORE ST Baltimore MD,Tazo Shaken Iced Passion Tea Lemonade,$6.46,95
+1004,20 BALTIMORE ST Baltimore MD,Pies,$5.30,95
+1005,20 BALTIMORE ST Baltimore MD,Cantonese Style Chow Mein,$2.74,95
+1006,20 BALTIMORE ST Baltimore MD,Bottled Drinks,$9.30,95
+1007,20 BALTIMORE ST Baltimore MD,Bacon or Sausage with Fried Apples or Hashbrown Casserole,$11.78,95
+1008,20 BALTIMORE ST Baltimore MD,Premium Beef Hot Dogs - New York Dog,$6.72,95
+1009,20 BALTIMORE ST Baltimore MD,Mozzarella Sticks 4 Piece,$3.34,95
+1010,4712 CLUB RD Baltimore MD,Onions Tanglers,$11.14,96
+1011,4712 CLUB RD Baltimore MD,Floral Birthday Cake,$3.94,96
+1012,4712 CLUB RD Baltimore MD,Fresh Brewed Iced Tea,$5.19,96
+1013,4712 CLUB RD Baltimore MD,Side of Cheesy Garlic Toast,$10.11,96
+1014,4712 CLUB RD Baltimore MD,Salted Caramel Hot Chocolate,$8.53,96
+1015,4712 CLUB RD Baltimore MD,Signature Sirloin with Garlic Herb Shrimp,$4.21,96
+1016,4712 CLUB RD Baltimore MD,Chicken Littles,$9.02,96
+1017,4713 EASTERN AVENUE Baltimore MD,Angus Sirloin,$4.13,97
+1018,4713 EASTERN AVENUE Baltimore MD,Corn Dog,$3.37,97
+1019,4713 EASTERN AVENUE Baltimore MD,Turkey Bacon Club,$3.74,97
+1020,4713 EASTERN AVENUE Baltimore MD,Apple Crisp,$12.73,97
+1021,4713 EASTERN AVENUE Baltimore MD,Kids Cream of Chicken & Wild Rice Soup,$9.94,97
+1022,4713 EASTERN AVENUE Baltimore MD,Italian B.M.T.,$6.38,97
+1023,4713 EASTERN AVENUE Baltimore MD,Candy Cookie,$12.05,97
+1024,4713 EASTERN AVENUE Baltimore MD,Very Berry Good,$5.69,97
+1025,4713 EASTERN AVENUE Baltimore MD,Skinny Mocha,$11.89,97
+1026,4713 EASTERN AVENUE Baltimore MD,Cocktel De Camaron,$3.49,97
+1027,4713 EASTERN AVENUE Baltimore MD,Sweet Onion Chicken Teriyaki,$2.41,97
+1028,4713 EASTERN AVENUE Baltimore MD,Ninja Roll,$9.43,97
+1029,4713 EASTERN AVENUE Baltimore MD,Caffe Mocha,$12.85,97
+1030,4713 EASTERN AVENUE Baltimore MD,Fried Chicken Thigh,$12.63,97
+1031,4713 EASTERN AVENUE Baltimore MD,Mexican Bottled Soda,$1.21,97
+1032,2022 CHARLES ST Baltimore MD,Mint Mocha,$1.93,98
+1033,2022 CHARLES ST Baltimore MD,Bourbon BBQ Steak Grilled Sandwich,$2.69,98
+1034,2022 CHARLES ST Baltimore MD,The Everything,$1.87,98
+1035,2022 CHARLES ST Baltimore MD,Fried Mushrooms,$10.22,98
+1036,2022 CHARLES ST Baltimore MD,Cheese Sticks,$11.97,98
+1037,2022 CHARLES ST Baltimore MD,Ravioli Italian Sausage,$6.60,98
+1038,2022 CHARLES ST Baltimore MD,Shredded Beef with Spicy Sauce,$8.29,98
+1039,2022 CHARLES ST Baltimore MD,Chocolate,$10.09,98
+1040,2022 CHARLES ST Baltimore MD,Build Your Own - French Toast Combo,$8.30,98
+1041,2022 CHARLES ST Baltimore MD,General Chicken,$2.17,98
+1042,2022 CHARLES ST Baltimore MD,Bottled Drinks,$7.70,98
+1043,2022 CHARLES ST Baltimore MD,Sunset Roll,$5.89,98
+1044,1932 BELAIR RD Baltimore MD,Baked Beans,$1.39,99
+1045,1932 BELAIR RD Baltimore MD,Baked Potato,$3.08,99
+1046,1932 BELAIR RD Baltimore MD,White Rice,$3.04,99
+1047,1932 BELAIR RD Baltimore MD,46219. Salmon Roll,$11.11,99
+1048,1932 BELAIR RD Baltimore MD,Cinnamon Chip Scone,$10.07,99
+1049,1932 BELAIR RD Baltimore MD,Premium Burritos - Ultimate Meat and Cheese Breakfast Burrito,$7.92,99
