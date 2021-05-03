@@ -18,10 +18,10 @@ $sql2 = $pdo->prepare('
     `Cuisines`
     SET `r_ID` = :r_ID, `cuisine` = :cuisine;');
 foreach($csv as $row) {
-    if ($count == 0) {
-        $count += 1;
-        continue;
-    }
+    // if ($count == 0) {
+    //     $count += 1;
+    //     continue;
+    // }
     // get each row data into an array
     $restaurant_array = (str_getcsv($row));
 
