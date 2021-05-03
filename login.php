@@ -75,6 +75,9 @@
 					// matching data, set session data to store first name and display on index page	
 					$_SESSION['firstName'] = $result['first_name'];
 					$_SESSION['user_ID'] = $result['user_ID'];	// new
+					$_SESSION['user_type'] = $accountType;
+					
+
 					// redirect to index page
 					echo("<script>location.href = 'main.php';</script>");
 				}
