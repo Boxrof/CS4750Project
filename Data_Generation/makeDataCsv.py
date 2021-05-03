@@ -17,7 +17,7 @@ addyDict = {}
 
 with open('restaurants.csv', 'w+', encoding="utf-8") as f:
 	cr = csv.reader(lines)
-	f.write("r_address, r_name, r_review, r_price, r_phone_number, opening_time, closing_time, date_opened, r_payment, r_cuisine\n")
+	f.write("r_ID, r_address, r_name, r_review, r_price, r_phone_number, closing_time, opening_time, date_opened, r_payment, r_cuisine\n")
 	for row in cr:
 		if first:
 			first = False
@@ -58,14 +58,14 @@ with open('restaurants.csv', 'w+', encoding="utf-8") as f:
 			continue
 		addyDict[addy] = True
 
-		if h1 > h2: #r_address, r_name, r_rating, r_price, r_phone_number, closing_time, opening_time, date_opened
-			outputList.append([addy, row[0], rating, price, phoneNumber, str(h2) + ":00", str(h1) + ":00", dateOpened, curTypes, cusTypes])
-		else:
-			outputList.append([addy, row[0], rating, price, phoneNumber, str(h1) + ":00", str(h2) + ":00", dateOpened, curTypes, cusTypes])
-
 		counter += 1
 		if counter == 100:
 			break
+
+		if h1 > h2: #r_address, r_name, r_rating, r_price, r_phone_number, closing_time, opening_time, date_opened
+			outputList.append([counter, addy, row[0], rating, price, phoneNumber, str(h1) + ":00", str(h2) + ":00", dateOpened, curTypes, cusTypes])
+		else:
+			outputList.append([counter, addy, row[0], rating, price, phoneNumber, str(h2) + ":00", str(h1) + ":00", dateOpened, curTypes, cusTypes])
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(outputList)
 
@@ -156,7 +156,7 @@ with open('Missouri.csv', encoding='utf-8') as f:
 mealsOut = []
 mealCounter = 0	
 with open('meals.csv', 'w+', encoding='utf-8') as f:
-	f.write("meal_ID, r_address, m_name, m_price\n")
+	f.write("meal_ID, r_address, m_name, m_price, r_ID\n")
 	for i in outputList:
 		curMeals = []
 		for j in range(random.randrange(5, 16)):
@@ -170,6 +170,6 @@ with open('meals.csv', 'w+', encoding='utf-8') as f:
 					curMeals.append(mName)
 					break
 			price = str(random.randrange(1, 13)) + "." + str(random.randrange(0, 100)).zfill(2)
-			mealsOut.append([mealCounter, i[0].strip(), mName, "$" + price])
+			mealsOut.append([mealCounter, i[1].strip(), mName, price, i[0]])
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(mealsOut)
