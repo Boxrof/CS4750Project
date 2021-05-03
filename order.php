@@ -23,9 +23,7 @@
         $price = $_GET['price'];
         $order_time = date("h:i:sa");
         $restaurant_id = $_GET['chosen_restaurant']; // address 
-        if ($_SESSION['curr_order'] == -1) {            
-            
-            
+        if ($_SESSION['curr_order'] == -1) {
             $array_random = [];
             //$order_time = rtrim(strval(date("h:i:sa")),'PM');
             
