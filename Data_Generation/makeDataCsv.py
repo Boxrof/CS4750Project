@@ -170,6 +170,6 @@ with open('meals.csv', 'w+', encoding='utf-8') as f:
 					curMeals.append(mName)
 					break
 			price = str(random.randrange(1, 13)) + "." + str(random.randrange(0, 100)).zfill(2)
-			mealsOut.append([mealCounter, i[1].strip(), mName, "$" + price, i[0]])
+			mealsOut.append([mealCounter, i[1].strip(), mName, price, i[0]])
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(mealsOut)
