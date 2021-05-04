@@ -118,9 +118,9 @@
                         //$temp_res->execute();
                         //if ($temp_res->rowCount() > 0) {
                         if (in_array($r_id, $r_ID_array)) {
-                            echo "<td><a href='saveFavorite.php?user_ID=",$_SESSION['user_ID'],"&r_ID=",$r_id,"'><img src='star_full.png' style='width:10%; height:10%'></td></a>";
+                            echo "<td><a href='saveFavorite.php?user_ID=",$_SESSION['user_ID'],"&r_ID=",$r_id,"'><img src='star_full.png' style='width:25px; height:24.0625px'></td></a>";
                         } else {
-                            echo "<td><a href='saveFavorite.php?user_ID=",$_SESSION['user_ID'],"&r_ID=",$r_id,"'><img src='star_empty.png' style='width:10%; height:10%'></td></a>";
+                            echo "<td><a href='saveFavorite.php?user_ID=",$_SESSION['user_ID'],"&r_ID=",$r_id,"'><img src='star_empty.png' style='width:25px; height:24.0625px'></td></a>";
                         }
                     } else {
                         echo ('<td>Login</td>');
