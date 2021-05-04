@@ -26,9 +26,8 @@ foreach($csv as $row) {
     $restaurant_array = (str_getcsv($row));
 
     // index the array and save to respective columns in the table
-    $r_address = $restaurant_array[0];
-    $r_name = $restaurant_array[1];
-    $r_review = $restaurant_array[2];
+    $r_address = $restaurant_array[1];
+    $r_name = $restaurant_array[2];
     $r_rating = $restaurant_array[3];
     $r_price = $restaurant_array[4];
     $r_phone_number = $restaurant_array[5];
