@@ -19,7 +19,7 @@
         */
         $meal = $_GET['meal_number']; // 1
         $customer = $_GET['current_customer']; // 3
-        $address = $_GET['r_address'];
+        //$address = $_GET['r_address'];
         $price = $_GET['price'];
         $order_time = date("h:i:sa");
         $restaurant_id = $_GET['chosen_restaurant']; // address 
@@ -42,7 +42,7 @@
             echo $restaurant_id;
             echo $meal;
             echo $price;
-            $query = "INSERT INTO Orders (order_time,o_price,driver_ID,customer_ID,r_ID,r_address) VALUES (:order_time,:o_price,:driver_ID,:customer_ID,:r_id,:r_address)";
+            $query = "INSERT INTO Orders (order_time,o_price,driver_ID,customer_ID,r_ID) VALUES (:order_time,:o_price,:driver_ID,:customer_ID,:r_id)";
             $statement = $pdo->prepare($query);
             //$statement->bindValue(':order_number',$order_number);
             $statement->bindValue(':order_time',$truncated_time);
@@ -50,7 +50,7 @@
             $statement->bindValue(':driver_ID',$chosen_driver_id);
             $statement->bindValue(':customer_ID',$customer);
             $statement->bindValue(':r_id',$restaurant_id);
-            $statement->bindValue(':r_address',$address);
+            //$statement->bindValue(':r_address',$address);
             $statement->execute();
             $statement->closeCursor();
             

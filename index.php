@@ -108,13 +108,13 @@
                         $driver_name = $r['first_name'] . " " . $r['last_name'];
                         $res4->closeCursor();
 
-                        $res3 = $pdo->prepare("SELECT * FROM Restaurants WHERE r_ID=:id");
-                        $res3->bindParam(":id",$row['r_ID']);
-                        $res3->execute();
-                        $r_name = $res3->fetch();
-                        $name = $r_name['r_name'];
-                        $addr = $r_name['r_address'];
-                        $res3->closeCursor();
+                        // $res3 = $pdo->prepare("SELECT * FROM Restaurants WHERE r_ID=:id");
+                        // $res3->bindParam(":id",$row['r_ID']);
+                        // $res3->execute();
+                        // $r_name = $res3->fetch();
+                        // $name = $r_name['r_name'];
+                        // $addr = $r_name['r_address'];
+                        // $res3->closeCursor();
                         
                         echo "<tr>";
                         echo('<td> ' .  $row["order_number"]. '</td>');
