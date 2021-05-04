@@ -80,7 +80,11 @@
 					
 
 					// redirect to index page
-					echo("<script>location.href = 'main.php';</script>");
+					if ($accountType == 'customer') {
+						echo("<script>location.href = 'main.php';</script>");
+					} else {
+						echo("<script>location.href = 'index.php';</script>");
+					}
 				}
 				else
 				{

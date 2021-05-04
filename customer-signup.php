@@ -209,7 +209,7 @@
                   $_SESSION['user_ID'] = $result['user_ID'];
 
                   // redirect to index.php after successful account creation
-                  echo("<script>location.href = 'index.php';</script>");
+                  echo("<script>location.href = 'main.php';</script>");
                   // echo "<div class='alert alert-success' role='alert'>" . "Account created! <a href='login.php'>Return to login page</a>" . "</div>";
                   
                 } catch (PDOException $e) {

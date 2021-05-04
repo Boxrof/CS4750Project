@@ -1,5 +1,6 @@
 <?php 
         require("./db-connect.php");
+        session_start();
         global $pdo;
         if (isset($_SESSION['firstName'])) {
             echo('<h2>Welcome ' . $_SESSION["firstName"]. '!</h2>');
@@ -13,7 +14,6 @@
         //     echo $js_code;
         // }
         // console_log('sandwich');
-        
         if (isset($_GET['searchCuisine'])) {
             $cuis = $_GET['searchCuisine'];
             if ($cuis != '') {
@@ -73,6 +73,7 @@
             echo "<thead>";
                 echo "<tr>";
                     echo "<th scope='col'> Detail </th>";
+                    echo "<th scope='col'>Favorite </th>";
                     echo "<th scope='col'>Address </th>";
                     echo "<th scope='col'>Restaurant Name </th>";
                     echo "<th scope='col'>Rating </th>";
@@ -80,12 +81,50 @@
                     echo "<th scope='col'>Cuisine </th>";
                 echo "</tr>";
             echo "</thead>";
+
+
+            $user_ID = $_SESSION['user_ID'];
+            $queryS = "SELECT DISTINCT(r_ID) FROM Saved WHERE user_ID='" . $user_ID . "';";
+            // echo $queryS . "<br>";
+            $temp_res = $pdo->query($queryS);
+            // while ($row = $res->fetch()) {
+            //     echo $row . "<br>";
+            // }
+            $r_ID_array = $temp_res->fetchAll();
+            if ($r_ID_array == false) {
+                $r_ID_array = [];
+            }
+
+            for ($i = 0; $i < sizeof($r_ID_array); $i++) {
+                $r_ID_array[$i] = $r_ID_array[$i][0];
+            }
+
+            foreach ($r_ID_array as $x) {
+                // echo $x . "<br>";
+                // foreach ($x as $y) {
+                //     echo $y . "<br>";
+                // }
+            }
+            //echo $r_ID_array;
     
             while ($row = $res->fetch()) {
                 $r_id = $row["r_ID"];
                 $address = $row["r_address"];
                 echo "<tr>";
                     echo "<th scope='row'><a class='btn btn-outline-secondary btn-sm' href='menu.php?r_id=",$r_id,"&address=",$address,"'> Click here to view menu </a></th>";
+                    if (isset($_SESSION['user_ID'])) {
+                        //$user_ID = $_SESSION['user_ID'];
+                        //$temp_res = $pdo->query("SELECT * FROM Saved WHERE user_ID='" . $user_ID . "' AND r_ID='" . $r_id . "'");
+                        //$temp_res->execute();
+                        //if ($temp_res->rowCount() > 0) {
+                        if (in_array($r_id, $r_ID_array)) {
+                            echo "<td><a href='saveFavorite.php?user_ID=",$_SESSION['user_ID'],"&r_ID=",$r_id,"'><img src='star_full.png' style='width:10%; height:10%'></td></a>";
+                        } else {
+                            echo "<td><a href='saveFavorite.php?user_ID=",$_SESSION['user_ID'],"&r_ID=",$r_id,"'><img src='star_empty.png' style='width:10%; height:10%'></td></a>";
+                        }
+                    } else {
+                        echo ('<td>Login</td>');
+                    }
                     echo('<td> ' .  $row["r_address"]. '</td>');
                     echo('<td> ' .  $row["r_name"]. '</td>');
                     echo('<td> ' .  $row["r_rating"]. '</td>');
