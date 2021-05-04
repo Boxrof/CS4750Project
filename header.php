@@ -68,9 +68,6 @@
                                 <a class='nav-link' href='edit-driver.php'> Edit Profile </a>
                             </li>
                             <li class='nav-item'>
-                                <a class='nav-link' href='main.php'> Restaurant List </a>
-                            </li>
-                            <li class='nav-item'>
                                 <a class='nav-link' href='logout.php'>Logout</a>
                             </li>
                             "); 
@@ -80,9 +77,6 @@
                             echo("
                             <li class='nav-item'>
                                 <a class='nav-link' href='edit-restaurant.php'> Edit Restaurant </a>
-                            </li>
-                            <li class='nav-item'>
-                                <a class='nav-link' href='main.php'> Restaurant List </a>
                             </li>
                             <li class='nav-item'>
                                 <a class='nav-link' href='logout.php'>Logout</a>
@@ -97,9 +91,6 @@
                         </li>
                         <li class='nav-item'>
                             <a class='nav-link' href='login.php'>Login</a>
-                        </li>
-                        <li class='nav-item'>
-                            <a class='nav-link' href='main.php'> Restaurant List </a>
                         </li>
                         ");
                     }
