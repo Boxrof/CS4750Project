@@ -66,6 +66,7 @@
                 $name = $r_name['r_name'];
                 $res3->closeCursor();
 
+                $onlyOne = false;
                 if ($fetch_data->rowCount() == 1) {
                     $onlyOne = true;
                 }
@@ -151,6 +152,7 @@
             $name = $r_name['r_name'];
             $res3->closeCursor();
 
+            $onlyOne = false;
             if ($fetch_data->rowCount() == 1) {
                 $onlyOne = true;
             }
