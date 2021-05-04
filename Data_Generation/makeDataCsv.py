@@ -111,11 +111,11 @@ Streetnames = "https://data.sfgov.org/api/views/6d9h-4u5v/rows.csv?accessType=DO
 streets = urllib.request.urlopen(Streetnames)
 CustIDs = {}
 customerList = []
-with open('customers.csv', "w+", encoding='utf-8') as f:
-	f.write("c_account_ID, c_address, c_firstname, c_lastname, c_phone_number, c_email, user_type\n")
+with open('owners.csv', "w+", encoding='utf-8') as f:
+	f.write("user_ID, email, password, phone_number, first_name, last_name, user_type\n")
 	streets = [l.decode('utf-8', 'ignore').split(',')[0] for l in streets.readlines()]
 
-	for i in range(500):
+	for j in outputList:
 		ID = ""
 
 		while(True):
@@ -140,7 +140,7 @@ with open('customers.csv', "w+", encoding='utf-8') as f:
 		password = ""
 		for i in range(random.randrange(5, 11)):
 			password += random.choice(string.ascii_letters + "123456789!")
-		customerList.append([ID, address, firstname, lastname, phoneNumber, email, password, 'customer'])
+		customerList.append([ID, email, password, phoneNumber, firstname, lastname, 'owner'])
 
 	csvwriter = csv.writer(f, lineterminator = '\n')
 	csvwriter.writerows(customerList)
