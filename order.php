@@ -68,6 +68,7 @@
             $_SESSION['curr_order'] = $result['order_number'];
         }
 
+        try {
         $query3 = "INSERT INTO Included (order_number,meal_ID) VALUES (:order_number,:meal_ID)";
         $statement = $pdo->prepare($query3);
         //$statement->bindValue(':order_number',$order_number);
@@ -75,9 +76,13 @@
         $statement->bindValue(':meal_ID',$meal);
         $statement->execute();
         $statement->closeCursor();
-
+        } catch (PDOException $e) {
+            echo $e;
+        } finally {
+            echo "<script>location.href = 'menu.php?r_id=",$restaurant_id,"';</script>" ;
+        }
         //echo("<script>location.href = 'cart.php';</script>"); href='menu.php?r_id=",$r_id,"&address=",$address,"'
-        echo "<script>location.href = 'menu.php?r_id=",$restaurant_id,"&address=",$address,"';</script>" ;
+        
 
     ?>
 

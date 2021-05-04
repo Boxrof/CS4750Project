@@ -27,7 +27,7 @@
                         echo "<tr>";
                             echo "<th scope='col'> Order Number </th>";
                             echo "<th scope='col'> Order Time: </th>";
-                            //echo "<th scope='col'> Order Price: </th>";
+                            echo "<th scope='col'> Order Price: </th>";
                             echo "<th scope='col'> Restaurant Name: </th>";
                             echo "<th scope='col'> Restaurant Address:  </th>";
                             echo "<th scope='col'> Customer Name: </th>";
@@ -58,7 +58,7 @@
                         echo "<tr>";
                         echo('<td> ' .  $row["order_number"]. '</td>');
                         echo('<td> ' .  $row["order_time"]. '</td>');
-                        //echo('<td> ' .  $row["o_price"]. '</td>');
+                        echo('<td> ' .  $row["o_price"]. '</td>');
                         echo('<td> ' .  $name. '</td>');
                         echo('<td> ' .  $addr. '</td>');
                         echo('<td> ' .  $customer_name. '</td>');
@@ -80,7 +80,7 @@
                         echo "<tr>";
                             echo "<th scope='col'> Order Number </th>";
                             echo "<th scope='col'> Order Time: </th>";
-                            //echo "<th scope='col'> Order Price: </th>";
+                            echo "<th scope='col'> Order Price: </th>";
                             // echo "<th scope='col'> Restaurant Name: </th>";
                             // echo "<th scope='col'> Restaurant Address:  </th>";
                             echo "<th scope='col'> Driver Name: </th>";
@@ -119,7 +119,7 @@
                         echo "<tr>";
                         echo('<td> ' .  $row["order_number"]. '</td>');
                         echo('<td> ' .  $row["order_time"]. '</td>');
-                        //echo('<td> ' .  $row["o_price"]. '</td>');
+                        echo('<td> ' .  $row["o_price"]. '</td>');
                         echo('<td> ' .  $driver_name. '</td>');
                         echo('<td> ' .  $customer_name. '</td>');
                         echo "</tr>";
